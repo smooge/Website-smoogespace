@@ -1,0 +1,27 @@
+POLYMORPHISM SPELL (from "The Forever City" module)
+  [(c) West End Games 1991, all rights reserved]
+
+Axiom Level: 10
+Skill: alteration/entity 17
+Backlash: 14
+Difficulty: 10
+Effect Value: 0
+Bonus Number to: effect
+Range: self
+Duration: 18 (one hour)
+Cast Time: 2 (2.5 seconds)
+Manipulation: control
+
+	While in the form of a bat, wolf or rat, the vampyre retains
+its normal statistics, with the following exceptions: As a bat or rat,
+the physical damage value for the vampyre's bite is reduced to 16.
+[It is an 18 in vampyre form.  -Jim]  As a bat, the vampyre is granted
+a flight skill of 15.  As a rat, its dodge is increased by 3.  As a
+wolf, its physical damage value of its fangs is increased to 20.
+	In the form of mist, the vampyre can make no attacks, although
+it can be attacked (with a -3 bonus modifier to all except spiritual
+attacks).  The effect value of the vampyre's polymorph spell becomes
+its armor value against all attacks.
+	It acts as a gaseous form in all other respects, and is able
+to move at a limit value of 17.
+

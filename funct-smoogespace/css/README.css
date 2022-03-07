@@ -1,0 +1,351 @@
+/*
+   SmoogeSpace Master CSS Sheet
+   Orig Written:  Stephen Smoogen
+   Date:          2000/10/24
+   Last Modified: 2000/12/02
+   */
+
+/*
+   License: Artistic License (http://language.perl.com/misc/Artistic.html)
+   Copyright Stephen Smoogen 2000.
+   Version: 0.04
+   
+   Comments on Document
+   
+   This CSS is meant to be imported into all SmoogeSpace pages.
+   Any cascades should be done after this.
+   
+   Original form was based on O'Reilly HTML TDG 3rd Edition.
+   The following sites were looked at for ideas:
+   http://ad1440.net/~kelly/ (Sean KellY)
+   http://www.stylebank.f2s.com/
+   http://www.richinstyle.com/
+   
+   In the end I think enough changes were made to make this stand on its
+   own. 
+   
+   */
+
+/*
+   General Comments
+   
+   Colors will use the old fashioned hex values with names in comments.
+   
+   Using hints/rules from various sites, do not set things to be normal,
+  etc since they cause page to load up slower. Also if defining multiple
+   things with the same values do it once and then break out the smaller
+   changes below there. 
+   
+   */
+
+/* 
+   Color Choices
+   
+   Normal
+   Background:      white (#ffffff)
+   Foreground:      black (#000000)
+   Unvisited Link:  blue  (#0000FF)
+   Visited Link:          (#000099)
+   Active Link:           (#FF3366)
+   Hover Link:		   (#CCCCFF)
+   
+   Soft 
+   Background             (#66FFFF)
+   Foreground             (#000000)
+   Border                 (#000000)
+   
+   Navigation Bar
+   Background             (#99FFFF)
+   Foreground             (#FFFFFF)
+   Border                 (#000000)
+   
+   News
+   Background             (#CCFFFF)
+   Foreground             (#FFFFFF)
+   Border                 (#000000)
+   
+   Warning
+   Background             (#FF9900)
+   Foreground             (#000000)
+   Border                 (#000000)
+   
+   Danger
+   Background             (#FF0000)
+   Foreground             (#000000)
+   Border                 (#000000)
+   
+   Breadcrumb
+    
+*/
+   
+
+/* Basic Body */
+BODY {
+       
+       /* font: first choice arial then helvetica. Try san-serif and use the
+          size the person has chosen for their browser */
+       /*    style  variant weight size/line-height family */
+       /*    ------ ------- ------ ---------        ----------- */
+       font: normal normal  normal 1.0em/1.2em Arial, Helvetica, sans-serif;
+       
+       /* background and foreground colors and styles */
+       /* background:  attach color   image position repeat */
+       background:   black ; /* black */
+       /* color only has one call */
+       color:        white ; /* white */
+       
+       /* border color top right bottom left */
+       /* border:   #99CCFF double ; */
+       
+       /* Netscape 4.x doesnt use plain margin and padding so you have to
+          spell it out for it.  Now why they do use background/color but dont
+          expand to their sub properties I dont know.. Would be an
+          interesting question. Thankgoodness mozilla does it right. */
+       margin-top:      6pt;
+       margin-right:   12pt;
+       margin-bottom:   6pt;
+       margin-left:    12pt;
+
+       /* padding */
+       padding-top:     6pt;
+       padding-right:  12pt;
+       padding-bottom:  6pt;
+       padding-left:   12pt;
+       }
+
+/* General Document holders */
+
+P, ADDRESS, BLOCKQUOTE, CITE, DIR, DL, LI, MENU, OL {
+                                                      }
+
+/* Links and attributes */
+A {
+    text-decoration: underline; /* make sure that all links are underlined */
+    }
+
+A:link {
+         color: #0000FF; 
+         }
+
+A:visited {
+            color: #000099;
+            }
+
+A:active {
+           color: #FF3366;
+           }
+
+A:hover {
+          background: #CCCCFF;
+          }
+
+/* Various Text Styles */
+ADDRESS, BLOCKQUOTE, CITE {
+                            font-style: italic;
+                            }
+
+CODE, PRE {
+            font-family: courier, lucinda, monospace ;
+            font-size: 1em ;
+            }
+
+/* Headers */
+/* set their weight, size and font */
+H1, H2, H3, H4, H5, H6 {
+                         font-weight: bold;
+                         font-family: trebuchet, helvetica, verdana, serif;
+                         }
+
+H1 {
+     font-size: 2.0em; 
+     }
+H2 {
+     font-size: 1.8em;
+     }
+H3 {
+     font-size: 1.6em;
+     }
+H4 {
+     font-size: 1.4em;
+     }
+H5 {
+     font-size: 1.2em;
+     }
+H6 {
+     font-size: 1em;
+     }
+
+
+IMG { image-align: center; }
+
+/* Ordered Lists */
+/*  I.           */
+/*    A.         */
+/*      i.       */
+/*        a.     */
+/*          1.   */
+
+LI.decimal { 
+             list-style-type:	decimal;
+             }	
+
+LI.upperrome {
+               list-style-type:      upper-roman;
+               }
+
+LI.lowerrome {
+               list-style-type:      lower-roman;
+               }
+
+LI.upperalpha {
+                list-style-type:      upper-alpha;
+                }
+
+LI.loweralpha {
+                list-style-type:      lower-alpha;
+                }
+
+
+
+/* Unordered lists */
+/* O               */
+/*  []             */
+/*    o            */
+
+LI.disc {
+          list-style-type:      disc;
+          }
+
+LI.square {
+            list-style-type:      square;
+            }
+
+LI.circle {
+            list-style-type:      circle;
+            }
+
+
+/* Dictionary lists */
+
+DT.small {
+        font-size: 0.90em ;
+        }
+
+DD.small {
+        font-size: 0.90em ;
+        }
+
+DD.tiny {
+           font-size: 0.80em ;
+          }
+
+/* Tables (the webdesigners old best friend) */
+
+.sftback {
+           border:         solid thin;
+           border-color:   #009900;
+           background: #00CCFF ;
+           text-align: center ;
+}
+
+.grayback {
+           border:         solid thin;
+           border-color:   #009900;
+           background: #CCCCCC ;
+           text-align: center ;
+}
+
+.warning { 
+           border:         solid thin;
+           border-color:   #009900;
+           background: #FF9900 ;
+           text-align: center ;
+           }
+
+.danger { 
+          border:         solid thin;
+          border-color:   #009900;
+          background: #FF0000 ;
+          text-align: center ;
+ }
+
+div.titlebar { 
+               color: white ;
+               text-align: center;
+               font-size: 1.6em;
+               font-weight: bold;
+               padding-top:    5pt;
+               padding-bottom: 5pt;
+               }
+
+div.sectionbar { 
+                 color: white ;
+                 text-align: left;
+                 font-size: 1.4em;
+                 font-weight: bold;
+                 padding-top:    5pt;
+                 padding-bottom: 5pt;
+                 }
+
+
+div.topnavbar { 
+                font-size: 0.8em;
+                font-family: trebuchet, helvetica, verdana, serif;
+                line-height: 0.8em;
+                border:   solid thin;
+                border-color:   #009900;
+                background: #99FFFF ;
+                color: white ;
+                text-align: left;
+                padding-top:    5pt;
+                padding-bottom: 5pt;
+                }
+
+span.navHome {
+           color:                  white;
+           font-weight:            bold;
+           }
+
+span.navItem {
+           font-weight:            bold;
+           }
+
+div.newsArea { 
+            /* padding */
+            padding-top:    10pt;
+            padding-right:  10pt;
+            padding-bottom: 10pt;
+            padding-left:   10pt;
+            background:     #CCFFFF;
+            border:         solid thin;
+            border-color:   #009900;
+            font-family:    Arial, sans-serif;
+            font-size:      90%;
+            line-height:    100%
+            }
+
+span.newsDate { 
+            font-family:            Arial, sans-serif;
+            font-weight:            bold;
+            font-style:             normal;
+            color:                  white;
+            font-size:              80%;
+            margin-bottom:          -20pt;
+            }
+
+.left {
+        text-align: left ;
+        }
+
+.center {
+          text-align: center ;
+          }
+
+.right {
+         text-align: right ;
+         }
+
+.bold { 
+        font-weight: bold;
+        }
+

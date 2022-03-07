@@ -1,0 +1,227 @@
+BODY {
+       font: normal normal  normal 1.0em/1.2em Arial, Helvetica, sans-serif;
+       background:   white ; /* black */
+       color:        black ; /* white */
+       margin-top:      6pt;
+       margin-right:   12pt;
+       margin-bottom:   6pt;
+       margin-left:    12pt;
+       padding-top:     6pt;
+       padding-right:  12pt;
+       padding-bottom:  6pt;
+       padding-left:   12pt;
+       }
+
+P, ADDRESS, BLOCKQUOTE, CITE, DIR, DL, LI, MENU, OL {
+                                                      }
+
+A {
+    text-decoration: underline; 
+  }
+
+A:link {
+         color: #00FFFF; 
+         }
+
+A:visited {
+            color: #009999;
+            }
+
+A:active {
+           color: #FF3366;
+           }
+
+A:hover {
+          background: #CCCCFF;
+          }
+
+ADDRESS, BLOCKQUOTE, CITE {
+                            font-style: italic;
+                            }
+
+CODE, PRE {
+            font-family: courier, lucinda, monospace ;
+            font-size: 1em ;
+            }
+
+H1, H2, H3, H4, H5, H6 {
+                         font-weight: bold;
+                         font-family: trebuchet, helvetica, verdana, serif;
+                         }
+
+H1 {
+     font-size: 2.0em; 
+     }
+H2 {
+     font-size: 1.8em;
+     }
+H3 {
+     font-size: 1.6em;
+     }
+H4 {
+     font-size: 1.4em;
+     }
+H5 {
+     font-size: 1.2em;
+     }
+H6 {
+     font-size: 1em;
+     }
+
+
+IMG { image-align: center; }
+
+LI.decimal { 
+             list-style-type:	decimal;
+             }	
+
+LI.upperrome {
+               list-style-type:      upper-roman;
+               }
+
+LI.lowerrome {
+               list-style-type:      lower-roman;
+               }
+
+LI.upperalpha {
+                list-style-type:      upper-alpha;
+                }
+
+LI.loweralpha {
+                list-style-type:      lower-alpha;
+                }
+
+
+LI.disc {
+          list-style-type:      disc;
+          }
+
+LI.square {
+            list-style-type:      square;
+            }
+
+LI.circle {
+            list-style-type:      circle;
+            }
+
+DT.small {
+        font-size: 0.90em ;
+        }
+
+DD.small {
+        font-size: 0.90em ;
+        }
+
+DD.tiny {
+           font-size: 0.80em ;
+          }
+
+.sftback {
+           border:         solid thin;
+           border-color:   #009900;
+           color:      black;
+           background: #00CCFF ;
+           text-align: center ;
+}
+
+.grayback {
+           border:         solid thin;
+           border-color:   #009900;
+           background: #CCCCCC ;
+           text-align: center ;
+}
+
+.warning { 
+           border:         solid thin;
+           border-color:   #009900;
+           background: #FF9900 ;
+           text-align: center ;
+           }
+
+.danger { 
+          border:         solid thin;
+          border-color:   #009900;
+          background: #FF0000 ;
+          text-align: center ;
+ }
+
+div.titlebar { 
+               color: black ;
+               text-align: center;
+               font-size: 1.6em;
+               font-weight: bold;
+               padding-top:    5pt;
+               padding-bottom: 5pt;
+               }
+
+div.sectionbar { 
+                 color: black ;
+                 text-align: left;
+                 font-size: 1.4em;
+                 font-weight: bold;
+                 padding-top:    5pt;
+                 padding-bottom: 5pt;
+                 }
+
+
+div.topnavbar { 
+                font-size: 0.8em;
+                font-family: trebuchet, helvetica, verdana, serif;
+                line-height: 0.8em;
+                border:   solid thin;
+                border-color:   #009900;
+                background: #99FFFF ;
+                color: black ;
+                text-align: left;
+                padding-top:    5pt;
+                padding-bottom: 5pt;
+                }
+
+span.navHome {
+           color:                  black;
+           font-weight:            bold;
+           }
+
+span.navItem {
+           font-weight:            bold;
+           }
+
+div.newsArea { 
+            /* padding */
+            padding-top:    10pt;
+            padding-right:  10pt;
+            padding-bottom: 10pt;
+            padding-left:   10pt;
+            background:     #CCFFFF;
+            border:         solid thin;
+            border-color:   #009900;
+            font-family:    Arial, sans-serif;
+            font-size:      90%;
+            line-height:    100%
+            }
+
+span.newsDate { 
+            font-family:            Arial, sans-serif;
+            font-weight:            bold;
+            font-style:             normal;
+            color:                  black ;
+            font-size:              80%;
+            margin-bottom:          -20pt;
+            }
+
+.left {
+        text-align: left ;
+        }
+
+.center {
+          text-align: center ;
+          }
+
+.right {
+         text-align: right ;
+         }
+
+.bold { 
+        font-weight: bold;
+        }
+

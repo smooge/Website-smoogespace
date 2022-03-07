@@ -1,0 +1,3139 @@
+Author:  Stephen Smoogen
+License: GPL v2 
+First Written: 2006-09-06T16:30+0000
+Last Updated:  2006-09-11T16:30+0000
+
+UPDATE: Added release notes so that people can get things like which
+code they should use when asked etc. etc.
+
+BIG UPDATE: Due to problems with the client DVD/ISOs a respin but the
+same name. Client DVD downloaded before 2006-09-07 had multiple problems
+listed below.
+
+BAD ISO:
+a1792d91976c3ecc8f3fecb4c195c409c590b1d6  RHEL5-Client-20060830.1-i386-DVD.iso
+
+GOOD ISO:
+7e56b4bf99b0f2401381cdd0318851fb60fb940a  RHEL5-Client-20060830.1-i386-DVD.iso
+
+
+GOOD THINGS:
+  -- nautilus-open-terminal is installed by default! Instead of
+     searchign for finding a terminal to get soemthing done via menus,
+     right click and get your terminal.
+  -- I like the first boot menu colors. 
+
+Nitpick problems
+  -- Text menus showed up with red letters for multiple screens. The
+     newbie next to me wondered if it meant a warning not to choose.
+  -- audit is not chosen by default. The service can be turned off by default
+     but should be installed for a lot of sites (SOX, HIPAA, FISMA, blah
+     blah)
+  -- Both CDroms were built on soemthing like a netapp with a .snapshot
+     directory included in the images. Makes find confusing unless you
+     exclude .snapshot from searches.
+  -- No evolution-connector? That wont go over well for a lot of
+     environments. 
+  -- Firewall/Selinux setup is only available via X. [Most .mil/.gov
+     servers are NOT to have X installed on them unless serving X.]
+  -- Clock in the installer defaults to hardware clock is UTC.
+  -- Server install has same install options as client install [Office
+     productivity, Web server, Desktop.]
+  -- Desktop uses GNOME footprint versus Red Hat symbol. Probably goof.
+
+Differences from OLD Red Hat
+  -- No more ./Redhat/RPMS. Lots of repositories that the installer
+     looks at.
+  -- Client Repositories: Cluster ClusterStorage Server VT
+  -- Server Repositories: Client Desktop VT Workstation
+  -- VT stands for Virtualization (Xen).
+  -- Emacs and various items are not in the base client install. You
+     need to enable extra repositories during the install to get access
+     to them. [I was having to deal with a flame.]
+  -- All together 2150 packages.
+  -- There are 160 packages different between the Client and Server
+     packages. [Some in Client and not in Server, and vice versa]
+  -- Minimal/Everything install are gone, and not coming back. Use
+     kickstart for those cases.
+  -- No more up2date. Just yum.
+
+Desktop DVD                            Server DVD
+ElectricFence-2.2.2-20.2.2.i386.       SAME
+GConf2-2.14.0-2.1.i386.rpm	       SAME
+GConf2-devel-2.14.0-2.1.i386.rpm       SAME
+ImageMagick-6.2.8.0-2.i386.rpm	       SAME
+ImageMagick-c++-6.2.8.0-2.i386.r       SAME
+ImageMagick-c++-devel-6.2.8.0-2.       SAME
+ImageMagick-devel-6.2.8.0-2.i386       SAME
+ImageMagick-perl-6.2.8.0-2.i386.       SAME
+MAKEDEV-3.23-1.2.i386.rpm	       SAME
+MySQL-python-1.2.1-1.i386.rpm	       SAME
+NetworkManager-0.7.0-0.cvs200605       SAME
+NetworkManager-devel-0.7.0-0.cvs       SAME
+NetworkManager-glib-0.7.0-0.cvs2       SAME
+NetworkManager-glib-devel-0.7.0-       SAME
+NetworkManager-gnome-0.7.0-0.cvs       SAME
+ORBit2-2.14.0-3.1.i386.rpm	       SAME
+ORBit2-devel-2.14.0-3.1.i386.rpm       SAME
+OpenIPMI-2.0.6-5.i386.rpm	       SAME
+OpenIPMI-devel-2.0.6-5.i386.rpm	       SAME
+OpenIPMI-libs-2.0.6-5.i386.rpm	       SAME
+OpenIPMI-perl-2.0.6-5.i386.rpm	       SAME
+OpenIPMI-python-2.0.6-5.i386.rpm       SAME
+OpenIPMI-tools-2.0.6-5.i386.rpm	       SAME
+PyQt-3.16-4.i386.rpm		       SAME
+PyQt-devel-3.16-4.i386.rpm	       SAME
+PyQt-examples-3.16-4.i386.rpm	       SAME
+PyXML-0.8.4-4.i386.rpm		       SAME
+Pyrex-0.9.4-1.1.noarch.rpm	       SAME
+SDL-1.2.10-6.2.i386.rpm		       SAME
+SDL-devel-1.2.10-6.2.i386.rpm	       SAME
+SysVinit-2.86-11.i386.rpm	       SAME
+Xaw3d-1.5E-10.1.i386.rpm	       SAME
+Xaw3d-devel-1.5E-10.1.i386.rpm	       SAME
+a2ps-4.13b-53.i386.rpm		       SAME
+acl-2.2.39-1.1.i386.rpm		       SAME
+acpid-1.0.4-2.1.i386.rpm	       SAME
+adaptx-0.9.13-2jpp_3fc.i386.rpm	       SAME
+adaptx-doc-0.9.13-2jpp_3fc.i386.       SAME
+adaptx-javadoc-0.9.13-2jpp_3fc.i       SAME
+agg-2.4-2.1.i386.rpm		   <
+agg-devel-2.4-2.1.i386.rpm	   <
+alchemist-1.0.36-1.2.2.i386.rpm	       SAME
+alchemist-devel-1.0.36-1.2.2.i38       SAME
+alsa-lib-1.0.12-1.rc1.i386.rpm	       SAME
+alsa-lib-devel-1.0.12-1.rc1.i386       SAME
+alsa-utils-1.0.12-1.rc1.i386.rpm       SAME
+am-utils-6.1.5-4.i386.rpm	       SAME
+amanda-2.5.0p2-2.1.i386.rpm	       SAME
+amanda-client-2.5.0p2-2.1.i386.r       SAME
+amanda-devel-2.5.0p2-2.1.i386.rp       SAME
+amanda-server-2.5.0p2-2.1.i386.r       SAME
+amtu-1.0.4-3.1.i386.rpm		       SAME
+anaconda-11.1.0.77-9.i386.rpm	       SAME
+anaconda-runtime-11.1.0.77-9.i38       SAME
+anacron-2.3-38.FC6.1.i386.rpm	       SAME
+ant-1.6.5-1jpp_11fc.i386.rpm	       SAME
+ant-antlr-1.6.5-1jpp_11fc.i386.r       SAME
+ant-apache-bcel-1.6.5-1jpp_11fc.       SAME
+ant-apache-bsf-1.6.5-1jpp_11fc.i       SAME
+ant-apache-log4j-1.6.5-1jpp_11fc       SAME
+ant-apache-oro-1.6.5-1jpp_11fc.i       SAME
+ant-apache-regexp-1.6.5-1jpp_11f       SAME
+ant-apache-resolver-1.6.5-1jpp_1       SAME
+ant-commons-logging-1.6.5-1jpp_1       SAME
+ant-javadoc-1.6.5-1jpp_11fc.i386       SAME
+ant-javamail-1.6.5-1jpp_11fc.i38       SAME
+ant-jdepend-1.6.5-1jpp_11fc.i386       SAME
+ant-jsch-1.6.5-1jpp_11fc.i386.rp       SAME
+ant-junit-1.6.5-1jpp_11fc.i386.r       SAME
+ant-manual-1.6.5-1jpp_11fc.i386.       SAME
+ant-nodeps-1.6.5-1jpp_11fc.i386.       SAME
+ant-scripts-1.6.5-1jpp_11fc.i386       SAME
+ant-swing-1.6.5-1jpp_11fc.i386.r       SAME
+ant-trax-1.6.5-1jpp_11fc.i386.rp       SAME
+anthy-7900-1.1.fc6.i386.rpm	       SAME
+anthy-devel-7900-1.1.fc6.i386.rp       SAME
+anthy-el-7900-1.1.fc6.i386.rpm	       SAME
+antlr-2.7.6-3jpp_5fc.i386.rpm	       SAME
+antlr-javadoc-2.7.6-3jpp_5fc.i38       SAME
+antlr-manual-2.7.6-3jpp_5fc.i386       SAME
+apmd-3.2.2-4.1.i386.rpm		       SAME
+apr-1.2.7-10.i386.rpm		       SAME
+apr-devel-1.2.7-10.i386.rpm	       SAME
+apr-util-1.2.7-3.i386.rpm	       SAME
+apr-util-devel-1.2.7-3.i386.rpm	       SAME
+arptables_jf-0.0.8-8.i386.rpm	       SAME
+arpwatch-2.1a13-15.8.1.i386.rpm	       SAME
+arts-1.5.4-0.pre1.i386.rpm	       SAME
+arts-devel-1.5.4-0.pre1.i386.rpm       SAME
+aspell-0.60.3-7.1.i386.rpm	       SAME
+aspell-af-0.50-4.2.2.i386.rpm	       SAME
+aspell-bg-0.50-11.2.2.i386.rpm	       SAME
+aspell-br-0.50-4.2.2.i386.rpm	       SAME
+aspell-ca-0.50-4.2.2.i386.rpm	       SAME
+aspell-cs-0.51-3.2.2.i386.rpm	       SAME
+aspell-cy-0.50-4.2.2.i386.rpm	       SAME
+aspell-da-0.50-12.2.2.i386.rpm	       SAME
+aspell-de-0.50-11.2.2.i386.rpm	       SAME
+aspell-devel-0.60.3-7.1.i386.rpm       SAME
+aspell-el-0.50-4.2.2.i386.rpm	       SAME
+aspell-en-6.0-2.1.i386.rpm	       SAME
+aspell-es-0.50-13.2.2.i386.rpm	       SAME
+aspell-fo-0.51-4.2.2.i386.rpm	       SAME
+aspell-fr-0.50-9.2.2.i386.rpm	       SAME
+aspell-ga-0.50-4.2.2.i386.rpm	       SAME
+aspell-gd-0.50-4.2.2.i386.rpm	       SAME
+aspell-gl-0.50-4.2.2.i386.rpm	       SAME
+aspell-hr-0.51-4.2.2.i386.rpm	       SAME
+aspell-id-0.50.1-4.2.2.i386.rpm	       SAME
+aspell-is-0.51.1-2.2.2.i386.rpm	       SAME
+aspell-it-0.53-4.2.1.i386.rpm	       SAME
+aspell-nl-0.1e-1.fc6.i386.rpm	       SAME
+aspell-no-0.50.1-9.2.2.i386.rpm	       SAME
+aspell-pl-0.51-5.2.2.i386.rpm	       SAME
+aspell-pt-0.50-10.2.2.i386.rpm	       SAME
+aspell-ru-0.99f7-2.2.2.i386.rpm	       SAME
+aspell-sl-0.50-1.2.1.i386.rpm	       SAME
+aspell-sr-0.02-1.2.1.i386.rpm	       SAME
+aspell-sv-0.51-1.2.1.i386.rpm	       SAME
+at-3.1.8-81.2.i386.rpm		       SAME
+at-spi-1.7.9-3.i386.rpm		       SAME
+at-spi-devel-1.7.9-3.i386.rpm	       SAME
+atk-1.12.1-2.i386.rpm		       SAME
+atk-devel-1.12.1-2.i386.rpm	       SAME
+attr-2.4.32-1.1.i386.rpm	       SAME
+audiofile-0.2.6-5.i386.rpm	       SAME
+audiofile-devel-0.2.6-5.i386.rpm       SAME
+audit-1.2.5-8.i386.rpm		       SAME
+audit-libs-1.2.5-8.i386.rpm	       SAME
+audit-libs-devel-1.2.5-8.i386.rp       SAME
+audit-libs-python-1.2.5-8.i386.r       SAME
+authconfig-5.3.3-2.i386.rpm	       SAME
+authconfig-gtk-5.3.3-2.i386.rpm	       SAME
+authd-1.4.3-9.i386.rpm		       SAME
+autoconf-2.59-11.noarch.rpm	       SAME
+autoconf213-2.13-12.1.noarch.rpm       SAME
+autofs-5.0.1-0.rc1.6.i386.rpm	       SAME
+automake-1.9.6-2.1.noarch.rpm	       SAME
+automake14-1.4p6-13.noarch.rpm	       SAME
+automake15-1.5-16.noarch.rpm	       SAME
+automake16-1.6.3-8.noarch.rpm	       SAME
+automake17-1.7.9-7.noarch.rpm	       SAME
+avahi-0.6.11-3.el5.i386.rpm	       SAME
+avahi-compat-howl-0.6.11-3.el5.i       SAME
+avahi-compat-howl-devel-0.6.11-3       SAME
+avahi-compat-libdns_sd-0.6.11-3.       SAME
+avahi-compat-libdns_sd-devel-0.6       SAME
+avahi-devel-0.6.11-3.el5.i386.rp       SAME
+avahi-glib-0.6.11-3.el5.i386.rpm       SAME
+avahi-glib-devel-0.6.11-3.el5.i3       SAME
+avahi-qt3-0.6.11-3.el5.i386.rpm	       SAME
+avahi-qt3-devel-0.6.11-3.el5.i38       SAME
+avahi-tools-0.6.11-3.el5.i386.rp       SAME
+avalon-framework-4.1.4-2jpp_12fc       SAME
+avalon-framework-javadoc-4.1.4-2       SAME
+avalon-framework-manual-4.1.4-2j       SAME
+avalon-logkit-1.2-4jpp_2fc.i386.       SAME
+avalon-logkit-javadoc-1.2-4jpp_2       SAME
+axis-1.2.1-2jpp_5fc.i386.rpm	       SAME
+axis-javadoc-1.2.1-2jpp_5fc.i386       SAME
+axis-manual-1.2.1-2jpp_5fc.i386.       SAME
+basesystem-8.0-5.1.1.noarch.rpm	       SAME
+bash-3.1-16.1.i386.rpm		       SAME
+bc-1.06-21.i386.rpm		       SAME
+bcel-5.1-7jpp_333fc.i386.rpm	       SAME
+bcel-demo-5.1-7jpp_333fc.i386.rp       SAME
+bcel-javadoc-5.1-7jpp_333fc.i386       SAME
+bcel-manual-5.1-7jpp_333fc.i386.       SAME
+beecrypt-4.1.2-10.1.1.i386.rpm	       SAME
+beecrypt-devel-4.1.2-10.1.1.i386       SAME
+beecrypt-python-4.1.2-10.1.1.i38       SAME
+bind-9.3.2-37.fc6.i386.rpm	       SAME
+bind-chroot-9.3.2-37.fc6.i386.rp       SAME
+bind-devel-9.3.2-37.fc6.i386.rpm       SAME
+bind-libbind-devel-9.3.2-37.fc6.       SAME
+bind-libs-9.3.2-37.fc6.i386.rpm	       SAME
+bind-sdb-9.3.2-37.fc6.i386.rpm	       SAME
+bind-utils-9.3.2-37.fc6.i386.rpm       SAME
+binutils-2.17.50.0.3-3.i386.rpm	       SAME
+bison-2.3-2.1.i386.rpm		       SAME
+bison-devel-2.3-2.1.i386.rpm	       SAME
+bison-runtime-2.3-2.1.i386.rpm	       SAME
+bitmap-fonts-0.3-5.1.1.noarch.rp       SAME
+bitmap-fonts-cjk-0.3-5.1.1.noarc       SAME
+bitstream-vera-fonts-1.10-6.noar       SAME
+blas-3.0-37.el5.i386.rpm	       SAME
+blas-devel-3.0-37.el5.i386.rpm	       SAME
+bluez-libs-3.0-3.i386.rpm	       SAME
+bluez-libs-devel-3.0-3.i386.rpm	       SAME
+bluez-pin-0.30-5.i386.rpm	       SAME
+bluez-utils-2.25-12.i386.rpm	       SAME
+bluez-utils-cups-2.25-12.i386.rp       SAME
+boost-1.33.1-6.1.i386.rpm	       SAME
+boost-devel-1.33.1-6.1.i386.rpm	       SAME
+boost-doc-1.33.1-6.1.i386.rpm	       SAME
+bootparamd-0.17-24.devel.2.1.i38       SAME
+booty-0.79-1.noarch.rpm		       SAME
+bridge-utils-1.1-1.1.i386.rpm	       SAME
+brlapi-0.4.1-1.fc6.i386.rpm	       SAME
+brlapi-devel-0.4.1-1.fc6.i386.rp       SAME
+brltty-3.7.2-1.fc6.i386.rpm	       SAME
+bsf-2.3.0-10jpp_3fc.i386.rpm	       SAME
+bsf-javadoc-2.3.0-10jpp_3fc.i386       SAME
+bsh-1.3.0-8jpp_3fc.i386.rpm	   <
+bsh-demo-1.3.0-8jpp_3fc.i386.rpm   <
+bsh-javadoc-1.3.0-8jpp_3fc.i386.   <
+bsh-manual-1.3.0-8jpp_3fc.i386.r   <
+bug-buddy-2.15.0-3.i386.rpm	       SAME
+busybox-1.2.0-1.1.i386.rpm	       SAME
+busybox-anaconda-1.2.0-1.1.i386.       SAME
+byacc-1.9-29.2.2.i386.rpm	       SAME
+bzip2-1.0.3-3.i386.rpm		       SAME
+bzip2-devel-1.0.3-3.i386.rpm	       SAME
+bzip2-libs-1.0.3-3.i386.rpm	       SAME
+cachefilesd-0.5-1.fc6.i386.rpm	       SAME
+caching-nameserver-9.3.2-37.fc6.       SAME
+cadaver-0.22.3-4.i386.rpm	       SAME
+cairo-1.2.0-2.i386.rpm		       SAME
+cairo-devel-1.2.0-2.i386.rpm	       SAME
+cairo-java-1.0.5-1.fc6.i386.rpm	       SAME
+cairo-java-devel-1.0.5-1.fc6.i38       SAME
+castor-0.9.5-1jpp_6fc.i386.rpm	       SAME
+castor-demo-0.9.5-1jpp_6fc.i386.       SAME
+castor-doc-0.9.5-1jpp_6fc.i386.r       SAME
+castor-javadoc-0.9.5-1jpp_6fc.i3       SAME
+castor-test-0.9.5-1jpp_6fc.i386.       SAME
+castor-xml-0.9.5-1jpp_6fc.i386.r       SAME
+ccid-1.0.1-5.i386.rpm		       SAME
+cdda2wav-2.01-10.i386.rpm	       SAME
+cdparanoia-alpha9.8-27.2.i386.rp       SAME
+cdparanoia-devel-alpha9.8-27.2.i       SAME
+cdparanoia-libs-alpha9.8-27.2.i3       SAME
+cdrdao-1.2.1-1.1.i386.rpm	   <
+cdrecord-2.01-10.i386.rpm	       SAME
+cdrecord-devel-2.01-10.i386.rpm	       SAME
+check-devel-0.9.3-5.fc6.i386.rpm       SAME
+checkpolicy-1.30.9-1.1.i386.rpm	       SAME
+chkconfig-1.3.29-1.1.i386.rpm	       SAME
+chkfontpath-1.10.1-1.1.i386.rpm	       SAME
+classpathx-jaf-1.0-7jpp_4fc.i386       SAME
+classpathx-jaf-javadoc-1.0-7jpp_       SAME
+classpathx-mail-1.1.1-3jpp_1fc.i       SAME
+classpathx-mail-javadoc-1.1.1-3j       SAME
+				   >	cluster-cim-0.8-14.el5.i386.rpm
+				   >	cluster-snmp-0.8-14.el5.i386.rpm
+cman-2.0.12-1.fc6.i386.rpm	       SAME
+cman-devel-2.0.12-1.fc6.i386.rpm       SAME
+compat-db-4.2.52-5.1.i386.rpm	       SAME
+compat-gcc-34-3.4.6-4.i386.rpm	       SAME
+compat-gcc-34-c++-3.4.6-4.i386.r       SAME
+compat-gcc-34-g77-3.4.6-4.i386.r       SAME
+compat-glibc-2.3.4-2.26.i386.rpm       SAME
+compat-glibc-headers-2.3.4-2.26.       SAME
+compat-libf2c-34-3.4.6-4.i386.rp       SAME
+compat-libgcc-296-2.96-138.i386.       SAME
+compat-libstdc++-296-2.96-138.i3       SAME
+compat-libstdc++-33-3.2.3-61.i38       SAME
+compat-openldap-2.3.24_2.2.29-2.       SAME
+compat-readline43-4.3-3.i386.rpm       SAME
+compat-slang-1.4.9-27.2.2.i386.r       SAME
+compiz-0.0.13-0.10.20060721git.f       SAME
+compiz-devel-0.0.13-0.10.2006072       SAME
+comps-extras-11.1-1.1.noarch.rpm       SAME
+conman-0.1.9.2-4.el5.i386.rpm	       SAME
+control-center-2.15.4-6.i386.rpm       SAME
+control-center-devel-2.15.4-6.i3       SAME
+convmv-1.10-1.el5.noarch.rpm	       SAME
+coolkey-1.0.1-3.i386.rpm	       SAME
+coolkey-devel-1.0.1-3.i386.rpm	       SAME
+coreutils-5.97-6.i386.rpm	       SAME
+cpio-2.6-19.i386.rpm		       SAME
+cpp-4.1.1-18.i386.rpm		       SAME
+cpuspeed-1.2.1-1.40.fc6.i386.rpm       SAME
+cracklib-2.8.9-3.1.i386.rpm	       SAME
+cracklib-dicts-2.8.9-3.1.i386.rp       SAME
+crash-4.0-3.1.i386.rpm		       SAME
+createrepo-0.4.4-2.fc6.noarch.rp       SAME
+crontabs-1.10-8.noarch.rpm	       SAME
+cryptsetup-luks-1.0.3-2.1.i386.r       SAME
+cryptsetup-luks-devel-1.0.3-2.1.       SAME
+cscope-15.5-14.i386.rpm		       SAME
+ctags-5.6-1.1.i386.rpm		       SAME
+cups-1.2.2-13.i386.rpm		       SAME
+cups-devel-1.2.2-13.i386.rpm	       SAME
+cups-libs-1.2.2-13.i386.rpm	       SAME
+cups-lpd-1.2.2-13.i386.rpm	       SAME
+curl-7.15.4-1.1.i386.rpm	       SAME
+curl-devel-7.15.4-1.1.i386.rpm	       SAME
+cvs-1.11.22-4.i386.rpm		       SAME
+cyrus-imapd-2.3.7-1.el5.i386.rpm       SAME
+cyrus-imapd-devel-2.3.7-1.el5.i3       SAME
+cyrus-imapd-perl-2.3.7-1.el5.i38       SAME
+cyrus-imapd-utils-2.3.7-1.el5.i3       SAME
+cyrus-sasl-2.1.22-3.i386.rpm	       SAME
+cyrus-sasl-devel-2.1.22-3.i386.r       SAME
+cyrus-sasl-gssapi-2.1.22-3.i386.       SAME
+cyrus-sasl-ldap-2.1.22-3.i386.rp       SAME
+cyrus-sasl-lib-2.1.22-3.i386.rpm       SAME
+cyrus-sasl-md5-2.1.22-3.i386.rpm       SAME
+cyrus-sasl-ntlm-2.1.22-3.i386.rp       SAME
+cyrus-sasl-plain-2.1.22-3.i386.r       SAME
+cyrus-sasl-sql-2.1.22-3.i386.rpm       SAME
+dapl-1.2.0-4.el5.i386.rpm	       SAME
+dapl-devel-1.2.0-4.el5.i386.rpm	       SAME
+dasher-4.1.7-3.fc6.i386.rpm	       SAME
+db4-4.3.29-6.i386.rpm		       SAME
+db4-devel-4.3.29-6.i386.rpm	       SAME
+db4-java-4.3.29-6.i386.rpm	       SAME
+db4-tcl-4.3.29-6.i386.rpm	       SAME
+db4-utils-4.3.29-6.i386.rpm	       SAME
+dbus-0.90-8.i386.rpm		       SAME
+dbus-devel-0.90-8.i386.rpm	       SAME
+dbus-glib-0.70-4.i386.rpm	       SAME
+dbus-glib-devel-0.70-4.i386.rpm	       SAME
+dbus-python-0.70-5.i386.rpm	       SAME
+dbus-x11-0.90-8.i386.rpm	       SAME
+dcraw-0.0.20060521-1.1.i386.rpm	       SAME
+ddd-3.3.11-7.1.i386.rpm		       SAME
+dejagnu-1.4.4-5.1.noarch.rpm	       SAME
+dejavu-lgc-fonts-2.8-1.noarch.rp       SAME
+desktop-backgrounds-basic-2.0-36       SAME
+desktop-file-utils-0.10-7.i386.r       SAME
+desktop-printing-0.19-11.i386.rp       SAME
+dev86-0.16.17-2.2.i386.rpm	       SAME
+devhelp-0.12-1.i386.rpm		       SAME
+devhelp-devel-0.12-1.i386.rpm	       SAME
+device-mapper-1.02.09-1.0.RHEL5.       SAME
+device-mapper-multipath-0.4.7-4.       SAME
+dhcdbd-1.16-1.fc6.i386.rpm	       SAME
+dhclient-3.0.4-20.fc6.i386.rpm	       SAME
+dhcp-3.0.4-20.fc6.i386.rpm	       SAME
+dhcp-devel-3.0.4-20.fc6.i386.rpm       SAME
+dhcpv6-0.10-31.i386.rpm		       SAME
+dhcpv6_client-0.10-31.i386.rpm	       SAME
+dialog-1.0.20051107-1.2.2.i386.r       SAME
+diffstat-1.41-1.2.2.i386.rpm	       SAME
+diffutils-2.8.1-15.2.2.i386.rpm	       SAME
+distcache-1.4.5-14.1.i386.rpm	       SAME
+distcache-devel-1.4.5-14.1.i386.       SAME
+dmidecode-2.7-1.26.1.fc6.i386.rp       SAME
+dmraid-1.0.0.rc11-FC6.2.i386.rpm       SAME
+dmraid-devel-1.0.0.rc11-FC6.2.i3       SAME
+docbook-dtds-1.0-30.1.noarch.rpm       SAME
+docbook-simple-1.0-2.1.1.noarch.       SAME
+docbook-slides-3.3.1-2.1.1.noarc       SAME
+docbook-style-dsssl-1.79-4.1.noa       SAME
+docbook-style-xsl-1.69.1-5.1.noa       SAME
+docbook-utils-0.6.14-5.1.noarch.       SAME
+docbook-utils-pdf-0.6.14-5.1.noa       SAME
+dogtail-0.5.2-1.fc6.noarch.rpm	       SAME
+dos2unix-3.1-27.1.i386.rpm	       SAME
+dosfstools-2.11-6.1.fc6.i386.rpm       SAME
+dovecot-1.0-0.rc2.2.fc6.i386.rpm       SAME
+doxygen-1.4.7-1.1.i386.rpm	       SAME
+doxygen-doxywizard-1.4.7-1.1.i38       SAME
+dtach-0.7-1.2.2.i386.rpm	       SAME
+dump-0.4b41-1.2.1.i386.rpm	       SAME
+dvd+rw-tools-6.1-4.1.i386.rpm	       SAME
+dvgrab-2.0-1.2.2.i386.rpm	       SAME
+e2fsprogs-1.39-4.i386.rpm	       SAME
+e2fsprogs-devel-1.39-4.i386.rpm	       SAME
+e2fsprogs-libs-1.39-4.i386.rpm	       SAME
+eclipse-bugzilla-0.2.2-8.i386.rp   <
+eclipse-cdt-3.1.0-1jpp_9fc.i386.   <
+eclipse-cdt-sdk-3.1.0-1jpp_9fc.i   <
+eclipse-changelog-2.2.0-2.fc6.i3   <
+eclipse-ecj-3.2.0-1jpp_10fc.i386       SAME
+eclipse-jdt-3.2.0-1jpp_10fc.i386       SAME
+eclipse-jdt-sdk-3.2.0-1jpp_10fc.       SAME
+eclipse-pde-3.2.0-1jpp_10fc.i386       SAME
+eclipse-pde-runtime-3.2.0-1jpp_1       SAME
+eclipse-pde-sdk-3.2.0-1jpp_10fc.       SAME
+eclipse-platform-3.2.0-1jpp_10fc       SAME
+eclipse-platform-sdk-3.2.0-1jpp_       SAME
+eclipse-pydev-0.9.3_fc-17.i386.r   <
+eclipse-rcp-3.2.0-1jpp_10fc.i386       SAME
+eclipse-rcp-sdk-3.2.0-1jpp_10fc.       SAME
+ed-0.2-38.2.2.i386.rpm		       SAME
+eel2-2.15.4-2.i386.rpm		       SAME
+eel2-devel-2.15.4-2.i386.rpm	       SAME
+efax-0.9-27.2.1.i386.rpm	       SAME
+eject-2.1.5-1.1.i386.rpm	       SAME
+ekiga-2.0.2-3.i386.rpm		   <
+elfutils-0.123-2.fc6.i386.rpm	       SAME
+elfutils-devel-0.123-2.fc6.i386.       SAME
+elfutils-libelf-0.123-2.fc6.i386       SAME
+elfutils-libelf-devel-0.123-2.fc       SAME
+elfutils-libs-0.123-2.fc6.i386.r       SAME
+elinks-0.11.1-4.1.i386.rpm	       SAME
+emacs-21.4-15.i386.rpm		       SAME
+emacs-common-21.4-15.i386.rpm	       SAME
+emacs-el-21.4-15.i386.rpm	       SAME
+emacs-leim-21.4-15.i386.rpm	       SAME
+emacs-nox-21.4-15.i386.rpm	       SAME
+emacspeak-23.0-2.1.noarch.rpm	       SAME
+enscript-1.6.4-3.1.i386.rpm	       SAME
+eog-2.15.4-1.i386.rpm		       SAME
+epic-2.4-1.i386.rpm		       SAME
+eruby-1.0.5-6.1.i386.rpm	       SAME
+eruby-devel-1.0.5-6.1.i386.rpm	       SAME
+eruby-libs-1.0.5-6.1.i386.rpm	       SAME
+esc-1.0.0-7.fc6.i386.rpm	       SAME
+esound-0.2.36-3.i386.rpm	       SAME
+esound-devel-0.2.36-3.i386.rpm	       SAME
+ethtool-3-1.2.2.i386.rpm	       SAME
+evince-0.5.4-3.i386.rpm		       SAME
+evolution-2.7.4-4.i386.rpm	   <
+evolution-data-server-1.7.4-3.i3       SAME
+evolution-data-server-devel-1.7.       SAME
+evolution-devel-2.7.4-4.i386.rpm   <
+exim-4.62-6.el5.i386.rpm	       SAME
+exim-doc-4.62-3.el5.noarch.rpm	       SAME
+exim-mon-4.62-6.el5.i386.rpm	       SAME
+exim-sa-4.62-6.el5.i386.rpm	       SAME
+expat-1.95.8-8.2.1.i386.rpm	       SAME
+expat-devel-1.95.8-8.2.1.i386.rp       SAME
+expect-5.43.0-5.1.i386.rpm	       SAME
+expect-devel-5.43.0-5.1.i386.rpm       SAME
+expectk-5.43.0-5.1.i386.rpm	       SAME
+fbset-2.1-22.i386.rpm		       SAME
+festival-1.95-5.2.1.i386.rpm	       SAME
+festival-devel-1.95-5.2.1.i386.r       SAME
+fetchmail-6.3.4-1.1.i386.rpm	       SAME
+file-4.17-5.1.i386.rpm		       SAME
+file-roller-2.15.1-2.i386.rpm	       SAME
+filesystem-2.3.7-2.1.i386.rpm	       SAME
+findutils-4.2.27-4.1.i386.rpm	       SAME
+finger-0.17-32.2.1.1.i386.rpm	       SAME
+finger-server-0.17-32.2.1.1.i386       SAME
+firefox-1.5.0.5-8.i386.rpm	       SAME
+firefox-devel-1.5.0.5-8.i386.rpm       SAME
+firstboot-1.4.18-1.noarch.rpm	       SAME
+firstboot-tui-1.4.18-1.noarch.rp       SAME
+flac-1.1.2-27.i386.rpm		       SAME
+flac-devel-1.1.2-27.i386.rpm	       SAME
+flex-2.5.4a-41.fc6.i386.rpm	       SAME
+fontconfig-2.3.95-11.fc6.i386.rp       SAME
+fontconfig-devel-2.3.95-11.fc6.i       SAME
+fonts-ISO8859-2-1.0-17.1.noarch.       SAME
+fonts-ISO8859-2-100dpi-1.0-17.1.       SAME
+fonts-ISO8859-2-75dpi-1.0-17.1.n       SAME
+fonts-KOI8-R-1.0-9.1.1.noarch.rp       SAME
+fonts-KOI8-R-100dpi-1.0-9.1.1.no       SAME
+fonts-KOI8-R-75dpi-1.0-9.1.1.noa       SAME
+fonts-arabic-2.0-1.1.noarch.rpm	       SAME
+fonts-bengali-2.0-2.noarch.rpm	       SAME
+fonts-chinese-3.02-5.el5.noarch.       SAME
+fonts-gujarati-2.0-2.noarch.rpm	       SAME
+fonts-hebrew-0.100-4.1.1.noarch.       SAME
+fonts-hindi-2.0-2.noarch.rpm	       SAME
+fonts-japanese-0.20050222-11.1.1       SAME
+fonts-kannada-2.0-2.noarch.rpm	       SAME
+fonts-korean-1.0.11-9.1.1.noarch       SAME
+fonts-malayalam-2.0-2.noarch.rpm       SAME
+fonts-oriya-2.0-2.noarch.rpm	       SAME
+fonts-punjabi-2.0-2.noarch.rpm	       SAME
+fonts-sinhala-0.2-4.noarch.rpm	       SAME
+fonts-tamil-2.0-2.noarch.rpm	       SAME
+fonts-telugu-2.0-2.noarch.rpm	       SAME
+foomatic-3.0.2-37.i386.rpm	       SAME
+freeradius-1.1.2-1.1.i386.rpm	       SAME
+freeradius-mysql-1.1.2-1.1.i386.       SAME
+freeradius-postgresql-1.1.2-1.1.       SAME
+freeradius-unixODBC-1.1.2-1.1.i3       SAME
+freetype-2.2.1-3.i386.rpm	       SAME
+freetype-demos-2.2.1-3.i386.rpm	       SAME
+freetype-devel-2.2.1-3.i386.rpm	       SAME
+fribidi-0.10.7-5.1.i386.rpm	   <
+fribidi-devel-0.10.7-5.1.i386.rp   <
+frysk-0.0.1.2006.08.24.rh1-2.fc6       SAME
+ftp-0.17-32.1.2.4.i386.rpm	       SAME
+gail-1.9.0-2.i386.rpm		       SAME
+gail-devel-1.9.0-2.i386.rpm	       SAME
+gaim-2.0.0-0.9.beta3.fc6.i386.rp       SAME
+gaim-devel-2.0.0-0.9.beta3.fc6.i       SAME
+gamin-0.1.7-1.2.2.i386.rpm	       SAME
+gamin-devel-0.1.7-1.2.2.i386.rpm       SAME
+gamin-python-0.1.7-1.2.2.i386.rp       SAME
+gawk-3.1.5-11.i386.rpm		       SAME
+gcalctool-5.8.17-1.i386.rpm	       SAME
+gcc-4.1.1-18.i386.rpm		       SAME
+gcc-c++-4.1.1-18.i386.rpm	       SAME
+gcc-gfortran-4.1.1-18.i386.rpm	       SAME
+gcc-gnat-4.1.1-18.i386.rpm	       SAME
+gcc-java-4.1.1-18.i386.rpm	       SAME
+gcc-objc++-4.1.1-18.i386.rpm	       SAME
+gcc-objc-4.1.1-18.i386.rpm	       SAME
+gconf-editor-2.14.0-4.1.i386.rpm       SAME
+gd-2.0.33-9.2.i386.rpm		       SAME
+gd-devel-2.0.33-9.2.i386.rpm	       SAME
+gd-progs-2.0.33-9.2.i386.rpm	       SAME
+gdb-6.5-5.fc6.i386.rpm		       SAME
+gdbm-1.8.0-26.2.1.i386.rpm	       SAME
+gdbm-devel-1.8.0-26.2.1.i386.rpm       SAME
+gdm-2.15.6-13.el5.i386.rpm	       SAME
+gedit-2.15.4-1.i386.rpm		       SAME
+gedit-devel-2.15.4-1.i386.rpm	       SAME
+geronimo-specs-1.0-0.M2.2jpp_11f       SAME
+geronimo-specs-compat-1.0-0.M2.2       SAME
+gettext-0.14.5-4.i386.rpm	       SAME
+gettext-devel-0.14.5-4.i386.rpm	       SAME
+				   >	gfs-utils-0.1.5-1.el5.i386.rpm
+gfs2-utils-0.1.6-1.fc6.i386.rpm	       SAME
+gftp-2.0.18-3.2.2.i386.rpm	       SAME
+ghostscript-8.15.2-8.1.i386.rpm	       SAME
+ghostscript-devel-8.15.2-8.1.i38       SAME
+ghostscript-fonts-5.50-13.1.1.no       SAME
+ghostscript-gtk-8.15.2-8.1.i386.       SAME
+giflib-4.1.3-7.1.i386.rpm	       SAME
+giflib-devel-4.1.3-7.1.i386.rpm	       SAME
+giflib-utils-4.1.3-7.1.i386.rpm	       SAME
+gimp-2.2.12-3.fc6.i386.rpm	       SAME
+gimp-data-extras-2.0.1-1.1.1.noa   <
+gimp-devel-2.2.12-3.fc6.i386.rpm       SAME
+gimp-help-2-0.1.0.10.1.1.noarch.   <
+gimp-libs-2.2.12-3.fc6.i386.rpm	       SAME
+gimp-print-4.2.7-20.1.i386.rpm	       SAME
+gimp-print-cups-4.2.7-20.1.i386.       SAME
+gimp-print-devel-4.2.7-20.1.i386       SAME
+gimp-print-plugin-4.2.7-20.1.i38       SAME
+gimp-print-utils-4.2.7-20.1.i386       SAME
+gjdoc-0.7.7-7.i386.rpm		       SAME
+glade2-2.12.1-4.1.i386.rpm	       SAME
+glib-java-0.2.6-1.fc6.i386.rpm	       SAME
+glib-java-devel-0.2.6-1.fc6.i386       SAME
+glib2-2.12.1-1.i386.rpm		       SAME
+glib2-devel-2.12.1-1.i386.rpm	       SAME
+glibc-2.4.90-22.i386.rpm	       SAME
+glibc-2.4.90-22.i686.rpm	       SAME
+glibc-common-2.4.90-22.i386.rpm	       SAME
+glibc-devel-2.4.90-22.i386.rpm	       SAME
+glibc-headers-2.4.90-22.i386.rpm       SAME
+glibc-utils-2.4.90-22.i386.rpm	       SAME
+glx-utils-6.5-20.fc6.i386.rpm	       SAME
+gmp-4.1.4-7.i386.rpm		       SAME
+gmp-devel-4.1.4-7.i386.rpm	       SAME
+				   >	gnbd-1.1.1-1.el5.i386.rpm
+gnome-applet-vm-0.1.0-0.rc1.2.i3       SAME
+gnome-applets-2.15.1.1-7.fc6.i38       SAME
+gnome-audio-2.0.0-3.1.1.noarch.r       SAME
+gnome-audio-extra-2.0.0-3.1.1.no       SAME
+gnome-backgrounds-2.14.2.1-3.noa       SAME
+gnome-bluetooth-0.7.0-10.1.i386.       SAME
+gnome-bluetooth-devel-0.7.0-10.1       SAME
+gnome-bluetooth-libs-0.7.0-10.1.       SAME
+gnome-desktop-2.15.4-1.i386.rpm	       SAME
+gnome-desktop-devel-2.15.4-1.i38       SAME
+gnome-doc-utils-0.7.1-1.noarch.r       SAME
+gnome-games-2.15.4-3.i386.rpm	   <
+gnome-icon-theme-2.15.3-1.noarch       SAME
+gnome-keyring-0.5.1-1.1.i386.rpm       SAME
+gnome-keyring-devel-0.5.1-1.1.i3       SAME
+gnome-keyring-manager-2.14.0-2.1       SAME
+gnome-mag-0.13.0-1.i386.rpm	       SAME
+gnome-mag-devel-0.13.0-1.i386.rp       SAME
+gnome-media-2.14.2-6.i386.rpm	       SAME
+gnome-media-devel-2.14.2-6.i386.       SAME
+gnome-menus-2.15.4.1-1.i386.rpm	       SAME
+gnome-menus-devel-2.15.4.1-1.i38       SAME
+gnome-mime-data-2.4.2-3.1.i386.r       SAME
+gnome-mount-0.4.0.2006.07.24-1.f       SAME
+gnome-mount-devel-0.4.0.2006.07.       SAME
+gnome-mount-nautilus-properties-       SAME
+gnome-netstatus-2.12.0-5.1.i386.       SAME
+gnome-nettool-2.15.0-1.1.i386.rp       SAME
+gnome-panel-2.14.2-8.i386.rpm	       SAME
+gnome-panel-devel-2.14.2-8.i386.       SAME
+gnome-pilot-2.0.13-13.1.i386.rpm   <
+gnome-pilot-conduits-2.0.13-6.1.   <
+gnome-pilot-devel-2.0.13-13.1.i3   <
+gnome-power-manager-2.15.4-2.i38       SAME
+gnome-python2-2.15.4-2.i386.rpm	       SAME
+gnome-python2-applet-2.15.4-2.i3       SAME
+gnome-python2-bonobo-2.15.4-2.i3       SAME
+gnome-python2-canvas-2.15.4-2.i3       SAME
+gnome-python2-desktop-2.15.4-2.i       SAME
+gnome-python2-extras-2.14.1-6.i3       SAME
+gnome-python2-gconf-2.15.4-2.i38       SAME
+gnome-python2-gnomedesktop-2.15.       SAME
+gnome-python2-gnomekeyring-2.15.       SAME
+gnome-python2-gnomeprint-2.15.4-       SAME
+gnome-python2-gnomevfs-2.15.4-2.       SAME
+gnome-python2-gtkhtml2-2.14.1-6.       SAME
+gnome-python2-gtkmozembed-2.14.1       SAME
+gnome-python2-gtksourceview-2.15       SAME
+gnome-python2-gtkspell-2.14.1-6.       SAME
+gnome-python2-libegg-2.14.1-6.i3       SAME
+gnome-python2-libgtop2-2.15.4-2.       SAME
+gnome-python2-libwnck-2.15.4-2.i       SAME
+gnome-python2-metacity-2.15.4-2.       SAME
+gnome-python2-nautilus-cd-burner       SAME
+gnome-python2-rsvg-2.15.4-2.i386       SAME
+gnome-python2-totem-2.15.4-2.i38       SAME
+gnome-screensaver-2.15.4-6.el5.i       SAME
+gnome-session-2.15.4-2.i386.rpm	       SAME
+gnome-speech-0.4.1-1.1.i386.rpm	       SAME
+gnome-speech-devel-0.4.1-1.1.i38       SAME
+gnome-spell-1.0.7-3.1.i386.rpm	   <
+gnome-system-monitor-2.15.4-1.i3       SAME
+gnome-terminal-2.15.2-1.i386.rpm       SAME
+gnome-themes-2.15.4-1.noarch.rpm       SAME
+gnome-user-docs-2.14.2-4.noarch.       SAME
+gnome-user-share-0.10-3.1.i386.r   <
+gnome-utils-2.15.3-2.i386.rpm	       SAME
+gnome-utils-devel-2.15.3-2.i386.       SAME
+gnome-vfs2-2.15.3-7.i386.rpm	       SAME
+gnome-vfs2-devel-2.15.3-7.i386.r       SAME
+gnome-vfs2-smb-2.15.3-7.i386.rpm       SAME
+gnome-volume-manager-1.5.15-4.i3       SAME
+gnopernicus-1.0.6-1.i386.rpm	       SAME
+gnopernicus-devel-1.0.6-1.i386.r       SAME
+gnu-crypto-2.1.0-1jpp_4fc.i386.r       SAME
+gnu-crypto-javadoc-2.1.0-1jpp_4f       SAME
+gnu-efi-3.0c-1.1.i386.rpm	       SAME
+gnupg-1.4.5-4.i386.rpm		       SAME
+gnuplot-4.0.0-12.i386.rpm	       SAME
+gnuplot-emacs-4.0.0-12.i386.rpm	       SAME
+gnutls-1.4.1-1.i386.rpm		       SAME
+gnutls-devel-1.4.1-1.i386.rpm	       SAME
+gnutls-utils-1.4.1-1.i386.rpm	       SAME
+gob2-2.0.14-1.1.i386.rpm	       SAME
+gok-1.1.1-1.i386.rpm		       SAME
+gok-devel-1.1.1-1.i386.rpm	       SAME
+gpart-0.1h-3.1.i386.rpm		       SAME
+gperf-3.0.1-7.2.2.i386.rpm	       SAME
+gphoto2-2.2.0-2.1.i386.rpm	       SAME
+gphoto2-devel-2.2.0-2.1.i386.rpm       SAME
+gpm-1.20.1-74.1.i386.rpm	       SAME
+gpm-devel-1.20.1-74.1.i386.rpm	       SAME
+grep-2.5.1-54.1.i386.rpm	       SAME
+groff-1.18.1.1-11.1.i386.rpm	       SAME
+groff-gxditview-1.18.1.1-11.1.i3       SAME
+groff-perl-1.18.1.1-11.1.i386.rp       SAME
+grub-0.97-10.i386.rpm		       SAME
+gstreamer-0.10.9-2.i386.rpm	       SAME
+gstreamer-devel-0.10.9-2.i386.rp       SAME
+gstreamer-plugins-base-0.10.9-4.       SAME
+gstreamer-plugins-base-devel-0.1       SAME
+gstreamer-plugins-good-0.10.3-5.       SAME
+gstreamer-plugins-good-devel-0.1       SAME
+gstreamer-tools-0.10.9-2.i386.rp       SAME
+gthumb-2.7.7-4.i386.rpm		       SAME
+gtk-doc-1.6-3.1.noarch.rpm	       SAME
+gtk2-2.10.1-1.i386.rpm		       SAME
+gtk2-devel-2.10.1-1.i386.rpm	       SAME
+gtk2-engines-2.7.5-1.1.i386.rpm	       SAME
+gtkhtml2-2.11.0-3.i386.rpm	       SAME
+gtkhtml2-devel-2.11.0-3.i386.rpm       SAME
+gtkhtml3-3.11.90.1-1.i386.rpm	   <
+gtkhtml3-devel-3.11.90.1-1.i386.   <
+gtksourceview-1.6.1-2.1.i386.rpm       SAME
+gtksourceview-devel-1.6.1-2.1.i3       SAME
+gtkspell-2.0.11-2.1.i386.rpm	       SAME
+gtkspell-devel-2.0.11-2.1.i386.r       SAME
+gucharmap-1.6.0-8.1.i386.rpm	       SAME
+gucharmap-devel-1.6.0-8.1.i386.r       SAME
+guile-1.8.0-6.20060712cvs.i386.r       SAME
+guile-devel-1.8.0-6.20060712cvs.       SAME
+gzip-1.3.5-7.i386.rpm		       SAME
+hal-0.5.7.1-2.fc6.i386.rpm	       SAME
+hal-cups-utils-0.6.2-3.i386.rpm	       SAME
+hal-devel-0.5.7.1-2.fc6.i386.rpm       SAME
+hal-gnome-0.5.7.1-2.fc6.i386.rpm       SAME
+hardlink-1.0-1.22.2.1.i386.rpm	       SAME
+hdparm-6.6-2.i386.rpm		       SAME
+hesiod-3.1.0-8.i386.rpm		       SAME
+hesiod-devel-3.1.0-8.i386.rpm	       SAME
+hfsutils-3.2.6-7.2.2.i386.rpm	       SAME
+hfsutils-devel-3.2.6-7.2.2.i386.       SAME
+hfsutils-x11-3.2.6-7.2.2.i386.rp       SAME
+hicolor-icon-theme-0.9-2.1.noarc       SAME
+hpijs-1.6.6a-3.1.i386.rpm	       SAME
+hplip-1.6.6a-3.1.i386.rpm	       SAME
+hsqldb-1.80.1-1jpp_11fc.i386.rpm   <
+hsqldb-demo-1.80.1-1jpp_11fc.i38   <
+hsqldb-javadoc-1.80.1-1jpp_11fc.   <
+hsqldb-manual-1.80.1-1jpp_11fc.i   <
+htdig-3.2.0b6-6.4.2.2.1.i386.rpm       SAME
+htdig-web-3.2.0b6-6.4.2.2.1.i386       SAME
+htmlview-3.0.0-14.1.noarch.rpm	       SAME
+httpd-2.2.3-4.i386.rpm		       SAME
+httpd-devel-2.2.3-4.i386.rpm	       SAME
+httpd-manual-2.2.3-4.i386.rpm	       SAME
+hwdata-0.186-1.noarch.rpm	       SAME
+ibmasm-3.0-9.i386.rpm		       SAME
+ibutils-1.0-2.el5.i386.rpm	       SAME
+ibutils-devel-1.0-2.el5.i386.rpm       SAME
+ibutils-libs-1.0-2.el5.i386.rpm	       SAME
+icon-naming-utils-0.7.3-1.fc6.no       SAME
+icon-slicer-0.3-7.2.2.i386.rpm	       SAME
+icu-3.4-10.1.1.i386.rpm		   <
+ifd-egate-0.05-13.i386.rpm	       SAME
+im-chooser-0.3.0-2.fc6.i386.rpm	       SAME
+imake-1.0.2-3.i386.rpm		       SAME
+indent-2.2.9-14.fc6.i386.rpm	       SAME
+indexhtml-5-1.noarch.rpm	       SAME
+inews-2.4.3-5.i386.rpm		       SAME
+info-4.8-11.1.i386.rpm		       SAME
+initscripts-8.38-1.i386.rpm	       SAME
+inn-2.4.3-5.i386.rpm		       SAME
+inn-devel-2.4.3-5.i386.rpm	       SAME
+intltool-0.35.0-2.i386.rpm	       SAME
+iproute-2.6.16-3.1.i386.rpm	       SAME
+ipsec-tools-0.6.5-3.1.i386.rpm	       SAME
+iptables-1.3.5-1.2.1.i386.rpm	       SAME
+iptables-devel-1.3.5-1.2.1.i386.       SAME
+iptables-ipv6-1.3.5-1.2.1.i386.r       SAME
+iptraf-3.0.0-4.1.i386.rpm	       SAME
+iptstate-1.4-1.1.2.2.i386.rpm	       SAME
+iputils-20020927-39.i386.rpm	       SAME
+ipv6calc-0.60.1-1.1.i386.rpm	       SAME
+				   >	ipvsadm-1.24-8.1.i386.rpm
+irda-utils-0.9.17-2.fc6.i386.rpm       SAME
+irqbalance-1.13-2.fc6.i386.rpm	       SAME
+iscsi-initiator-utils-6.1.1.645-       SAME
+isdn4k-utils-3.2-50.i386.rpm	       SAME
+isdn4k-utils-devel-3.2-50.i386.r       SAME
+isdn4k-utils-vboxgetty-3.2-50.i3       SAME
+iso-codes-0.49-2.noarch.rpm	       SAME
+iso-codes-devel-0.49-2.noarch.rp       SAME
+jadetex-3.12-13.1.1.noarch.rpm	       SAME
+jakarta-commons-beanutils-1.7.0-       SAME
+jakarta-commons-beanutils-javado       SAME
+jakarta-commons-codec-1.3-4jpp_2       SAME
+jakarta-commons-codec-javadoc-1.       SAME
+jakarta-commons-collections-3.1-       SAME
+jakarta-commons-collections-java       SAME
+jakarta-commons-collections-test       SAME
+jakarta-commons-collections-test       SAME
+jakarta-commons-daemon-1.0.1-4jp       SAME
+jakarta-commons-daemon-javadoc-1       SAME
+jakarta-commons-dbcp-1.2.1-5jpp_       SAME
+jakarta-commons-dbcp-javadoc-1.2       SAME
+jakarta-commons-digester-1.7-4jp       SAME
+jakarta-commons-digester-javadoc       SAME
+jakarta-commons-discovery-0.3-3j       SAME
+jakarta-commons-discovery-javado       SAME
+jakarta-commons-el-1.0-5jpp_4fc.       SAME
+jakarta-commons-el-javadoc-1.0-5       SAME
+jakarta-commons-fileupload-1.0-5       SAME
+jakarta-commons-fileupload-javad       SAME
+jakarta-commons-httpclient-3.0-6       SAME
+jakarta-commons-httpclient-demo-       SAME
+jakarta-commons-httpclient-javad       SAME
+jakarta-commons-httpclient-manua       SAME
+jakarta-commons-lang-2.1-4jpp_2f       SAME
+jakarta-commons-lang-javadoc-2.1       SAME
+jakarta-commons-launcher-0.9-5jp       SAME
+jakarta-commons-launcher-javadoc       SAME
+jakarta-commons-logging-1.0.4-5j       SAME
+jakarta-commons-logging-javadoc-       SAME
+jakarta-commons-modeler-1.1-7jpp       SAME
+jakarta-commons-modeler-javadoc-       SAME
+jakarta-commons-pool-1.3-2jpp_2f       SAME
+jakarta-commons-pool-javadoc-1.3       SAME
+jakarta-commons-validator-1.1.4-       SAME
+jakarta-commons-validator-javado       SAME
+jakarta-taglibs-standard-1.1.1-6       SAME
+jakarta-taglibs-standard-javadoc       SAME
+java-1.4.2-gcj-compat-1.4.2.0-40       SAME
+java-1.4.2-gcj-compat-devel-1.4.       SAME
+java-1.4.2-gcj-compat-javadoc-1.       SAME
+java-1.4.2-gcj-compat-plugin-1.4       SAME
+java-1.4.2-gcj-compat-src-1.4.2.       SAME
+java_cup-0.10-0.k.5jpp_2fc.i386.       SAME
+java_cup-javadoc-0.10-0.k.5jpp_2       SAME
+java_cup-manual-0.10-0.k.5jpp_2f       SAME
+javacc-4.0-3jpp_2fc.i386.rpm	       SAME
+javacc-demo-4.0-3jpp_2fc.i386.rp       SAME
+javacc-manual-4.0-3jpp_2fc.i386.       SAME
+jdepend-2.6-5jpp_2fc.i386.rpm	       SAME
+jdepend-demo-2.6-5jpp_2fc.i386.r       SAME
+jdepend-javadoc-2.6-5jpp_2fc.i38       SAME
+jdom-1.0-1jpp_7fc.i386.rpm	       SAME
+jdom-demo-1.0-1jpp_7fc.i386.rpm	       SAME
+jdom-javadoc-1.0-1jpp_7fc.i386.r       SAME
+jlex-1.2.6-4jpp_2fc.i386.rpm	       SAME
+jlex-javadoc-1.2.6-4jpp_2fc.i386       SAME
+joe-3.4-3.i386.rpm		       SAME
+joystick-1.2.15-20.2.2.i386.rpm	       SAME
+jpackage-utils-1.6.6-1jpp_5rh.no       SAME
+jpilot-0.99.8-7.1.i386.rpm	   <
+jrefactory-2.8.9-6jpp_2fc.i386.r       SAME
+jsch-0.1.28-1jpp_3fc.i386.rpm	       SAME
+jsch-demo-0.1.28-1jpp_3fc.i386.r       SAME
+jsch-javadoc-0.1.28-1jpp_3fc.i38       SAME
+junit-3.8.2-2jpp_2fc.i386.rpm	       SAME
+junit-demo-3.8.2-2jpp_2fc.i386.r       SAME
+junit-javadoc-3.8.2-2jpp_2fc.i38       SAME
+junit-manual-3.8.2-2jpp_2fc.i386       SAME
+jwhois-3.2.3-6.1.i386.rpm	       SAME
+jzlib-1.0.7-3jpp_2fc.i386.rpm	       SAME
+jzlib-demo-1.0.7-3jpp_2fc.i386.r       SAME
+jzlib-javadoc-1.0.7-3jpp_2fc.i38       SAME
+k3b-0.12.15-3.1.1.i386.rpm	   <
+kasumi-2.0.1-1.1.fc6.i386.rpm	       SAME
+kbd-1.12-17.i386.rpm		       SAME
+kcc-2.3-24.2.2.i386.rpm		       SAME
+kdbg-2.0.2-1.2.1.i386.rpm	       SAME
+kde-i18n-Arabic-3.5.3-3.noarch.r       SAME
+kde-i18n-Bengali-3.5.3-3.noarch.       SAME
+kde-i18n-Brazil-3.5.3-3.noarch.r       SAME
+kde-i18n-British-3.5.3-3.noarch.       SAME
+kde-i18n-Bulgarian-3.5.3-3.noarc       SAME
+kde-i18n-Catalan-3.5.3-3.noarch.       SAME
+kde-i18n-Chinese-3.5.3-3.noarch.       SAME
+kde-i18n-Chinese-Big5-3.5.3-3.no       SAME
+kde-i18n-Czech-3.5.3-3.noarch.rp       SAME
+kde-i18n-Danish-3.5.3-3.noarch.r       SAME
+kde-i18n-Dutch-3.5.3-3.noarch.rp       SAME
+kde-i18n-Estonian-3.5.3-3.noarch       SAME
+kde-i18n-Finnish-3.5.3-3.noarch.       SAME
+kde-i18n-French-3.5.3-3.noarch.r       SAME
+kde-i18n-German-3.5.3-3.noarch.r       SAME
+kde-i18n-Greek-3.5.3-3.noarch.rp       SAME
+kde-i18n-Hebrew-3.5.3-3.noarch.r       SAME
+kde-i18n-Hindi-3.5.3-3.noarch.rp       SAME
+kde-i18n-Hungarian-3.5.3-3.noarc       SAME
+kde-i18n-Icelandic-3.5.3-3.noarc       SAME
+kde-i18n-Italian-3.5.3-3.noarch.       SAME
+kde-i18n-Japanese-3.5.3-3.noarch       SAME
+kde-i18n-Korean-3.5.3-3.noarch.r       SAME
+kde-i18n-Lithuanian-3.5.3-3.noar       SAME
+kde-i18n-Norwegian-3.5.3-3.noarc       SAME
+kde-i18n-Norwegian-Nynorsk-3.5.3       SAME
+kde-i18n-Polish-3.5.3-3.noarch.r       SAME
+kde-i18n-Portuguese-3.5.3-3.noar       SAME
+kde-i18n-Punjabi-3.5.3-3.noarch.       SAME
+kde-i18n-Romanian-3.5.3-3.noarch       SAME
+kde-i18n-Russian-3.5.3-3.noarch.       SAME
+kde-i18n-Serbian-3.5.3-3.noarch.       SAME
+kde-i18n-Slovak-3.5.3-3.noarch.r       SAME
+kde-i18n-Slovenian-3.5.3-3.noarc       SAME
+kde-i18n-Spanish-3.5.3-3.noarch.       SAME
+kde-i18n-Swedish-3.5.3-3.noarch.       SAME
+kde-i18n-Tamil-3.5.3-3.noarch.rp       SAME
+kde-i18n-Turkish-3.5.3-3.noarch.       SAME
+kde-i18n-Ukrainian-3.5.3-3.noarc       SAME
+kdeaccessibility-3.5.4-0.pre1.fc       SAME
+kdeaddons-3.5.4-0.pre1.fc6.i386.   <
+kdeaddons-atlantikdesigner-3.5.4   <
+kdeadmin-3.5.4-0.pre1.fc6.i386.r       SAME
+kdeartwork-3.5.4-0.pre1.fc6.i386       SAME
+kdeartwork-icons-3.5.4-0.pre1.fc       SAME
+kdebase-3.5.4-0.pre1.fc6.i386.rp       SAME
+kdebase-devel-3.5.4-0.pre1.fc6.i       SAME
+kdebindings-3.5.4-0.pre2.fc6.i38       SAME
+kdebindings-devel-3.5.4-0.pre2.f       SAME
+kdegames-3.5.4-0.pre1.fc6.i386.r   <
+kdegames-devel-3.5.4-0.pre1.fc6.   <
+kdegraphics-3.5.4-0.pre2.fc6.i38   <
+kdegraphics-devel-3.5.4-0.pre2.f   <
+kdelibs-3.5.4-0.pre2.fc6.i386.rp       SAME
+kdelibs-apidocs-3.5.4-0.pre2.fc6       SAME
+kdelibs-devel-3.5.4-0.pre2.fc6.i       SAME
+kdemultimedia-3.5.4-0.pre1.fc6.i   <
+kdemultimedia-devel-3.5.4-0.pre1   <
+kdenetwork-3.5.4-0.pre1.fc6.i386       SAME
+kdenetwork-devel-3.5.4-0.pre1.fc       SAME
+kdepim-3.5.4-0.pre1.fc6.i386.rpm   <
+kdepim-devel-3.5.4-0.pre1.fc6.i3   <
+kdesdk-3.5.4-0.pre1.fc6.i386.rpm       SAME
+kdesdk-devel-3.5.4-0.pre1.fc6.i3       SAME
+kdeutils-3.5.4-0.pre1.fc6.i386.r       SAME
+kdeutils-devel-3.5.4-0.pre1.fc6.       SAME
+kdevelop-3.3.4-0.pre1.fc6.i386.r       SAME
+kdewebdev-3.5.4-0.pre1.fc6.i386.       SAME
+kdewebdev-devel-3.5.4-0.pre1.fc6       SAME
+kdnssd-avahi-0.1.3-0.1.20060713s       SAME
+kdnssd-avahi-devel-0.1.3-0.1.200       SAME
+kernel-2.6.17-1.2519.4.21.el5.i6       SAME
+kernel-PAE-2.6.17-1.2519.4.21.el       SAME
+kernel-PAE-devel-2.6.17-1.2519.4       SAME
+kernel-devel-2.6.17-1.2519.4.21.       SAME
+kernel-doc-2.6.17-1.2519.4.21.el       SAME
+kernel-headers-2.6.17-1.2519.4.2       SAME
+kernel-xen-2.6.17-1.2519.4.21.el       SAME
+kernel-xen-devel-2.6.17-1.2519.4       SAME
+kexec-tools-1.101-54.el5.i386.rp       SAME
+keyutils-1.1-5.el5.i386.rpm	       SAME
+keyutils-libs-1.1-5.el5.i386.rpm       SAME
+keyutils-libs-devel-1.1-5.el5.i3       SAME
+				   >	kmod-gfs-0.1.1-9.2.6.17_1.2519.4
+				   >	kmod-gnbd-0.1.1-5.2.6.17_1.2519.
+kon2-0.3.9b-26.2.1.i386.rpm	       SAME
+kon2-fonts-0.3.9b-26.2.1.i386.rp       SAME
+krb5-auth-dialog-0.7-1.i386.rpm	       SAME
+krb5-devel-1.5-3.i386.rpm	       SAME
+krb5-libs-1.5-3.i386.rpm	       SAME
+krb5-server-1.5-3.i386.rpm	       SAME
+krb5-workstation-1.5-3.i386.rpm	       SAME
+ksh-20060214-1.1.i386.rpm	       SAME
+kudzu-1.2.41-1.i386.rpm		       SAME
+kudzu-devel-1.2.41-1.i386.rpm	       SAME
+lam-7.1.2-1.fc6.1.i386.rpm	       SAME
+lam-devel-7.1.2-1.fc6.1.i386.rpm       SAME
+lam-libs-7.1.2-1.fc6.1.i386.rpm	       SAME
+lapack-3.0-37.el5.i386.rpm	       SAME
+lapack-devel-3.0-37.el5.i386.rpm       SAME
+lcms-1.15-1.2.2.i386.rpm	       SAME
+lcms-devel-1.15-1.2.2.i386.rpm	       SAME
+ldapjdk-4.17-1jpp_6fc.i386.rpm	       SAME
+ldapjdk-javadoc-4.17-1jpp_6fc.i3       SAME
+less-394-4.1.i386.rpm		       SAME
+lftp-3.5.1-1.fc6.i386.rpm	       SAME
+libFS-1.0.0-3.1.i386.rpm	       SAME
+libFS-devel-1.0.0-3.1.i386.rpm	       SAME
+libICE-1.0.1-2.1.i386.rpm	       SAME
+libICE-devel-1.0.1-2.1.i386.rpm	       SAME
+libIDL-0.8.6-6.1.i386.rpm	       SAME
+libIDL-devel-0.8.6-6.1.i386.rpm	       SAME
+libSM-1.0.1-3.1.i386.rpm	       SAME
+libSM-devel-1.0.1-3.1.i386.rpm	       SAME
+libX11-1.0.3-2.fc6.i386.rpm	       SAME
+libX11-devel-1.0.3-2.fc6.i386.rp       SAME
+libXScrnSaver-1.1.0-3.1.i386.rpm       SAME
+libXScrnSaver-devel-1.1.0-3.1.i3       SAME
+libXTrap-1.0.0-3.1.i386.rpm	       SAME
+libXTrap-devel-1.0.0-3.1.i386.rp       SAME
+libXau-1.0.1-3.1.i386.rpm	       SAME
+libXau-devel-1.0.1-3.1.i386.rpm	       SAME
+libXaw-1.0.2-8.1.i386.rpm	       SAME
+libXaw-devel-1.0.2-8.1.i386.rpm	       SAME
+libXcomposite-0.3-5.1.i386.rpm	       SAME
+libXcomposite-devel-0.3-5.1.i386       SAME
+libXcursor-1.1.7-1.1.i386.rpm	       SAME
+libXcursor-devel-1.1.7-1.1.i386.       SAME
+libXdamage-1.0.3-2.1.i386.rpm	       SAME
+libXdamage-devel-1.0.3-2.1.i386.       SAME
+libXdmcp-1.0.1-2.1.i386.rpm	       SAME
+libXdmcp-devel-1.0.1-2.1.i386.rp       SAME
+libXevie-1.0.1-3.1.i386.rpm	       SAME
+libXevie-devel-1.0.1-3.1.i386.rp       SAME
+libXext-1.0.1-2.1.i386.rpm	       SAME
+libXext-devel-1.0.1-2.1.i386.rpm       SAME
+libXfixes-4.0.1-2.1.i386.rpm	       SAME
+libXfixes-devel-4.0.1-2.1.i386.r       SAME
+libXfont-1.2.0-1.1.fc6.i386.rpm	       SAME
+libXfont-devel-1.2.0-1.1.fc6.i38       SAME
+libXfontcache-1.0.2-3.1.i386.rpm       SAME
+libXfontcache-devel-1.0.2-3.1.i3       SAME
+libXft-2.1.10-1.1.i386.rpm	       SAME
+libXft-devel-2.1.10-1.1.i386.rpm       SAME
+libXi-1.0.1-3.1.i386.rpm	       SAME
+libXi-devel-1.0.1-3.1.i386.rpm	       SAME
+libXinerama-1.0.1-2.1.i386.rpm	       SAME
+libXinerama-devel-1.0.1-2.1.i386       SAME
+libXmu-1.0.2-4.1.i386.rpm	       SAME
+libXmu-devel-1.0.2-4.1.i386.rpm	       SAME
+libXp-1.0.0-4.1.i386.rpm	       SAME
+libXp-devel-1.0.0-4.1.i386.rpm	       SAME
+libXpm-3.5.5-3.i386.rpm		       SAME
+libXpm-devel-3.5.5-3.i386.rpm	       SAME
+libXrandr-1.1.1-3.1.i386.rpm	       SAME
+libXrandr-devel-1.1.1-3.1.i386.r       SAME
+libXrender-0.9.1-3.1.i386.rpm	       SAME
+libXrender-devel-0.9.1-3.1.i386.       SAME
+libXres-1.0.1-3.1.i386.rpm	       SAME
+libXres-devel-1.0.1-3.1.i386.rpm       SAME
+libXt-1.0.2-3.1.fc6.i386.rpm	       SAME
+libXt-devel-1.0.2-3.1.fc6.i386.r       SAME
+libXtst-1.0.1-3.1.i386.rpm	       SAME
+libXtst-devel-1.0.1-3.1.i386.rpm       SAME
+libXv-1.0.1-4.1.i386.rpm	       SAME
+libXv-devel-1.0.1-4.1.i386.rpm	       SAME
+libXvMC-1.0.2-2.1.i386.rpm	       SAME
+libXvMC-devel-1.0.2-2.1.i386.rpm       SAME
+libXxf86dga-1.0.1-3.1.i386.rpm	       SAME
+libXxf86dga-devel-1.0.1-3.1.i386       SAME
+libXxf86misc-1.0.1-3.1.i386.rpm	       SAME
+libXxf86misc-devel-1.0.1-3.1.i38       SAME
+libXxf86vm-1.0.1-3.1.i386.rpm	       SAME
+libXxf86vm-devel-1.0.1-3.1.i386.       SAME
+libacl-2.2.39-1.1.i386.rpm	       SAME
+libacl-devel-2.2.39-1.1.i386.rpm       SAME
+libaio-0.3.106-3.2.i386.rpm	       SAME
+libaio-devel-0.3.106-3.2.i386.rp       SAME
+libao-0.8.6-3.i386.rpm		       SAME
+libao-devel-0.8.6-3.i386.rpm	       SAME
+libart_lgpl-2.3.17-4.i386.rpm	       SAME
+libart_lgpl-devel-2.3.17-4.i386.       SAME
+libattr-2.4.32-1.1.i386.rpm	       SAME
+libattr-devel-2.4.32-1.1.i386.rp       SAME
+libavc1394-0.5.1-2.2.1.i386.rpm	       SAME
+libavc1394-devel-0.5.1-2.2.1.i38       SAME
+libbdevid-5.1.2-1.3.i386.rpm	       SAME
+libbdevid-python-5.1.2-1.3.i386.       SAME
+libbonobo-2.15.0-2.i386.rpm	       SAME
+libbonobo-devel-2.15.0-2.i386.rp       SAME
+libbonoboui-2.14.0-3.1.i386.rpm	       SAME
+libbonoboui-devel-2.14.0-3.1.i38       SAME
+libbtctl-0.6.0-9.1.i386.rpm	       SAME
+libbtctl-devel-0.6.0-9.1.i386.rp       SAME
+libc-client-2004g-2.2.1.i386.rpm       SAME
+libc-client-devel-2004g-2.2.1.i3       SAME
+libcap-1.10-25.i386.rpm		       SAME
+libcap-devel-1.10-25.i386.rpm	       SAME
+libchewing-0.3.0-2.fc6.i386.rpm	       SAME
+libchewing-devel-0.3.0-2.fc6.i38       SAME
+libcroco-0.6.1-2.1.i386.rpm	       SAME
+libcroco-devel-0.6.1-2.1.i386.rp       SAME
+libdaemon-0.10-3.2.i386.rpm	       SAME
+libdaemon-devel-0.10-3.2.i386.rp       SAME
+libdbi-0.8.1-2.1.i386.rpm	       SAME
+libdbi-dbd-mysql-0.8.1a-1.2.2.i3       SAME
+libdbi-dbd-pgsql-0.8.1a-1.2.2.i3       SAME
+libdbi-devel-0.8.1-2.1.i386.rpm	       SAME
+libdbi-drivers-0.8.1a-1.2.2.i386       SAME
+libdhcp-1.12-1.i386.rpm		       SAME
+libdhcp-devel-1.12-1.i386.rpm	       SAME
+libdhcp4client-3.0.4-20.fc6.i386       SAME
+libdhcp4client-devel-3.0.4-20.fc       SAME
+libdhcp6client-0.10-31.i386.rpm	       SAME
+libdhcp6client-devel-0.10-31.i38       SAME
+libdmx-1.0.2-3.1.i386.rpm	       SAME
+libdmx-devel-1.0.2-3.1.i386.rpm	       SAME
+libdrm-2.0.2-1.1.i386.rpm	       SAME
+libdrm-devel-2.0.2-1.1.i386.rpm	       SAME
+libdv-0.104-4.fc6.1.i386.rpm	       SAME
+libdv-devel-0.104-4.fc6.1.i386.r       SAME
+libdv-tools-0.104-4.fc6.1.i386.r       SAME
+libevent-1.1a-3.2.1.i386.rpm	       SAME
+libevent-devel-1.1a-3.2.1.i386.r       SAME
+libexif-0.6.13-2.i386.rpm	       SAME
+libexif-devel-0.6.13-2.i386.rpm	       SAME
+libfontenc-1.0.2-2.1.i386.rpm	       SAME
+libfontenc-devel-1.0.2-2.1.i386.       SAME
+libgail-gnome-1.1.3-1.2.1.i386.r       SAME
+libgail-gnome-devel-1.1.3-1.2.1.       SAME
+libgcc-4.1.1-18.i386.rpm	       SAME
+libgcj-4.1.1-18.i386.rpm	       SAME
+libgcj-devel-4.1.1-18.i386.rpm	       SAME
+libgcj-src-4.1.1-18.i386.rpm	       SAME
+libgconf-java-2.12.4-2.fc6.i386.       SAME
+libgconf-java-devel-2.12.4-2.fc6       SAME
+libgcrypt-1.2.2-3.1.i386.rpm	       SAME
+libgcrypt-devel-1.2.2-3.1.i386.r       SAME
+libgfortran-4.1.1-18.i386.rpm	       SAME
+libglade-java-2.12.5-1.fc6.i386.       SAME
+libglade-java-devel-2.12.5-1.fc6       SAME
+libglade2-2.6.0-2.i386.rpm	       SAME
+libglade2-devel-2.6.0-2.i386.rpm       SAME
+libgnat-4.1.1-18.i386.rpm	       SAME
+libgnome-2.15.1-3.fc6.i386.rpm	       SAME
+libgnome-devel-2.15.1-3.fc6.i386       SAME
+libgnome-java-2.12.4-1.fc6.i386.       SAME
+libgnome-java-devel-2.12.4-1.fc6       SAME
+libgnomecanvas-2.14.0-4.1.i386.r       SAME
+libgnomecanvas-devel-2.14.0-4.1.       SAME
+libgnomecups-0.2.2-7.i386.rpm	       SAME
+libgnomecups-devel-0.2.2-7.i386.       SAME
+libgnomeprint22-2.12.1-8.i386.rp       SAME
+libgnomeprint22-devel-2.12.1-8.i       SAME
+libgnomeprintui22-2.12.1-5.i386.       SAME
+libgnomeprintui22-devel-2.12.1-5       SAME
+libgnomeui-2.15.2-2.i386.rpm	       SAME
+libgnomeui-devel-2.15.2-2.i386.r       SAME
+libgomp-4.1.1-18.i386.rpm	       SAME
+libgpg-error-1.3-3.1.i386.rpm	       SAME
+libgpg-error-devel-1.3-3.1.i386.       SAME
+libgpod-0.3.0-3.1.i386.rpm	   <
+libgpod-devel-0.3.0-3.1.i386.rpm   <
+libgsf-1.14.1-6.i386.rpm	       SAME
+libgsf-devel-1.14.1-6.i386.rpm	       SAME
+libgssapi-0.10-1.i386.rpm	       SAME
+libgssapi-devel-0.10-1.i386.rpm	       SAME
+libgtk-java-2.8.6-2.fc6.i386.rpm       SAME
+libgtk-java-devel-2.8.6-2.fc6.i3       SAME
+libgtop2-2.14.1-4.i386.rpm	       SAME
+libgtop2-devel-2.14.1-4.i386.rpm       SAME
+libhugetlbfs-1.0-0.3.pre3.el5.i3       SAME
+libhugetlbfs-devel-1.0-0.3.pre3.       SAME
+libibcm-0.9.0-4.el5.i386.rpm	       SAME
+libibcm-devel-0.9.0-4.el5.i386.r       SAME
+libibcommon-1.0-4.el5.i386.rpm	       SAME
+libibcommon-devel-1.0-4.el5.i386       SAME
+libibmad-1.0-4.el5.i386.rpm	       SAME
+libibmad-devel-1.0-4.el5.i386.rp       SAME
+libibumad-1.0-4.el5.i386.rpm	       SAME
+libibumad-devel-1.0-4.el5.i386.r       SAME
+libibverbs-1.0.3-4.el5.i386.rpm	       SAME
+libibverbs-devel-1.0.3-4.el5.i38       SAME
+libibverbs-utils-1.0.3-4.el5.i38       SAME
+libicu-3.4-10.1.1.i386.rpm	   <
+libicu-devel-3.4-10.1.1.i386.rpm   <
+libicu-doc-3.4-10.1.1.i386.rpm	   <
+libidn-0.6.5-1.1.i386.rpm	       SAME
+libidn-devel-0.6.5-1.1.i386.rpm	       SAME
+libiec61883-1.0.0-10.fc5.2.1.i38       SAME
+libiec61883-devel-1.0.0-10.fc5.2       SAME
+libiec61883-utils-1.0.0-10.fc5.2       SAME
+libieee1284-0.2.9-3.2.2.i386.rpm       SAME
+libieee1284-devel-0.2.9-3.2.2.i3       SAME
+libieee1284-python-0.2.9-3.2.2.i       SAME
+libjpeg-6b-37.i386.rpm		       SAME
+libjpeg-devel-6b-37.i386.rpm	       SAME
+libmng-1.0.9-5.1.i386.rpm	       SAME
+libmng-devel-1.0.9-5.1.i386.rpm	       SAME
+libmthca-1.0.2-4.el5.i386.rpm	       SAME
+libmthca-devel-1.0.2-4.el5.i386.       SAME
+libmudflap-4.1.1-18.i386.rpm	       SAME
+libmudflap-devel-4.1.1-18.i386.r       SAME
+libmusicbrainz-2.1.1-4.1.i386.rp       SAME
+libmusicbrainz-devel-2.1.1-4.1.i       SAME
+libnl-1.0-0.10.pre5.4.i386.rpm	       SAME
+libnl-devel-1.0-0.10.pre5.4.i386       SAME
+libnotify-0.4.2-2.fc6.i386.rpm	       SAME
+libnotify-devel-0.4.2-2.fc6.i386       SAME
+libobjc-4.1.1-18.i386.rpm	       SAME
+libogg-1.1.3-1.2.1.i386.rpm	       SAME
+libogg-devel-1.1.3-1.2.1.i386.rp       SAME
+liboil-0.3.8-2.1.i386.rpm	       SAME
+liboil-devel-0.3.8-2.1.i386.rpm	       SAME
+libpcap-0.9.4-8.1.i386.rpm	       SAME
+libpcap-devel-0.9.4-8.1.i386.rpm       SAME
+libpfm-3.2-0.060621.8.1.i386.rpm       SAME
+libpfm-devel-3.2-0.060621.8.1.i3       SAME
+libpng-1.2.10-6.i386.rpm	       SAME
+libpng-devel-1.2.10-6.i386.rpm	       SAME
+libraw1394-1.2.1-1.fc6.i386.rpm	       SAME
+libraw1394-devel-1.2.1-1.fc6.i38       SAME
+librdmacm-0.9.0-4.el5.i386.rpm	       SAME
+librdmacm-devel-0.9.0-4.el5.i386       SAME
+librdmacm-utils-0.9.0-4.el5.i386       SAME
+librsvg2-2.15.0-3.1.i386.rpm	       SAME
+librsvg2-devel-2.15.0-3.1.i386.r       SAME
+libsane-hpaio-1.6.6a-3.1.i386.rp       SAME
+libsdp-0.9.0-4.el5.i386.rpm	       SAME
+libselinux-1.30.26-2.i386.rpm	       SAME
+libselinux-devel-1.30.26-2.i386.       SAME
+libselinux-python-1.30.26-2.i386       SAME
+libsemanage-1.6.12-2.i386.rpm	       SAME
+libsemanage-devel-1.6.12-2.i386.       SAME
+libsepol-1.12.24-1.i386.rpm	       SAME
+libsepol-devel-1.12.24-1.i386.rp       SAME
+libsilc-1.0.2-1.fc6.1.i386.rpm	       SAME
+libsilc-devel-1.0.2-1.fc6.1.i386       SAME
+libsoup-2.2.96-1.i386.rpm	       SAME
+libsoup-devel-2.2.96-1.i386.rpm	       SAME
+libstdc++-4.1.1-18.i386.rpm	       SAME
+libstdc++-devel-4.1.1-18.i386.rp       SAME
+libswt3-gtk2-3.2.0-1jpp_10fc.i38       SAME
+libsysfs-2.0.0-5.i386.rpm	       SAME
+libsysfs-devel-2.0.0-5.i386.rpm	       SAME
+libtermcap-2.0.8-46.1.i386.rpm	       SAME
+libtermcap-devel-2.0.8-46.1.i386       SAME
+libtheora-1.0alpha5-1.2.2.i386.r       SAME
+libtheora-devel-1.0alpha5-1.2.2.       SAME
+libtiff-3.8.2-5.i386.rpm	       SAME
+libtiff-devel-3.8.2-5.i386.rpm	       SAME
+libtool-1.5.22-6.1.i386.rpm	       SAME
+libtool-ltdl-1.5.22-6.1.i386.rpm       SAME
+libtool-ltdl-devel-1.5.22-6.1.i3       SAME
+libusb-0.1.12-5.1.i386.rpm	       SAME
+libusb-devel-0.1.12-5.1.i386.rpm       SAME
+libuser-0.54.6-2.1.i386.rpm	       SAME
+libuser-devel-0.54.6-2.1.i386.rp       SAME
+libutempter-1.1.4-3.fc6.i386.rpm       SAME
+libutempter-devel-1.1.4-3.fc6.i3       SAME
+libvirt-0.1.3-6.i386.rpm	       SAME
+libvirt-devel-0.1.3-6.i386.rpm	       SAME
+libvirt-python-0.1.3-6.i386.rpm	       SAME
+libvolume_id-095-8.i386.rpm	       SAME
+libvolume_id-devel-095-8.i386.rp       SAME
+libvorbis-1.1.2-1.2.1.i386.rpm	       SAME
+libvorbis-devel-1.1.2-1.2.1.i386       SAME
+libvte-java-0.12.1-2.fc6.i386.rp       SAME
+libvte-java-devel-0.12.1-2.fc6.i       SAME
+libwmf-0.2.8.4-10.i386.rpm	       SAME
+libwmf-devel-0.2.8.4-10.i386.rpm       SAME
+libwnck-2.15.4-1.i386.rpm	       SAME
+libwnck-devel-2.15.4-1.i386.rpm	       SAME
+libwpd-0.8.6-1.i386.rpm		   <
+libwpd-devel-0.8.6-1.i386.rpm	   <
+libwpd-tools-0.8.6-1.i386.rpm	   <
+libwvstreams-4.2.2-2.1.i386.rpm	       SAME
+libwvstreams-devel-4.2.2-2.1.i38       SAME
+libxkbfile-1.0.3-3.1.i386.rpm	       SAME
+libxkbfile-devel-1.0.3-3.1.i386.       SAME
+libxklavier-2.91-1.1.i386.rpm	       SAME
+libxklavier-devel-2.91-1.1.i386.       SAME
+libxml-1.8.17-13.2.2.i386.rpm	       SAME
+libxml-devel-1.8.17-13.2.2.i386.       SAME
+libxml2-2.6.26-2.1.1.i386.rpm	       SAME
+libxml2-devel-2.6.26-2.1.1.i386.       SAME
+libxml2-python-2.6.26-2.1.1.i386       SAME
+libxslt-1.1.17-1.1.i386.rpm	       SAME
+libxslt-devel-1.1.17-1.1.i386.rp       SAME
+libxslt-python-1.1.17-1.1.i386.r       SAME
+linuxdoc-tools-0.9.21-7.1.i386.r       SAME
+linuxwacom-0.7.4_1-2.1.i386.rpm	       SAME
+linuxwacom-devel-0.7.4_1-2.1.i38       SAME
+lksctp-tools-1.0.6-1.el5.i386.rp       SAME
+lksctp-tools-devel-1.0.6-1.el5.i       SAME
+lksctp-tools-doc-1.0.6-1.el5.i38       SAME
+lm_sensors-2.10.0-3.1.i386.rpm	       SAME
+lm_sensors-devel-2.10.0-3.1.i386       SAME
+lockdev-1.0.1-10.i386.rpm	       SAME
+lockdev-devel-1.0.1-10.i386.rpm	       SAME
+log4j-1.2.13-2jpp_2fc.i386.rpm	       SAME
+log4j-javadoc-1.2.13-2jpp_2fc.i3       SAME
+log4j-manual-1.2.13-2jpp_2fc.i38       SAME
+logrotate-3.7.4-4.i386.rpm	       SAME
+logwatch-7.3-3.noarch.rpm	       SAME
+lrzsz-0.12.20-22.1.i386.rpm	       SAME
+lslk-1.29-17.i386.rpm		       SAME
+lsof-4.78-1.i386.rpm		       SAME
+ltrace-0.5-3.45svn.fc6.i386.rpm	       SAME
+lucene-1.4.3-1jpp_13fc.i386.rpm	       SAME
+lucene-demo-1.4.3-1jpp_13fc.i386       SAME
+lucene-devel-1.4.3-1jpp_13fc.i38       SAME
+lucene-javadoc-1.4.3-1jpp_13fc.i       SAME
+				   >	luci-0.8-15.el5.i386.rpm
+lv-4.51-8.1.i386.rpm		       SAME
+lvm2-2.02.09-1.0.RHEL5.i386.rpm	       SAME
+				   >	lvm2-cluster-2.02.09-1.0.RHEL5.i
+lynx-2.8.5-28.1.i386.rpm	       SAME
+m17n-db-1.3.3-16.fc6.noarch.rpm	       SAME
+m17n-db-amharic-1.3.3-16.fc6.noa       SAME
+m17n-db-arabic-1.3.3-16.fc6.noar       SAME
+m17n-db-armenian-1.3.3-16.fc6.no       SAME
+m17n-db-assamese-1.3.3-16.fc6.no       SAME
+m17n-db-bengali-1.3.3-16.fc6.noa       SAME
+m17n-db-chinese-1.3.3-16.fc6.noa       SAME
+m17n-db-common-cjk-1.3.3-16.fc6.       SAME
+m17n-db-croatian-1.3.3-16.fc6.no       SAME
+m17n-db-datafiles-1.3.3-16.fc6.n       SAME
+m17n-db-dhivehi-1.3.3-16.fc6.noa       SAME
+m17n-db-farsi-1.3.3-16.fc6.noarc       SAME
+m17n-db-generic-1.3.3-16.fc6.noa       SAME
+m17n-db-georgian-1.3.3-16.fc6.no       SAME
+m17n-db-greek-1.3.3-16.fc6.noarc       SAME
+m17n-db-gujarati-1.3.3-16.fc6.no       SAME
+m17n-db-hebrew-1.3.3-16.fc6.noar       SAME
+m17n-db-hindi-1.3.3-16.fc6.noarc       SAME
+m17n-db-japanese-1.3.3-16.fc6.no       SAME
+m17n-db-kannada-1.3.3-16.fc6.noa       SAME
+m17n-db-kazakh-1.3.3-16.fc6.noar       SAME
+m17n-db-khmer-1.3.3-16.fc6.noarc       SAME
+m17n-db-korean-1.3.3-16.fc6.noar       SAME
+m17n-db-lao-1.3.3-16.fc6.noarch.       SAME
+m17n-db-latin-1.3.3-16.fc6.noarc       SAME
+m17n-db-malayalam-1.3.3-16.fc6.n       SAME
+m17n-db-marathi-1.3.3-16.fc6.noa       SAME
+m17n-db-myanmar-1.3.3-16.fc6.noa       SAME
+m17n-db-nepali-1.3.3-16.fc6.noar       SAME
+m17n-db-oriya-1.3.3-16.fc6.noarc       SAME
+m17n-db-punjabi-1.3.3-16.fc6.noa       SAME
+m17n-db-russian-1.3.3-16.fc6.noa       SAME
+m17n-db-serbian-1.3.3-16.fc6.noa       SAME
+m17n-db-sinhala-1.3.3-16.fc6.noa       SAME
+m17n-db-slovak-1.3.3-16.fc6.noar       SAME
+m17n-db-swedish-1.3.3-16.fc6.noa       SAME
+m17n-db-syriac-1.3.3-16.fc6.noar       SAME
+m17n-db-tamil-1.3.3-16.fc6.noarc       SAME
+m17n-db-telugu-1.3.3-16.fc6.noar       SAME
+m17n-db-thai-1.3.3-16.fc6.noarch       SAME
+m17n-db-tibetan-1.3.3-16.fc6.noa       SAME
+m17n-db-vietnamese-1.3.3-16.fc6.       SAME
+m17n-lib-1.3.3-1.1.fc6.i386.rpm	       SAME
+m17n-lib-devel-1.3.3-1.1.fc6.i38       SAME
+m4-1.4.5-3.i386.rpm		       SAME
+mailcap-2.1.21-1.fc6.noarch.rpm	       SAME
+mailman-2.1.8-3.1.i386.rpm	       SAME
+mailx-8.1.1-44.2.2.i386.rpm	       SAME
+make-3.81-1.1.i386.rpm		       SAME
+man-1.6d-1.1.i386.rpm		       SAME
+man-pages-2.36-2.noarch.rpm	       SAME
+man-pages-cs-0.16-5.1.1.noarch.r       SAME
+man-pages-da-0.1.1-12.1.1.noarch       SAME
+man-pages-de-0.4-11.noarch.rpm	       SAME
+man-pages-es-1.28-10.1.1.noarch.       SAME
+man-pages-fr-2.22.0-4.noarch.rpm       SAME
+man-pages-it-0.3.0-17.1.noarch.r       SAME
+man-pages-ja-20060715-1.noarch.r       SAME
+man-pages-ko-1.48-15.1.1.noarch.       SAME
+man-pages-pl-0.24-2.1.noarch.rpm       SAME
+man-pages-ru-0.97-1.1.1.noarch.r       SAME
+mc-4.6.1a-22.i386.rpm		       SAME
+mcstrans-0.1.7-1.1.i386.rpm	       SAME
+mdadm-2.5.2-1.1.i386.rpm	       SAME
+memtest86+-1.65-4.1.i386.rpm	       SAME
+mesa-libGL-6.5-20.fc6.i386.rpm	       SAME
+mesa-libGL-devel-6.5-20.fc6.i386       SAME
+mesa-libGLU-6.5-20.fc6.i386.rpm	       SAME
+mesa-libGLU-devel-6.5-20.fc6.i38       SAME
+mesa-libGLw-6.5-20.fc6.i386.rpm	       SAME
+mesa-libGLw-devel-6.5-20.fc6.i38       SAME
+mesa-source-6.5-20.fc6.i386.rpm	       SAME
+metacity-2.15.5-6.1.i386.rpm	       SAME
+mgetty-1.1.33-8.fc6.i386.rpm	       SAME
+mgetty-sendfax-1.1.33-8.fc6.i386       SAME
+mgetty-viewfax-1.1.33-8.fc6.i386       SAME
+mgetty-voice-1.1.33-8.fc6.i386.r       SAME
+microcode_ctl-1.13-1.33.fc6.i386       SAME
+mikmod-3.1.6-38.1.i386.rpm	       SAME
+mikmod-devel-3.1.6-38.1.i386.rpm       SAME
+mingetty-1.07-5.2.2.i386.rpm	       SAME
+minicom-2.1-3.i386.rpm		       SAME
+mkbootdisk-1.5.3-2.1.i386.rpm	       SAME
+mkinitrd-5.1.2-1.3.i386.rpm	       SAME
+mkinitrd-devel-5.1.2-1.3.i386.rp       SAME
+mkisofs-2.01-10.i386.rpm	       SAME
+mktemp-1.5-23.2.2.i386.rpm	       SAME
+mlocate-0.14-2.1.i386.rpm	       SAME
+mockobjects-0.09-14jpp_2fc.i386.       SAME
+mockobjects-alt-httpclient-0.09-       SAME
+mockobjects-alt-jdk1.4-0.09-14jp       SAME
+mockobjects-httpclient-0.09-14jp       SAME
+mockobjects-jdk1.4-0.09-14jpp_2f       SAME
+mod_auth_kerb-5.0-10.i386.rpm	       SAME
+mod_auth_mysql-3.0.0-3.1.i386.rp       SAME
+mod_auth_pgsql-2.0.3-2.3.1.i386.       SAME
+mod_authz_ldap-0.26-7.1.i386.rpm       SAME
+mod_dav_svn-1.3.2-6.i386.rpm	       SAME
+mod_perl-2.0.2-6.1.i386.rpm	       SAME
+mod_perl-devel-2.0.2-6.1.i386.rp       SAME
+mod_python-3.2.8-3.1.i386.rpm	       SAME
+mod_ssl-2.2.3-4.i386.rpm	       SAME
+				   >	modcluster-0.8-14.el5.i386.rpm
+module-init-tools-3.3-0.pre1.4.1       SAME
+mrtg-2.14.5-1.i386.rpm		       SAME
+mtools-3.9.10-1.2.2.i386.rpm	       SAME
+mtr-0.71-3.1.i386.rpm		       SAME
+mtr-gtk-0.71-3.1.i386.rpm	       SAME
+mtx-1.2.18-8.2.2.i386.rpm	       SAME
+mutt-1.4.2.2-1.i386.rpm		       SAME
+mx-2.0.6-2.2.2.i386.rpm		       SAME
+mx4j-3.0.1-4jpp_8fc.i386.rpm	       SAME
+mx4j-javadoc-3.0.1-4jpp_8fc.i386       SAME
+mx4j-manual-3.0.1-4jpp_8fc.i386.       SAME
+mysql-5.0.22-2.1.i386.rpm	       SAME
+mysql-bench-5.0.22-2.1.i386.rpm	       SAME
+mysql-connector-odbc-3.51.12-2.2       SAME
+mysql-devel-5.0.22-2.1.i386.rpm	       SAME
+mysql-server-5.0.22-2.1.i386.rpm       SAME
+mysql-test-5.0.22-2.1.i386.rpm	       SAME
+nano-1.3.12-1.1.i386.rpm	       SAME
+nasm-0.98.39-3.2.2.i386.rpm	       SAME
+nasm-doc-0.98.39-3.2.2.i386.rpm	       SAME
+nasm-rdoff-0.98.39-3.2.2.i386.rp       SAME
+nautilus-2.15.4-4.el5.i386.rpm	       SAME
+nautilus-cd-burner-2.15.4-3.i386       SAME
+nautilus-cd-burner-devel-2.15.4-       SAME
+nautilus-open-terminal-0.6-6.el5       SAME
+nautilus-sendto-0.7-1.1.i386.rpm       SAME
+nautilus-sendto-bluetooth-0.7-1.       SAME
+nc-1.84-6.1.i386.rpm		       SAME
+ncompress-4.2.4-44.1.i386.rpm	       SAME
+ncurses-5.5-22.20060715.i386.rpm       SAME
+ncurses-devel-5.5-22.20060715.i3       SAME
+neon-0.25.5-5.1.i386.rpm	       SAME
+neon-devel-0.25.5-5.1.i386.rpm	       SAME
+net-snmp-5.3.1.0-2.i386.rpm	       SAME
+net-snmp-devel-5.3.1.0-2.i386.rp       SAME
+net-snmp-libs-5.3.1.0-2.i386.rpm       SAME
+net-snmp-perl-5.3.1.0-2.i386.rpm       SAME
+net-snmp-utils-5.3.1.0-2.i386.rp       SAME
+net-tools-1.60-72.1.i386.rpm	       SAME
+netconfig-0.8.24-1.2.2.1.i386.rp       SAME
+netpbm-10.34-2.i386.rpm		       SAME
+netpbm-devel-10.34-2.i386.rpm	       SAME
+netpbm-progs-10.34-2.i386.rpm	       SAME
+newt-0.52.2-8.1.i386.rpm	       SAME
+newt-devel-0.52.2-8.1.i386.rpm	       SAME
+nfs-utils-1.0.9-5.fc6.i386.rpm	       SAME
+nfs-utils-lib-1.0.8-7.2.i386.rpm       SAME
+nfs-utils-lib-devel-1.0.8-7.2.i3       SAME
+nhpf-1.42-9.2.2.i386.rpm	       SAME
+nkf-2.07-1.1.fc6.i386.rpm	       SAME
+nmap-4.11-1.1.i386.rpm		       SAME
+nmap-frontend-4.11-1.1.i386.rpm	       SAME
+notification-daemon-0.3.5-6.i386       SAME
+notify-python-0.1.0-2.fc6.i386.r       SAME
+nscd-2.4.90-22.i386.rpm		       SAME
+nspr-4.6.2-1.1.i386.rpm		       SAME
+nspr-devel-4.6.2-1.1.i386.rpm	       SAME
+nss-3.11.2-1.1.i386.rpm		       SAME
+nss-devel-3.11.2-1.1.i386.rpm	       SAME
+nss-pkcs11-devel-3.11.2-1.1.i386       SAME
+nss-tools-3.11.2-1.1.i386.rpm	       SAME
+nss_db-2.2-35.1.i386.rpm	       SAME
+nss_ldap-250-5.1.i386.rpm	       SAME
+ntp-4.2.2p1-2.i386.rpm		       SAME
+ntsysv-1.3.29-1.1.i386.rpm	       SAME
+numactl-0.9.8-1.33.i386.rpm	       SAME
+opal-2.2.2-1.1.i386.rpm		   |	oddjob-0.27-7.i386.rpm
+opal-devel-2.2.2-1.1.i386.rpm	   |	oddjob-devel-0.27-7.i386.rpm
+				   >	oddjob-libs-0.27-7.i386.rpm
+openais-0.80.1-1.0.i386.rpm	       SAME
+openais-devel-0.80.1-1.0.i386.rp       SAME
+openhpi-2.4.1-5.1.i386.rpm	       SAME
+openhpi-devel-2.4.1-5.1.i386.rpm       SAME
+openib-1.0-4.el5.i386.rpm	       SAME
+openib-diags-1.0-4.el5.i386.rpm	       SAME
+openib-mstflint-1.0-4.el5.i386.r       SAME
+openib-perftest-1.0-4.el5.i386.r       SAME
+openib-srptools-0.0.4-4.el5.i386       SAME
+openib-tvflash-0.9.0-4.el5.i386.       SAME
+openjade-1.3.2-27.i386.rpm	       SAME
+openldap-2.3.24-2.1.i386.rpm	       SAME
+openldap-clients-2.3.24-2.1.i386       SAME
+openldap-devel-2.3.24-2.1.i386.r       SAME
+openldap-servers-2.3.24-2.1.i386       SAME
+openldap-servers-sql-2.3.24-2.1.       SAME
+openmotif-2.3.0-0.2.1.i386.rpm	       SAME
+openmotif-devel-2.3.0-0.2.1.i386       SAME
+openmotif22-2.2.3-17.i386.rpm	       SAME
+				   >	openmpi-1.1-2.el5.i386.rpm
+				   >	openmpi-devel-1.1-2.el5.i386.rpm
+openobex-1.3-3.1.i386.rpm	       SAME
+openobex-apps-1.3-3.1.i386.rpm	       SAME
+openobex-devel-1.3-3.1.i386.rpm	       SAME
+openoffice.org-base-2.0.3-7.7.i3   <
+openoffice.org-calc-2.0.3-7.7.i3   <
+openoffice.org-core-2.0.3-7.7.i3   <
+openoffice.org-draw-2.0.3-7.7.i3   <
+openoffice.org-emailmerge-2.0.3-   <
+openoffice.org-graphicfilter-2.0   <
+openoffice.org-impress-2.0.3-7.7   <
+openoffice.org-javafilter-2.0.3-   <
+openoffice.org-langpack-af_ZA-2.   <
+openoffice.org-langpack-ar-2.0.3   <
+openoffice.org-langpack-bg_BG-2.   <
+openoffice.org-langpack-bn-2.0.3   <
+openoffice.org-langpack-ca_ES-2.   <
+openoffice.org-langpack-cs_CZ-2.   <
+openoffice.org-langpack-cy_GB-2.   <
+openoffice.org-langpack-da_DK-2.   <
+openoffice.org-langpack-de-2.0.3   <
+openoffice.org-langpack-el_GR-2.   <
+openoffice.org-langpack-es-2.0.3   <
+openoffice.org-langpack-et_EE-2.   <
+openoffice.org-langpack-eu_ES-2.   <
+openoffice.org-langpack-fi_FI-2.   <
+openoffice.org-langpack-fr-2.0.3   <
+openoffice.org-langpack-ga_IE-2.   <
+openoffice.org-langpack-gl_ES-2.   <
+openoffice.org-langpack-gu_IN-2.   <
+openoffice.org-langpack-he_IL-2.   <
+openoffice.org-langpack-hi_IN-2.   <
+openoffice.org-langpack-hr_HR-2.   <
+openoffice.org-langpack-hu_HU-2.   <
+openoffice.org-langpack-it-2.0.3   <
+openoffice.org-langpack-ja_JP-2.   <
+openoffice.org-langpack-ko_KR-2.   <
+openoffice.org-langpack-lt_LT-2.   <
+openoffice.org-langpack-ms_MY-2.   <
+openoffice.org-langpack-nb_NO-2.   <
+openoffice.org-langpack-nl-2.0.3   <
+openoffice.org-langpack-nn_NO-2.   <
+openoffice.org-langpack-nr_ZA-2.   <
+openoffice.org-langpack-nso_ZA-2   <
+openoffice.org-langpack-pa_IN-2.   <
+openoffice.org-langpack-pl_PL-2.   <
+openoffice.org-langpack-pt_BR-2.   <
+openoffice.org-langpack-pt_PT-2.   <
+openoffice.org-langpack-ru-2.0.3   <
+openoffice.org-langpack-sk_SK-2.   <
+openoffice.org-langpack-sl_SI-2.   <
+openoffice.org-langpack-sr_CS-2.   <
+openoffice.org-langpack-ss_ZA-2.   <
+openoffice.org-langpack-st_ZA-2.   <
+openoffice.org-langpack-sv-2.0.3   <
+openoffice.org-langpack-ta_IN-2.   <
+openoffice.org-langpack-th_TH-2.   <
+openoffice.org-langpack-tn_ZA-2.   <
+openoffice.org-langpack-tr_TR-2.   <
+openoffice.org-langpack-ts_ZA-2.   <
+openoffice.org-langpack-ve_ZA-2.   <
+openoffice.org-langpack-xh_ZA-2.   <
+openoffice.org-langpack-zh_CN-2.   <
+openoffice.org-langpack-zh_TW-2.   <
+openoffice.org-langpack-zu_ZA-2.   <
+openoffice.org-math-2.0.3-7.7.i3   <
+openoffice.org-pyuno-2.0.3-7.7.i   <
+openoffice.org-testtools-2.0.3-7   <
+openoffice.org-writer-2.0.3-7.7.   <
+openoffice.org-xsltfilter-2.0.3-   <
+opensm-1.2.0-4.el5.i386.rpm	       SAME
+opensm-devel-1.2.0-4.el5.i386.rp       SAME
+opensm-libs-1.2.0-4.el5.i386.rpm       SAME
+opensp-1.5.2-3.1.i386.rpm	       SAME
+opensp-devel-1.5.2-3.1.i386.rpm	       SAME
+openssh-4.3p2-7.i386.rpm	       SAME
+openssh-askpass-4.3p2-7.i386.rpm       SAME
+openssh-clients-4.3p2-7.i386.rpm       SAME
+openssh-server-4.3p2-7.i386.rpm	       SAME
+openssl-0.9.8b-5.i386.rpm	       SAME
+openssl-0.9.8b-5.i686.rpm	       SAME
+openssl-devel-0.9.8b-5.i386.rpm	       SAME
+openssl-perl-0.9.8b-5.i386.rpm	       SAME
+openssl097a-0.9.7a-6.1.i386.rpm	       SAME
+oprofile-0.9.1-15.i386.rpm	       SAME
+oprofile-devel-0.9.1-15.i386.rpm       SAME
+oprofile-gui-0.9.1-15.i386.rpm	       SAME
+oro-2.0.8-1jpp_6fc.noarch.rpm	       SAME
+oro-javadoc-2.0.8-1jpp_6fc.noarc       SAME
+pam-0.99.5.0-6.fc6.i386.rpm	       SAME
+pam-devel-0.99.5.0-6.fc6.i386.rp       SAME
+pam_ccreds-3-4.i386.rpm		       SAME
+pam_krb5-2.2.9-1.i386.rpm	       SAME
+pam_passwdqc-1.0.2-1.2.2.i386.rp       SAME
+pam_pkcs11-0.5.3-14.i386.rpm	       SAME
+pam_smb-1.1.7-7.2.1.i386.rpm	       SAME
+pango-1.13.4-2.i386.rpm		       SAME
+pango-devel-1.13.4-2.i386.rpm	       SAME
+paps-0.6.6-11.fc6.i386.rpm	       SAME
+parted-1.7.1-11.fc6.i386.rpm	       SAME
+parted-devel-1.7.1-11.fc6.i386.r       SAME
+passivetex-1.25-5.1.1.noarch.rpm       SAME
+passwd-0.73-1.i386.rpm		       SAME
+patch-2.5.4-29.2.2.i386.rpm	       SAME
+patchutils-0.2.31-2.2.2.i386.rpm       SAME
+pax-3.4-1.2.2.i386.rpm		       SAME
+pciutils-2.2.3-3.i386.rpm	       SAME
+pciutils-devel-2.2.3-3.i386.rpm	       SAME
+pcmciautils-014-5.i386.rpm	       SAME
+pcre-6.6-1.1.i386.rpm		       SAME
+pcre-devel-6.6-1.1.i386.rpm	       SAME
+pcsc-lite-1.3.1-5.i386.rpm	       SAME
+pcsc-lite-devel-1.3.1-5.i386.rpm       SAME
+pcsc-lite-doc-1.3.1-5.i386.rpm	       SAME
+pcsc-lite-libs-1.3.1-5.i386.rpm	       SAME
+perl-5.8.8-8.i386.rpm		       SAME
+perl-Archive-Tar-1.29-1.1.noarch       SAME
+perl-Archive-Zip-1.16-1.2.1.noar   <
+perl-BSD-Resource-1.28-1.fc6.1.i       SAME
+perl-Bit-Vector-6.4-2.2.2.1.i386       SAME
+perl-Carp-Clan-5.3-1.2.1.noarch.       SAME
+perl-Compress-Zlib-1.42-1.fc6.i3       SAME
+perl-DBD-MySQL-3.0006-1.FC6.i386       SAME
+perl-DBD-Pg-1.49-1.fc6.i386.rpm	       SAME
+perl-DBI-1.51-1.i386.rpm	       SAME
+perl-Date-Calc-5.4-1.2.2.1.i386.       SAME
+perl-Digest-HMAC-1.01-15.noarch.       SAME
+perl-Digest-SHA1-2.11-1.2.1.i386       SAME
+perl-HTML-Parser-3.55-1.fc6.i386       SAME
+perl-HTML-Tagset-3.10-2.1.1.noar       SAME
+perl-IO-Socket-INET6-2.51-2.fc6.       SAME
+perl-IO-Socket-SSL-0.994-1.fc6.n       SAME
+perl-IO-String-1.08-1.1.1.noarch       SAME
+perl-IO-Zlib-1.04-4.2.1.noarch.r       SAME
+perl-NKF-2.07-1.1.fc6.i386.rpm	       SAME
+perl-Net-DNS-0.58-1.fc6.i386.rpm       SAME
+perl-Net-IP-1.25-2.fc6.noarch.rp       SAME
+perl-Net-SSLeay-1.30-4.fc6.i386.       SAME
+perl-Net-Telnet-3.03-5.noarch.rp       SAME
+perl-SGMLSpm-1.03ii-16.2.1.noarc       SAME
+perl-Socket6-0.19-3.fc6.i386.rpm       SAME
+perl-String-CRC32-1.4-2.fc6.i386       SAME
+perl-URI-1.35-3.noarch.rpm	       SAME
+perl-XML-LibXML-1.58-2.2.2.1.i38       SAME
+perl-XML-LibXML-Common-0.13-8.2.       SAME
+perl-XML-NamespaceSupport-1.09-1       SAME
+perl-XML-Parser-2.34-6.1.2.2.1.i       SAME
+perl-XML-SAX-0.14-2.noarch.rpm	       SAME
+perl-XML-Simple-2.14-4.fc6.noarc       SAME
+perl-libwww-perl-5.805-1.1.1.noa       SAME
+perl-suidperl-5.8.8-8.i386.rpm	       SAME
+pfmon-3.2-0.060621.7.1.i386.rpm	       SAME
+php-5.1.4-8.1.i386.rpm		       SAME
+php-bcmath-5.1.4-8.1.i386.rpm	       SAME
+php-cli-5.1.4-8.1.i386.rpm	       SAME
+php-common-5.1.4-8.1.i386.rpm	       SAME
+php-dba-5.1.4-8.1.i386.rpm	       SAME
+php-devel-5.1.4-8.1.i386.rpm	       SAME
+php-gd-5.1.4-8.1.i386.rpm	       SAME
+php-imap-5.1.4-8.1.i386.rpm	       SAME
+php-ldap-5.1.4-8.1.i386.rpm	       SAME
+php-mbstring-5.1.4-8.1.i386.rpm	       SAME
+php-mysql-5.1.4-8.1.i386.rpm	       SAME
+php-ncurses-5.1.4-8.1.i386.rpm	       SAME
+php-odbc-5.1.4-8.1.i386.rpm	       SAME
+php-pdo-5.1.4-8.1.i386.rpm	       SAME
+php-pgsql-5.1.4-8.1.i386.rpm	       SAME
+php-snmp-5.1.4-8.1.i386.rpm	       SAME
+php-soap-5.1.4-8.1.i386.rpm	       SAME
+php-xml-5.1.4-8.1.i386.rpm	       SAME
+php-xmlrpc-5.1.4-8.1.i386.rpm	       SAME
+pilot-link-0.11.8-16.i386.rpm	   <
+pilot-link-devel-0.11.8-16.i386.   <
+pinfo-0.6.8-11.2.2.i386.rpm	       SAME
+				   >	piranha-0.8.4-6.el5.i386.rpm
+pirut-1.1.8-1.noarch.rpm	       SAME
+pkgconfig-0.20-4.1.i386.rpm	       SAME
+planner-0.14-1.1.i386.rpm	   <
+planner-devel-0.14-1.1.i386.rpm	   <
+planner-eds-0.14-1.1.i386.rpm	   <
+pm-utils-0.19-3.i386.rpm	       SAME
+policycoreutils-1.30.17-7.i386.r       SAME
+poppler-0.5.3-1.1.i386.rpm	       SAME
+poppler-devel-0.5.3-1.1.i386.rpm       SAME
+poppler-utils-0.5.3-1.1.i386.rpm       SAME
+popt-1.10.2-31.i386.rpm		       SAME
+portmap-4.0-65.2.2.1.i386.rpm	       SAME
+postfix-2.3.2-2.i386.rpm	       SAME
+postfix-pflogsumm-2.3.2-2.i386.r       SAME
+postgresql-8.1.4-1.1.i386.rpm	       SAME
+postgresql-contrib-8.1.4-1.1.i38       SAME
+postgresql-devel-8.1.4-1.1.i386.       SAME
+postgresql-docs-8.1.4-1.1.i386.r       SAME
+postgresql-jdbc-8.1.407-1jpp.2.i       SAME
+postgresql-libs-8.1.4-1.1.i386.r       SAME
+postgresql-odbc-08.01.0200-3.1.i       SAME
+postgresql-pl-8.1.4-1.1.i386.rpm       SAME
+postgresql-python-8.1.4-1.1.i386       SAME
+postgresql-server-8.1.4-1.1.i386       SAME
+postgresql-tcl-8.1.4-1.1.i386.rp       SAME
+postgresql-test-8.1.4-1.1.i386.r       SAME
+ppp-2.4.4-1.i386.rpm		       SAME
+prelink-0.3.9-2.i386.rpm	       SAME
+privoxy-3.0.3-9.2.2.i386.rpm	       SAME
+procinfo-18-19.i386.rpm		       SAME
+procmail-3.22-17.1.i386.rpm	       SAME
+procps-3.2.7-3.i386.rpm		       SAME
+psacct-6.3.2-41.1.i386.rpm	       SAME
+psgml-1.2.5-4.3.noarch.rpm	       SAME
+psmisc-22.2-5.i386.rpm		       SAME
+pstack-1.2-7.2.2.i386.rpm	       SAME
+psutils-1.17-26.1.i386.rpm	       SAME
+pump-devel-0.8.24-1.2.2.1.i386.r       SAME
+pvm-3.4.5-7.fc6.1.i386.rpm	       SAME
+pvm-gui-3.4.5-7.fc6.1.i386.rpm	       SAME
+pwlib-1.10.1-5.i386.rpm		   <
+pwlib-devel-1.10.1-5.i386.rpm	   <
+pyOpenSSL-0.6-1.p24.7.2.2.i386.r       SAME
+pycairo-1.2.0-1.1.i386.rpm	       SAME
+pycairo-devel-1.2.0-1.1.i386.rpm       SAME
+pygobject2-2.11.0-2.i386.rpm	       SAME
+pygobject2-devel-2.11.0-2.i386.r       SAME
+pygtk2-2.9.3-3.i386.rpm		       SAME
+pygtk2-devel-2.9.3-3.i386.rpm	       SAME
+pygtk2-libglade-2.9.3-3.i386.rpm       SAME
+pykickstart-0.32-1.noarch.rpm	       SAME
+pyorbit-2.14.1-1.1.i386.rpm	       SAME
+pyorbit-devel-2.14.1-1.1.i386.rp       SAME
+pyparted-1.7.2-1.fc6.i386.rpm	       SAME
+pyspi-0.5.5-1.fc6.i386.rpm	       SAME
+python-2.4.3-14.fc6.i386.rpm	       SAME
+python-devel-2.4.3-14.fc6.i386.r       SAME
+python-elementtree-1.2.6-4.2.2.i       SAME
+python-imaging-1.1.5-5.el5.i386.   <
+python-imaging-devel-1.1.5-5.el5   <
+python-lcms-1.15-1.2.2.i386.rpm	       SAME
+python-ldap-2.2.0-2.1.i386.rpm	       SAME
+python-numeric-23.7-2.2.2.i386.r       SAME
+python-pyblock-0.18-1.i386.rpm	       SAME
+python-sqlite-1.1.7-1.2.1.i386.r       SAME
+python-tools-2.4.3-14.fc6.i386.r       SAME
+python-urlgrabber-2.9.9-2.noarch       SAME
+pyxf86config-0.3.27-1.i386.rpm	       SAME
+qt-3.3.6-12.i386.rpm		       SAME
+qt-MySQL-3.3.6-12.i386.rpm	       SAME
+qt-ODBC-3.3.6-12.i386.rpm	       SAME
+qt-PostgreSQL-3.3.6-12.i386.rpm	       SAME
+qt-config-3.3.6-12.i386.rpm	       SAME
+qt-designer-3.3.6-12.i386.rpm	       SAME
+qt-devel-3.3.6-12.i386.rpm	       SAME
+qt-devel-docs-3.3.6-12.i386.rpm	       SAME
+qt4-4.1.4-6.i386.rpm		       SAME
+qt4-devel-4.1.4-6.i386.rpm	       SAME
+qt4-doc-4.1.4-6.i386.rpm	       SAME
+qt4-mysql-4.1.4-6.i386.rpm	       SAME
+qt4-odbc-4.1.4-6.i386.rpm	       SAME
+qt4-postgresql-4.1.4-6.i386.rpm	       SAME
+qt4-sqlite-4.1.4-6.i386.rpm	       SAME
+quagga-0.98.6-2.1.i386.rpm	       SAME
+quagga-contrib-0.98.6-2.1.i386.r       SAME
+quagga-devel-0.98.6-2.1.i386.rpm       SAME
+quota-3.13-1.2.3.1.i386.rpm	       SAME
+radvd-0.9.1-4.i386.rpm		       SAME
+rarpd-ss981107-22.2.2.i386.rpm	       SAME
+rcs-5.7-30.1.i386.rpm		       SAME
+rdate-1.4-5.i386.rpm		       SAME
+rdesktop-1.4.1-3.2.2.i386.rpm	       SAME
+rdist-6.1.5-44.i386.rpm		       SAME
+readahead-1.3-1.i386.rpm	       SAME
+readline-5.1-1.1.i386.rpm	       SAME
+readline-devel-5.1-1.1.i386.rpm	       SAME
+redhat-artwork-0.243-4.el5.i386.       SAME
+redhat-logos-1.2.5-1.noarch.rpm	       SAME
+redhat-lsb-3.1-10.2.1.i386.rpm	       SAME
+redhat-menus-6.7.5-3.noarch.rpm	       SAME
+redhat-release-4.91Client-1.i386   |	redhat-release-4.91Server-1.i386
+redhat-release-notes-4.91Client-   |	redhat-release-notes-4.91Server-
+redhat-rpm-config-8.0.45-1.noarc       SAME
+regexp-1.3-2jpp_9fc.i386.rpm	       SAME
+regexp-javadoc-1.3-2jpp_9fc.i386       SAME
+				   >	rgmanager-2.0.5-1.fc6.i386.rpm
+rhdb-utils-8.1.1-1.2.2.i386.rpm	       SAME
+rhgb-0.16.3-5.fc6.i386.rpm	       SAME
+rhn-check-0.1.3-1.el5.noarch.rpm       SAME
+rhn-client-tools-0.1.3-1.el5.noa       SAME
+rhn-setup-0.1.3-1.el5.noarch.rpm       SAME
+rhn-setup-gnome-0.1.3-1.el5.noar       SAME
+rhnlib-2.1-2.el5.noarch.rpm	       SAME
+rhnsd-4.5.0-3.i386.rpm		       SAME
+rhpl-0.188-1.i386.rpm		       SAME
+rhpxl-0.27-1.i386.rpm		       SAME
+rhythmbox-0.9.5-2.i386.rpm	   |	ricci-0.8-15.el5.i386.rpm
+rmt-0.4b41-1.2.1.i386.rpm	       SAME
+rng-utils-2.0-1.14.1.fc6.i386.rp       SAME
+rootfiles-8.1-1.1.1.noarch.rpm	       SAME
+rp-pppoe-3.5-32.1.i386.rpm	       SAME
+rpm-4.4.2-31.i386.rpm		       SAME
+rpm-build-4.4.2-31.i386.rpm	       SAME
+rpm-devel-4.4.2-31.i386.rpm	       SAME
+rpm-libs-4.4.2-31.i386.rpm	       SAME
+rpm-python-4.4.2-31.i386.rpm	       SAME
+rsh-0.17-35.i386.rpm		       SAME
+rsh-server-0.17-35.i386.rpm	       SAME
+rsync-2.6.8-3.1.i386.rpm	       SAME
+ruby-1.8.4-11.fc6.i386.rpm	       SAME
+ruby-devel-1.8.4-11.fc6.i386.rpm       SAME
+ruby-docs-1.8.4-11.fc6.i386.rpm	       SAME
+ruby-irb-1.8.4-11.fc6.i386.rpm	       SAME
+ruby-libs-1.8.4-11.fc6.i386.rpm	       SAME
+ruby-mode-1.8.4-11.fc6.i386.rpm	       SAME
+ruby-rdoc-1.8.4-11.fc6.i386.rpm	       SAME
+ruby-ri-1.8.4-11.fc6.i386.rpm	       SAME
+ruby-tcltk-1.8.4-11.fc6.i386.rpm       SAME
+rusers-0.17-46.1.i386.rpm	       SAME
+rusers-server-0.17-46.1.i386.rpm       SAME
+rwho-0.17-26.i386.rpm		       SAME
+sabayon-2.12.4-3.el5.i386.rpm	       SAME
+sabayon-apply-2.12.4-3.el5.i386.       SAME
+samba-3.0.23a-3.i386.rpm	       SAME
+samba-client-3.0.23a-3.i386.rpm	       SAME
+samba-common-3.0.23a-3.i386.rpm	       SAME
+samba-swat-3.0.23a-3.i386.rpm	       SAME
+sane-backends-1.0.18-1.fc6.i386.       SAME
+sane-backends-devel-1.0.18-1.fc6       SAME
+sane-backends-libs-1.0.18-1.fc6.       SAME
+sane-frontends-1.0.14-1.2.2.i386       SAME
+scim-1.4.4-29.fc6.i386.rpm	       SAME
+scim-anthy-1.2.0-1.fc6.i386.rpm	       SAME
+scim-bridge-0.2.6-1.fc6.i386.rpm       SAME
+scim-bridge-gtkimm-0.2.6-1.fc6.i       SAME
+scim-chewing-0.3.1-2.1.i386.rpm	       SAME
+scim-chinese-standard-0.0.2-1.el       SAME
+scim-devel-1.4.4-29.fc6.i386.rpm       SAME
+scim-doc-1.4.4-29.fc6.i386.rpm	       SAME
+scim-hangul-0.2.2-6.fc6.i386.rpm       SAME
+scim-libs-1.4.4-29.fc6.i386.rpm	       SAME
+scim-m17n-0.2.0-5.fc6.i386.rpm	       SAME
+scim-pinyin-0.5.91-11.3.fc6.i386       SAME
+scim-qtimm-0.9.4-5.i386.rpm	       SAME
+scim-tables-0.5.6-7.i386.rpm	       SAME
+scim-tables-additional-0.5.6-7.i       SAME
+scim-tables-amharic-0.5.6-7.i386       SAME
+scim-tables-arabic-0.5.6-7.i386.       SAME
+scim-tables-chinese-0.5.6-7.i386       SAME
+scim-tables-nepali-0.5.6-7.i386.       SAME
+scim-tables-russian-0.5.6-7.i386       SAME
+scim-tables-thai-0.5.6-7.i386.rp       SAME
+scim-tables-vietnamese-0.5.6-7.i       SAME
+screen-4.0.2-15.1.i386.rpm	       SAME
+scribus-1.3.3.2-3.el5.i386.rpm	   <
+scribus-devel-1.3.3.2-3.el5.i386   <
+scrollkeeper-0.3.14-6.i386.rpm	       SAME
+sed-4.1.5-3.fc6.i386.rpm	       SAME
+selinux-policy-2.3.3-22.noarch.r       SAME
+selinux-policy-devel-2.3.3-22.no       SAME
+selinux-policy-mls-2.3.3-22.noar       SAME
+selinux-policy-strict-2.3.3-22.n       SAME
+selinux-policy-targeted-2.3.3-22       SAME
+sendmail-8.13.7-3.1.i386.rpm	       SAME
+sendmail-cf-8.13.7-3.1.i386.rpm	       SAME
+sendmail-devel-8.13.7-3.1.i386.r       SAME
+sendmail-doc-8.13.7-3.1.i386.rpm       SAME
+setarch-2.0-1.1.i386.rpm	       SAME
+setroubleshoot-0.28-1.noarch.rpm       SAME
+setserial-2.17-19.2.2.i386.rpm	       SAME
+setup-2.5.53-1.noarch.rpm	       SAME
+setuptool-1.18.1-1.2.1.i386.rpm	       SAME
+sg3_utils-1.20-2.1.i386.rpm	       SAME
+sg3_utils-devel-1.20-2.1.i386.rp       SAME
+sg3_utils-libs-1.20-2.1.i386.rpm       SAME
+sgml-common-0.6.3-18.noarch.rpm	       SAME
+shadow-utils-4.0.17-1.i386.rpm	       SAME
+shared-mime-info-0.18-2.i386.rpm       SAME
+sharutils-4.6.1-2.i386.rpm	       SAME
+sip-4.4.5-1.i386.rpm		       SAME
+sip-devel-4.4.5-1.i386.rpm	       SAME
+slang-2.0.6-3.i386.rpm		       SAME
+slang-devel-2.0.6-3.i386.rpm	       SAME
+slrn-0.9.8.1pl1-1.2.2.i386.rpm	       SAME
+slrn-pull-0.9.8.1pl1-1.2.2.i386.       SAME
+smartmontools-5.36-3.i386.rpm	       SAME
+sound-juicer-2.15.3-3.i386.rpm	       SAME
+sox-12.18.1-1.i386.rpm		       SAME
+sox-devel-12.18.1-1.i386.rpm	       SAME
+spamassassin-3.1.3-5.fc6.i386.rp       SAME
+specspo-11-1.noarch.rpm		       SAME
+speex-1.0.5-2.1.i386.rpm	       SAME
+speex-devel-1.0.5-2.1.i386.rpm	       SAME
+splint-3.1.1-16.el5.i386.rpm	       SAME
+sqlite-3.3.6-1.1.i386.rpm	       SAME
+sqlite-devel-3.3.6-1.1.i386.rpm	       SAME
+squashfs-tools-3.0-1.1.i386.rpm	       SAME
+squid-2.6.STABLE1-3.fc6.i386.rpm       SAME
+squirrelmail-1.4.7-5.fc6.noarch.       SAME
+star-1.5a74-3.1.i386.rpm	       SAME
+stardict-2.4.5-5.i386.rpm	       SAME
+startup-notification-0.8-4.1.i38       SAME
+startup-notification-devel-0.8-4       SAME
+statserial-1.1-38.2.2.i386.rpm	       SAME
+strace-4.5.14-3.i386.rpm	       SAME
+struts-1.2.8-2jpp_16fc.i386.rpm	       SAME
+struts-javadoc-1.2.8-2jpp_16fc.i       SAME
+struts-manual-1.2.8-2jpp_16fc.i3       SAME
+struts-webapps-tomcat5-1.2.8-2jp       SAME
+stunnel-4.15-2.i386.rpm		       SAME
+subversion-1.3.2-6.i386.rpm	       SAME
+subversion-devel-1.3.2-6.i386.rp       SAME
+subversion-javahl-1.3.2-6.i386.r       SAME
+subversion-perl-1.3.2-6.i386.rpm       SAME
+subversion-ruby-1.3.2-6.i386.rpm       SAME
+sudo-1.6.8p12-7.i386.rpm	       SAME
+swig-1.3.29-0.3.i386.rpm	       SAME
+switchdesk-4.0.8-6.noarch.rpm	       SAME
+switchdesk-gui-4.0.8-6.noarch.rp       SAME
+symlinks-1.2-24.2.2.i386.rpm	       SAME
+synaptics-0.14.4-7.1.i386.rpm	       SAME
+sysfsutils-2.0.0-5.i386.rpm	       SAME
+sysklogd-1.4.1-39.1.i386.rpm	       SAME
+syslinux-3.11-3.i386.rpm	       SAME
+sysreport-1.4.3-8.noarch.rpm	       SAME
+sysstat-7.0.0-1.i386.rpm	       SAME
+system-config-bind-4.0.0-44.fc6.       SAME
+system-config-boot-0.2.11-4.i386       SAME
+				   >	system-config-cluster-1.0.29-1.0
+system-config-date-1.8.4-1.noarc       SAME
+system-config-display-1.0.41-1.n       SAME
+system-config-httpd-1.3.3-1.1.1.       SAME
+system-config-keyboard-1.2.7-2.n       SAME
+system-config-kickstart-2.6.13-1       SAME
+system-config-language-1.1.11-2.       SAME
+system-config-lvm-1.0.18-1.2.FC6       SAME
+system-config-network-1.3.91-1.n       SAME
+system-config-network-tui-1.3.91       SAME
+system-config-nfs-1.3.19-1.1.noa       SAME
+system-config-printer-0.7.23-1.i       SAME
+system-config-printer-libs-0.7.2       SAME
+system-config-rootpassword-1.1.9       SAME
+system-config-samba-1.2.35-1.1.n       SAME
+system-config-securitylevel-1.6.       SAME
+system-config-securitylevel-tui-       SAME
+system-config-services-0.9.0-2.n       SAME
+system-config-soundcard-2.0.1-2.       SAME
+system-config-users-1.2.46-1.fc6       SAME
+system-switch-mail-0.5.25-10.noa       SAME
+system-switch-mail-gnome-0.5.25-       SAME
+systemtap-0.5.9-1.fc6.i386.rpm	       SAME
+talk-0.17-29.2.2.i386.rpm	       SAME
+talk-server-0.17-29.2.2.i386.rpm       SAME
+tar-1.15.90-5.i386.rpm		       SAME
+taskjuggler-2.2.0-3.i386.rpm	   <
+tcl-8.4.13-3.fc6.i386.rpm	       SAME
+tcl-devel-8.4.13-3.fc6.i386.rpm	       SAME
+tcl-html-8.4.13-3.fc6.i386.rpm	       SAME
+tclx-8.4.0-3.1.i386.rpm		       SAME
+tclx-devel-8.4.0-3.1.i386.rpm	       SAME
+tclx-doc-8.4.0-3.1.i386.rpm	       SAME
+tcp_wrappers-7.6-40.2.1.i386.rpm       SAME
+tcpdump-3.9.4-8.1.i386.rpm	       SAME
+tcsh-6.14-9.1.i386.rpm		       SAME
+telnet-0.17-37.i386.rpm		       SAME
+telnet-server-0.17-37.i386.rpm	       SAME
+termcap-5.5-1.20060701.1.noarch.       SAME
+tetex-3.0-26.1.i386.rpm		       SAME
+tetex-afm-3.0-26.1.i386.rpm	       SAME
+tetex-doc-3.0-26.1.i386.rpm	       SAME
+tetex-dvips-3.0-26.1.i386.rpm	       SAME
+tetex-fonts-3.0-26.1.i386.rpm	       SAME
+tetex-latex-3.0-26.1.i386.rpm	       SAME
+tetex-xdvi-3.0-26.1.i386.rpm	       SAME
+texi2html-1.76-3.1.noarch.rpm	       SAME
+texinfo-4.8-11.1.i386.rpm	       SAME
+texinfo-tex-4.8-11.1.i386.rpm	       SAME
+tftp-0.42-3.1.i386.rpm		       SAME
+tftp-server-0.42-3.1.i386.rpm	       SAME
+theora-tools-1.0alpha5-1.2.2.i38       SAME
+thunderbird-1.5.0.4-2.i386.rpm	   <
+time-1.7-27.2.2.i386.rpm	       SAME
+tix-8.4.0-11.fc6.i386.rpm	       SAME
+tix-devel-8.4.0-11.fc6.i386.rpm	       SAME
+tix-doc-8.4.0-11.fc6.i386.rpm	       SAME
+tk-8.4.13-3.fc6.i386.rpm	       SAME
+tk-devel-8.4.13-3.fc6.i386.rpm	       SAME
+tkinter-2.4.3-14.fc6.i386.rpm	       SAME
+tmpwatch-2.9.7-1.1.i386.rpm	       SAME
+tn5250-0.17.3-4.1.i386.rpm	       SAME
+tn5250-devel-0.17.3-4.1.i386.rpm       SAME
+				   >	tog-pegasus-2.5.2-2.fc6.i386.rpm
+				   >	tog-pegasus-devel-2.5.2-2.fc6.i3
+tomcat5-5.5.17-3jpp_5fc.i386.rpm       SAME
+tomcat5-admin-webapps-5.5.17-3jp       SAME
+tomcat5-common-lib-5.5.17-3jpp_5       SAME
+tomcat5-jasper-5.5.17-3jpp_5fc.i       SAME
+tomcat5-jasper-javadoc-5.5.17-3j       SAME
+tomcat5-jsp-2.0-api-5.5.17-3jpp_       SAME
+tomcat5-jsp-2.0-api-javadoc-5.5.       SAME
+tomcat5-server-lib-5.5.17-3jpp_5       SAME
+tomcat5-servlet-2.4-api-5.5.17-3       SAME
+tomcat5-servlet-2.4-api-javadoc-       SAME
+tomcat5-webapps-5.5.17-3jpp_5fc.       SAME
+totem-1.5.4-4.i386.rpm		       SAME
+totem-devel-1.5.4-4.i386.rpm	       SAME
+totem-mozplugin-1.5.4-4.i386.rpm       SAME
+traceroute-1.0.4-2.i386.rpm	       SAME
+transfig-3.2.4-16.i386.rpm	       SAME
+tree-1.5.0-4.i386.rpm		       SAME
+tsclient-0.148-2.1.i386.rpm	       SAME
+ttmkfdir-3.0.9-20.2.1.i386.rpm	       SAME
+tux-3.2.18-8.fc6.i386.rpm	       SAME
+tzdata-2006g-1.1.noarch.rpm	       SAME
+udev-095-8.i386.rpm		       SAME
+unifdef-1.171-5.fc6.i386.rpm	       SAME
+units-1.85-1.2.2.i386.rpm	       SAME
+unix2dos-2.2-26.2.2.i386.rpm	       SAME
+unixODBC-2.2.11-7.1.i386.rpm	       SAME
+unixODBC-devel-2.2.11-7.1.i386.r       SAME
+unixODBC-kde-2.2.11-7.1.i386.rpm       SAME
+unzip-5.52-2.2.1.i386.rpm	       SAME
+urw-fonts-2.3-6.1.1.noarch.rpm	       SAME
+usermode-1.85-2.2.1.i386.rpm	       SAME
+usermode-gtk-1.85-2.2.1.i386.rpm       SAME
+util-linux-2.13-0.36.i386.rpm	       SAME
+uucp-1.07-12.i386.rpm		       SAME
+valgrind-3.2.0-4.i386.rpm	       SAME
+vconfig-1.9-2.1.i386.rpm	       SAME
+velocity-1.4-5jpp_2fc.i386.rpm	       SAME
+velocity-demo-1.4-5jpp_2fc.i386.       SAME
+velocity-javadoc-1.4-5jpp_2fc.i3       SAME
+velocity-manual-1.4-5jpp_2fc.i38       SAME
+vim-X11-7.0.042-1.i386.rpm	       SAME
+vim-common-7.0.042-1.i386.rpm	       SAME
+vim-enhanced-7.0.042-1.i386.rpm	       SAME
+vim-minimal-7.0.042-1.i386.rpm	       SAME
+vino-2.13.5-4.1.i386.rpm	       SAME
+vixie-cron-4.1-58.fc6.i386.rpm	       SAME
+vlock-1.3-23.i386.rpm		       SAME
+vnc-4.1.2-3.fc6.i386.rpm	       SAME
+vnc-server-4.1.2-3.fc6.i386.rpm	       SAME
+vorbis-tools-1.1.1-2.i386.rpm	       SAME
+vsftpd-2.0.5-7.i386.rpm		       SAME
+vte-0.13.4-1.i386.rpm		       SAME
+vte-devel-0.13.4-1.i386.rpm	       SAME
+w3m-0.5.1-14.1.i386.rpm		       SAME
+w3m-img-0.5.1-14.1.i386.rpm	       SAME
+webalizer-2.01_10-30.1.i386.rpm	       SAME
+werken-xpath-0.9.4-0.beta.11jpp_       SAME
+werken-xpath-javadoc-0.9.4-0.bet       SAME
+wget-1.10.2-5.1.i386.rpm	       SAME
+which-2.16-7.i386.rpm		       SAME
+wireless-tools-28-0.pre16.1.6.1.       SAME
+wireshark-0.99.2-1.i386.rpm	       SAME
+wireshark-gnome-0.99.2-1.i386.rp       SAME
+words-3.0-9.noarch.rpm		       SAME
+wpa_supplicant-0.4.8-10.1.fc6.i3       SAME
+wpa_supplicant-gui-0.4.8-10.1.fc       SAME
+wsdl4j-1.5.2-3jpp_2jpp.i386.rpm	       SAME
+wsdl4j-javadoc-1.5.2-3jpp_2jpp.i       SAME
+wvdial-1.54.0-5.2.2.1.i386.rpm	       SAME
+x3270-3.3.4p7-3.el5.i386.rpm	       SAME
+x3270-text-3.3.4p7-3.el5.i386.rp       SAME
+x3270-x11-3.3.4p7-3.el5.i386.rpm       SAME
+x86info-1.18-1.24.fc6.i386.rpm	       SAME
+xalan-j2-2.7.0-4jpp_4fc.i386.rpm       SAME
+xalan-j2-demo-2.7.0-4jpp_4fc.i38       SAME
+xalan-j2-javadoc-2.7.0-4jpp_4fc.       SAME
+xalan-j2-manual-2.7.0-4jpp_4fc.i       SAME
+xalan-j2-xsltc-2.7.0-4jpp_4fc.i3       SAME
+xcdroast-0.98a15-12.2.2.i386.rpm       SAME
+xchat-2.6.0-6.i386.rpm		       SAME
+xdelta-1.1.3-20.i386.rpm	       SAME
+xdelta-devel-1.1.3-20.i386.rpm	       SAME
+xdoclet-1.2.3-6jpp_4fc.i386.rpm	       SAME
+xdoclet-javadoc-1.2.3-6jpp_4fc.i       SAME
+xdoclet-manual-1.2.3-6jpp_4fc.i3       SAME
+xen-3.0.2-23.i386.rpm		       SAME
+xen-devel-3.0.2-23.i386.rpm	       SAME
+xen-libs-3.0.2-23.i386.rpm	       SAME
+xerces-j2-2.7.1-6jpp_9fc.i386.rp       SAME
+xerces-j2-demo-2.7.1-6jpp_9fc.i3       SAME
+xerces-j2-javadoc-apis-2.7.1-6jp       SAME
+xerces-j2-javadoc-impl-2.7.1-6jp       SAME
+xerces-j2-javadoc-other-2.7.1-6j       SAME
+xerces-j2-javadoc-xni-2.7.1-6jpp       SAME
+xerces-j2-scripts-2.7.1-6jpp_9fc       SAME
+xferstats-2.16-14.1.i386.rpm	       SAME
+xfig-3.2.4-21.1.i386.rpm	       SAME
+xhtml1-dtds-1.0-7.1.1.noarch.rpm       SAME
+xinetd-2.3.14-3.1.i386.rpm	       SAME
+xisdnload-3.2-50.i386.rpm	       SAME
+xjavadoc-1.1-3jpp_1fc.i386.rpm	       SAME
+xjavadoc-javadoc-1.1-3jpp_1fc.i3       SAME
+xkeyboard-config-0.8-2.noarch.rp       SAME
+xml-common-0.6.3-18.noarch.rpm	       SAME
+xml-commons-1.3.02-0.b2.7jpp_9fc       SAME
+xml-commons-apis-1.3.02-0.b2.7jp       SAME
+xml-commons-apis-javadoc-1.3.02-       SAME
+xml-commons-apis-manual-1.3.02-0       SAME
+xml-commons-resolver-1.1-1jpp_11       SAME
+xml-commons-resolver-javadoc-1.1       SAME
+xml-commons-which-1.3.02-0.b2.7j       SAME
+xml-commons-which-javadoc-1.3.02       SAME
+xmlrpc-2.0.1-1jpp_8.2fc.i386.rpm   <
+xmlrpc-javadoc-2.0.1-1jpp_8.2fc.   <
+xmlsec1-1.2.9-8.1.i386.rpm	   <
+xmlsec1-devel-1.2.9-8.1.i386.rpm   <
+xmlsec1-gnutls-1.2.9-8.1.i386.rp   <
+xmlsec1-gnutls-devel-1.2.9-8.1.i   <
+xmlsec1-nss-1.2.9-8.1.i386.rpm	   <
+xmlsec1-nss-devel-1.2.9-8.1.i386   <
+xmlsec1-openssl-1.2.9-8.1.i386.r   <
+xmlsec1-openssl-devel-1.2.9-8.1.   <
+xmltex-20020625-8.noarch.rpm	       SAME
+xmlto-0.0.18-13.1.i386.rpm	       SAME
+xorg-x11-apps-7.1-2.fc6.i386.rpm       SAME
+xorg-x11-drivers-7.1-2.1.i386.rp       SAME
+xorg-x11-drv-acecad-1.1.0-2.1.i3       SAME
+xorg-x11-drv-aiptek-1.0.1-2.i386       SAME
+xorg-x11-drv-apm-1.1.1-2.1.i386.       SAME
+xorg-x11-drv-ark-0.6.0-2.1.i386.       SAME
+xorg-x11-drv-ast-0.81.0-3.i386.r       SAME
+xorg-x11-drv-ati-6.6.1-7.fc6.i38       SAME
+xorg-x11-drv-calcomp-1.1.0-1.1.i       SAME
+xorg-x11-drv-chips-1.1.1-2.1.i38       SAME
+xorg-x11-drv-cirrus-1.1.0-1.1.i3       SAME
+xorg-x11-drv-citron-2.2.0-1.1.i3       SAME
+xorg-x11-drv-cyrix-1.1.0-4.i386.       SAME
+xorg-x11-drv-digitaledge-1.1.0-1       SAME
+xorg-x11-drv-dmc-1.1.0-2.i386.rp       SAME
+xorg-x11-drv-dummy-0.2.0-2.1.i38       SAME
+xorg-x11-drv-dynapro-1.1.0-2.i38       SAME
+xorg-x11-drv-elo2300-1.1.0-1.1.i       SAME
+xorg-x11-drv-elographics-1.1.0-1       SAME
+xorg-x11-drv-evdev-1.1.2-2.1.i38       SAME
+xorg-x11-drv-fbdev-0.3.0-1.1.i38       SAME
+xorg-x11-drv-fpit-1.1.0-1.1.i386       SAME
+xorg-x11-drv-glint-1.1.1-4.1.i38       SAME
+xorg-x11-drv-hyperpen-1.1.0-2.i3       SAME
+xorg-x11-drv-i128-1.2.0-3.i386.r       SAME
+xorg-x11-drv-i740-1.1.0-2.1.i386       SAME
+xorg-x11-drv-i810-1.6.0-13.20060       SAME
+xorg-x11-drv-i810-devel-1.6.0-13       SAME
+xorg-x11-drv-jamstudio-1.1.0-1.1       SAME
+xorg-x11-drv-joystick-1.1.0-1.1.       SAME
+xorg-x11-drv-keyboard-1.1.0-2.1.       SAME
+xorg-x11-drv-magellan-1.1.0-1.1.       SAME
+xorg-x11-drv-magictouch-1.0.0.5-       SAME
+xorg-x11-drv-mga-1.4.1-4.1.i386.       SAME
+xorg-x11-drv-microtouch-1.1.0-1.       SAME
+xorg-x11-drv-mouse-1.1.1-1.1.i38       SAME
+xorg-x11-drv-mutouch-1.1.0-2.i38       SAME
+xorg-x11-drv-neomagic-1.1.1-2.1.       SAME
+xorg-x11-drv-nsc-2.8.1-2.1.i386.       SAME
+xorg-x11-drv-nv-1.2.0-3.fc6.i386       SAME
+xorg-x11-drv-palmax-1.1.0-1.1.i3       SAME
+xorg-x11-drv-penmount-1.1.0-2.1.       SAME
+xorg-x11-drv-rendition-4.1.0-3.1       SAME
+xorg-x11-drv-s3-0.4.1-2.1.i386.r       SAME
+xorg-x11-drv-s3virge-1.9.1-2.1.i       SAME
+xorg-x11-drv-savage-2.1.1-5.fc6.       SAME
+xorg-x11-drv-siliconmotion-1.4.1       SAME
+xorg-x11-drv-sis-0.9.1-4.i386.rp       SAME
+xorg-x11-drv-sisusb-0.8.1-4.1.i3       SAME
+xorg-x11-drv-spaceorb-1.1.0-1.1.       SAME
+xorg-x11-drv-summa-1.1.0-1.1.i38       SAME
+xorg-x11-drv-tdfx-1.2.1-3.1.i386       SAME
+xorg-x11-drv-trident-1.2.1-3.fc6       SAME
+xorg-x11-drv-tseng-1.1.0-3.1.i38       SAME
+xorg-x11-drv-ur98-1.1.0-1.1.i386       SAME
+xorg-x11-drv-v4l-0.1.1-4.i386.rp       SAME
+xorg-x11-drv-vesa-1.2.1-2.i386.r       SAME
+xorg-x11-drv-vga-4.1.0-2.1.i386.       SAME
+xorg-x11-drv-via-0.2.1-4.1.i386.       SAME
+xorg-x11-drv-via-devel-0.2.1-4.1       SAME
+xorg-x11-drv-vmmouse-12.4.0-2.1.       SAME
+xorg-x11-drv-vmware-10.13.0-2.1.       SAME
+xorg-x11-drv-void-1.1.0-3.1.i386       SAME
+xorg-x11-drv-voodoo-1.1.0-3.1.i3       SAME
+xorg-x11-filesystem-7.1-2.fc6.no       SAME
+xorg-x11-font-utils-7.1-2.i386.r       SAME
+xorg-x11-fonts-100dpi-7.1-1.noar       SAME
+xorg-x11-fonts-75dpi-7.1-1.noarc       SAME
+xorg-x11-fonts-ISO8859-1-100dpi-       SAME
+xorg-x11-fonts-ISO8859-1-75dpi-7       SAME
+xorg-x11-fonts-ISO8859-14-100dpi       SAME
+xorg-x11-fonts-ISO8859-14-75dpi-       SAME
+xorg-x11-fonts-ISO8859-15-100dpi       SAME
+xorg-x11-fonts-ISO8859-15-75dpi-       SAME
+xorg-x11-fonts-ISO8859-2-100dpi-       SAME
+xorg-x11-fonts-ISO8859-2-75dpi-7       SAME
+xorg-x11-fonts-ISO8859-9-100dpi-       SAME
+xorg-x11-fonts-ISO8859-9-75dpi-7       SAME
+xorg-x11-fonts-Type1-7.1-1.noarc       SAME
+xorg-x11-fonts-base-7.1-1.noarch       SAME
+xorg-x11-fonts-cyrillic-7.1-1.no       SAME
+xorg-x11-fonts-ethiopic-7.1-1.no       SAME
+xorg-x11-fonts-misc-7.1-1.noarch       SAME
+xorg-x11-fonts-syriac-7.1-1.noar       SAME
+xorg-x11-fonts-truetype-7.1-1.no       SAME
+xorg-x11-proto-devel-7.1-5.fc6.i       SAME
+xorg-x11-resutils-7.1-2.fc6.i386       SAME
+xorg-x11-server-Xdmx-1.1.1-25.fc       SAME
+xorg-x11-server-Xephyr-1.1.1-25.       SAME
+xorg-x11-server-Xnest-1.1.1-25.f       SAME
+xorg-x11-server-Xorg-1.1.1-25.fc       SAME
+xorg-x11-server-Xvfb-1.1.1-25.fc       SAME
+xorg-x11-server-sdk-1.1.1-25.fc6       SAME
+xorg-x11-server-utils-7.1-3.fc6.       SAME
+xorg-x11-twm-1.0.1-3.1.i386.rpm	       SAME
+xorg-x11-util-macros-1.0.2-4.fc6       SAME
+xorg-x11-utils-7.1-2.fc6.i386.rp       SAME
+xorg-x11-xauth-1.0.1-2.1.i386.rp       SAME
+xorg-x11-xbitmaps-1.0.1-4.1.i386       SAME
+xorg-x11-xdm-1.0.5-5.fc6.i386.rp       SAME
+xorg-x11-xfs-1.0.2-3.1.i386.rpm	       SAME
+xorg-x11-xfs-utils-1.0.2-3.1.i38       SAME
+xorg-x11-xinit-1.0.2-8.fc6.i386.       SAME
+xorg-x11-xkb-utils-1.0.2-2.1.i38       SAME
+xorg-x11-xsm-1.0.2-4.fc6.i386.rp       SAME
+xorg-x11-xtrans-devel-1.0.1-1.1.       SAME
+xrestop-0.2-6.2.2.i386.rpm	       SAME
+xsane-0.99-5.1.i386.rpm		       SAME
+xsane-gimp-0.99-5.1.i386.rpm	       SAME
+xsri-2.1.0-10.fc6.i386.rpm	       SAME
+xterm-215-1.fc6.i386.rpm	       SAME
+yelp-2.15.5-1.el5.i386.rpm	       SAME
+yp-tools-2.9-0.1.i386.rpm	       SAME
+ypbind-1.19-0.3.i386.rpm	       SAME
+ypserv-2.19-2.i386.rpm		       SAME
+yum-2.9.3-2.noarch.rpm		       SAME
+yum-metadata-parser-1.0-7.1.fc6.       SAME
+yum-rhn-plugin-0.0.8-2.el5.noarc       SAME
+yum-updatesd-2.9.3-2.noarch.rpm	       SAME
+zenity-2.15.2-4.i386.rpm	       SAME
+zip-2.31-1.2.2.i386.rpm		       SAME
+zisofs-tools-1.0.6-3.2.2.i386.rp       SAME
+zlib-1.2.3-3.i386.rpm		       SAME
+zlib-devel-1.2.3-3.i386.rpm	       SAME
+zsh-4.2.5-2.i386.rpm		       SAME
+zsh-html-4.2.5-2.i386.rpm	       SAME
+
+======================================================================
+
+OLD Data On Bad ISO
+Big Problem:
+  -- evince on Client DVD RHEL5-Client-20060830.1-i386-DVD.iso is
+     BAD. Kills install. 
+   -- [Update] Only work-around seems to be to not choose GNOME
+   -- [Update] Broken on client CD's also.
+   -- [Update] evince, ppp, kudzu and several other packages get this
+               error. 
+
+======================================================================
+
+------------------------------------------------------------------------
+*[rhelv5-beta-list] Red Hat Enterprise Linux 5 Beta 1 Availability
+Announcement*
+------------------------------------------------------------------------
+* rhelv5-beta-list@redhat.com <rhelv5-beta-list@redhat.com> * 	* Fri,
+Sep 8, 2006 at 5:44 AM *
+Reply-To: rhelv5-beta-list@redhat.com
+To: rhelv5-beta-list@redhat.com
+
+Red Hat is pleased to announce the availability of the Red Hat
+Enterprise Linux 5 Beta 1 milestone.
+
+This is a public beta.  Feel free to forward this announcement to anyone
+who may be interested in testing this beta release.
+
+Red Hat Enterprise Linux 5 Beta 1 is a preview of the next generation
+of Red Hat's comprehensive suite of enterprise operating systems,
+designed for mission-critical enterprise computing and certified by top
+enterprise software vendors.  More information on the current,
+supported releases of Red Hat Enterprise Linux is available at:
+
+    http://www.redhat.com/software/rhel/
+<http://www.redhat.com/software/rhel/>
+
+This announcement includes details on obtaining the beta software,
+reporting bugs, and communicating with Red Hat and other testers
+via mailing lists during the beta period.
+
+The development of Red Hat Enterprise Linux 5 is closely aligned with
+Fedora Core 6 and the upstream community.
+
+This is the first Red Hat Enterprise Linux release that includes Xen
+based open source virtualization technology.  The Red Hat Enterprise
+Linux 5 Beta 1 release contains virtualization on the i386 and x86_64
+architectures as well as a technology preview for IA64.  We are
+particularly interested in your feedback on the Xen technology.
+
+Other focus areas for Red Hat Enterprise Linux 5 Beta 1 testing include
+the following:
+
+* Network storage (Autofs, iSCSI)
+* Kexec / Kdump (replacing Diskdump and Netdump)
+* Smartcard integration
+* SELinux Security
+* Installer improvements
+* Clustering and Cluster File systems
+* Analysis and Development Tools (SystemTap, Frysk)
+* Stateless Linux Enablers
+* Infiniband and RDMA (OpenFabrics.Org)
+* New Driver Model for better integration of out-of-kernel-tree drivers
+
+This beta release supports a wide range of hardware platforms including:
+    - 32-bit x86-compatible (i386/i686)
+    - 64-bit AMD64 and Intel EM64T (x86_64)
+    - 64-bit Intel Itanium2 (ia64)
+    - 64-bit IBM eServer iSeries and pSeries and POWER (ppc64)
+    - 64-bit IBM eServer zSeries (s390x)
+
+New Packaging Structure
+-----------------------
+
+The architecture of the media kit and RHN channel structure has changed
+from previous versions of Red Hat Enterprise Linux. The number of
+different variants and media kits has been reduced to the following:
+
+* Red Hat Enterprise Linux 5 Client
+* Red Hat Enterprise Linux 5 Server
+
+Red Hat Enterprise Linux Client is available for the i386 and x86_64
+architectures only.
+
+Beyond the core distribution, these media kits contain a number of
+optional directories that provide additional functionality.
+
+Red Hat Enterprise Linux Server
+* Cluster - Fail-Over clustering and Web load balancing
+* ClusterStorage - Parallel storage access via clustered volume manager
+  and GFS cluster file system
+* Virtualization - Xen virtualization environment
+
+Red Hat Enterprise Linux Client
+* Desktop - Desktop applications including Evolution and OpenOffice (not
+  available on the Server)
+* Workstation - Full Engineering Workstation and Developer package set
+* Virtualization - Xen virtualization environment
+
+Accessing the Software
+----------------------
+
+Red Hat Enterprise Linux 5 Beta 1 is made available to existing Red Hat
+Enterprise Linux subscribers via RHN.  The beta channels will
+automatically appear in your account within the next 24 hours.
+Installable binary and source ISO images are available via Red Hat
+Network at:
+
+    https://rhn.redhat.com/network/software/download_isos_full.pxt
+<https://rhn.redhat.com/network/software/download_isos_full.pxt>
+
+You will be required to login using a valid RHN account with active
+entitlements.  If you'd like to test our Beta product and don't have an
+active RHEL entitlement, please contact contact a local Red Hat
+representative or request an evaluation entitlement at
+
+    http://www.redhat.com/rhel/details/eval/
+<http://www.redhat.com/rhel/details/eval/>
+
+Note that while this page says Red Hat Enterprise Linux 4, you
+automatically receive Red Hat Enterprise Linux 5 Beta 1 access along
+with the Red Hat Enterprise Linux 4 trial subscription.
+
+Red Hat Enterprise Linux 5 is still in development and therefore the
+contents of the media-kit, the implemented features and the supported
+configurations are subject to change before the release of the final
+product.  The supplied beta packages and CD images are intended for
+testing purposes only.  Remember that this early access software is not
+supported and is not intended for production environments!  Do not
+publish any benchmark or performance results based on this beta release.
+Upgrading from beta releases to the GA product will not be supported.
+
+Installing the Software / Registration Key
+------------------------------------------
+
+The installer requires entering a registration key in order to configure
+the repositories offered for installation.  In this beta release, the
+registration code implementation is a stub and will accept a character
+combination that then is mapped to the repository selection.  The keys
+are:
+
+Red Hat Enterprise Linux Server
+V ==> Virtualization
+C ==> Clustering
+S ==> ClusterStorage
+
+Red Hat Enterprise Linux Client
+D ==> Desktop
+W ==> Workstation
+V ==> Virtualization
+
+On a Server media kit, entering "SV" in the registration code dialog
+will activate the ClusterStorage and Virtualization repositories.
+
+Note: On the client "D" should always be entered.
+
+Bug Reporting
+-------------
+
+Red Hat Enterprise Linux 5 Beta testers, who have assigned Technical
+Account Managers (TAMs) and/or Technical Partner Managers, should report
+all bugs with this beta release using your current Issue Tracker
+account.
+
+All other beta users should report bugs using Red Hat's Bugzilla.  To
+report and query for bugs in this Beta release, you need a Bugzilla
+account with access to the "Red Hat Enterprise Linux Public Beta"
+product.
+
+To report a bug via Bugzilla:
+
+1. Login to the Bugzilla home page at http://bugzilla.redhat.com.
+   If you don't have an existing account, simply create one by going to
+   this page:
+
+    https://bugzilla.redhat.com/bugzilla/createaccount.cgi
+<https://bugzilla.redhat.com/bugzilla/createaccount.cgi>
+
+2. On the Bugzilla home page, choose the "New" tab.  Proceed to
+   Step 3, "Choosing Your Product" by clicking that button at
+   the bottom of the page.
+
+3. Choose Product "Red Hat Enterprise Linux Public Beta".
+
+4. Choose Version "rhel5-beta1".
+
+5. Choose the component against which you wish to report a
+   problem, such as kernel, glibc, etc.  If you do not know the
+   component or want to file a bug against the general product, please
+   choose "distribution" as the component.
+
+6. Choose the platform, such as: "All", "x86_64", etc.
+
+7. Provide the information about the problem you're reporting by
+   entering information in the appropriate fields.  In the Summary
+   field, provide a clear and descriptive abstract of the issue.
+   In the Description field, please state clearly that you are using a
+   *Beta 1* package and provide the full package versions of any
+   components you are experiencing problems with (as packages may be
+   updated).
+
+8. Check to make sure that all information is accurate and click the
+   "Commit" button to submit your problem report.
+
+Known Issues
+------------
+
+The release notes are at the end of this announcement.  You can view
+additional known issues in the Red Hat Knowledge Base system at:
+
+    http://kbase.redhat.com/faq/topten_105_0.shtm
+<http://kbase.redhat.com/faq/topten_105_0.shtm>
+
+Mailing Lists
+-------------
+
+For Red Hat Enterprise Linux 5 and subsequent updates, the announcement
+mailing list is rhelv5-announce redhat com.  Subscribe using the
+web-based mailing list interface at:
+
+    http://www.redhat.com/mailman/listinfo/rhelv5-announce
+<http://www.redhat.com/mailman/listinfo/rhelv5-announce>
+
+Red Hat has created a public mailing list for general discussion of the
+Red Hat Enterprise Linux 5 (Tikanga) Beta releases.  To subscribe to the
+list, send mail to rhelv5-beta-list-request redhat com with 'subscribe'
+in the subject line.  Leave the body empty.  Or subscribe using the
+web-based mailing list interface at:
+
+    https://www.redhat.com/mailman/listinfo/rhelv5-beta-list/
+<https://www.redhat.com/mailman/listinfo/rhelv5-beta-list/>
+
+
+Thank you for your interest in the Red Hat Enterprise Linux 5
+beta program.  We look forward to working with you to ensure
+a high quality release!
+
+Sincerely,
+
+The Red Hat Enterprise Linux Team
+
+
+            Red Hat Enterprise Linux 5 Beta 1 Release Notes
+
+     Copyright (c) 2006 Red Hat, Inc.
+
+--------------------------------------------------------------------------
+
+Introduction
+
+   The following topics are covered in this document:
+
+     o Installation Related Notes
+
+     o General Information
+
+     o Internationalization
+
+     o Kernel Notes
+
+     o Changes to Packages
+
+   For late-breaking information on Red Hat Enterprise Linux 4.91 that
+   did not appear in these Release Notes, refer to the Red Hat
+   Knowledgebase at the following URL:
+
+   [1]https://www.redhat.com/apps/support/knowledgebase/
+
+Installation Related Notes
+
+   The following section includes information specific to installation
+   of Red Hat Enterprise Linux and the Anaconda installation program.
+
+  Note
+
+   In order to upgrade an already-installed Red Hat Enterprise Linux
+   4.91, you must use Red Hat Network to update those packages that have
+   changed.
+
+   You may use Anaconda to perform a fresh installation of Red Hat
+   Enterprise Linux 4.91 or to perform an upgrade from the latest
+   updated version of Red Hat Enterprise Linux 4 to Red Hat Enterprise
+   Linux 4.91.
+
+  Subversion
+
+   In Red Hat Enterprise Linux 4.91, the Subversion version control
+   system is linked against Berkeley DB 4.3. If upgrading from Red Hat
+   Enterprise Linux 4 and any Subversion repositories have been created
+   on the system which use the Berkeley DB backend "BDB" (rather than
+   the pure filesystem-based "FSFS" backend), special care must be taken
+   to ensure the repositories can be accessible after the upgrade. This
+   process must be followed on the Red Hat Enterprise Linux 4 system,
+   prior to upgrading to Red Hat Enterprise Linux 4.91:
+
+    1. Shut down any running processes and ensure that no processes can
+       access the repository (for example, httpd or svnserve; or any
+       local users with direct access).
+
+    2. Take a backup of the repository; for example:
+
+ svnadmin dump /path/to/repository | gzip > repository-backup.gz
+
+    3. Run the svnadmin recover recover command on the repository:
+
+ svnadmin recover /path/to/repository
+
+    4. Delete any unused log files in the repository:
+
+ svnadmin list-unused-dblogs /path/to/repository | xargs rm -vf
+
+    5. Delete any remaining shared-memory files in the repository:
+
+ rm -f /path/to/repository/db/__db.0*
+
+     o If you are copying the contents of the Red Hat Enterprise Linux
+       4.91 CD-ROMs (in preparation for a network-based installation,
+       for example) be sure to copy the CD-ROMs for the operating system
+       only. Do not copy the Extras CD-ROM, or any of the layered
+       product CD-ROMs, as this will overwrite files necessary for
+       Anaconda's proper operation.
+
+       These CD-ROMs must be installed after Red Hat Enterprise Linux
+       has been installed.
+
+General Information
+
+   This section contains general information not specific to any other
+   section of this document.
+
+   Web Server Packaging Changes:
+
+           Red Hat Enterprise Linux 4.91 now includes version 2.2 of the
+           Apache HTTP Server. This release brings a number of
+           improvements over the 2.0 series, including:
+
+              o improved caching modules (mod_cache, mod_disk_cache,
+                mod_mem_cache)
+
+              o a new structure for authentication and authorization
+                support, replacing the security modules provided in
+                previous versions
+
+              o support for proxy load balancing (mod_proxy_balance)
+
+              o large file support for 32-bit platforms (including
+                support for serving files larger than 2GB)
+
+              o new modules mod_dbd and mod_filter, which bring SQL
+                database support and enhanced filtering
+
+           The following changes have been made to the default httpd
+           configuration:
+
+              o The mod_cern_meta and mod_asis modules are no longer
+                loaded by default.
+
+              o The mod_ext_filter module is now loaded by default.
+
+           If upgrading from a previous release of Red Hat Enterprise
+           Linux, the httpd configuration will need to be updated for
+           httpd 2.2. For more information, refer to
+           [2]http://httpd.apache.org/docs/2.2/upgrading.html.
+
+   Third-party Modules
+
+           Any third-party modules compiled for httpd 2.0 must be
+           rebuilt for httpd 2.2.
+
+   php
+
+           Version 5.1 of PHP is now included in Red Hat Enterprise
+           Linux 4.91, which includes a number of changes to the
+           language along with significant performance improvements.
+           Some scripts might need to be adapted for use with the new
+           version; please refer to the link below for more information
+           on migrating from PHP 4.3 to PHP 5.1:
+
+           [3]http://www.php.net/manual/en/migration5.php
+
+           The /usr/bin/php executable is now built using the CLI
+           command-line SAPI, rather than the CGI SAPI. Use
+           /usr/bin/php-cgi for CGI SAPI. The php-cgi executable also
+           includes FastCGI support.
+
+           The following extension modules have been added:
+
+              o The mysqli extension, a new interface designed
+                specifically for MySQL 4.1. This is included in the
+                php-mysql package.
+
+              o date, hash, Reflection, SPL and SimpleXML (built-in with
+                the php package)
+
+              o pdo and pdo_psqlite (in the php-pdo package)
+
+              o pdo_mysql (in the php-mysql package)
+
+              o pdo_pgsql (in the php-pgsql package)
+
+              o pdo_odbc (in the php-odbc package)
+
+              o soap (in the php-soap package)
+
+              o xmlreader and xmlwriter (in the php-xml package)
+
+              o dom (replacing the domxml extension; in the php-xml
+                package)
+
+           The following extension modules are no longer included:
+
+              o dbx
+
+              o dio
+
+              o yp
+
+              o overload
+
+              o domxml
+
+   The PEAR Framework
+
+           The PEAR framework is now packaged in the php-pear package.
+           Only the following PEAR components are included in Red Hat
+           Enterprise Linux:
+
+              o Archive_Tar
+
+              o Console_Getopt
+
+              o XML_RPC
+
+   Stateless Linux
+
+           Included in this beta of Red Hat Enterprise Linux 4.91 are
+           enabling infrastructure pieces for Stateless Linux. Stateless
+           Linux is a new way of thinking about how a system is to be
+           run and managed, designed to simplify provisioning and
+           management of large numbers of systems by making them easily
+           replaceable. This is primarily accomplished by establishing
+           prepared system images which get replicated and managed
+           across a large number of stateless systems, running the
+           operating system in a read-only manner.
+
+           In its current state of development, the stateless features
+           are subsets of the intended goals. As such, the capability is
+           being labeled as a "technology preview" status. This suggests
+           that there are additional portions of the feature which will
+           become available over time.
+
+           The following is a list of the initial capabilities included
+           in Red Hat Enterprise Linux 4.91 beta:
+
+              o running a stateless image over NFS
+
+              o running a stateless image via loopback over NFS (*)
+
+              o running on iSCSI (**)
+
+           Support for running on a local fileystem with changes synced
+           from a master server is not yet included, due to required
+           kernel changes.
+
+           It is highly recommended that those interested in testing
+           stateless code read the HOWTO at
+           [4]http://fedoraproject.org/wiki/StatelessLinuxHOWTO and join
+           [5]stateless-list@redhat.com <mailto:list@redhat.com>.
+
+Internationalization
+
+   This section includes information on language support under Red Hat
+   Enterprise Linux 4.91.
+
+   Input Methods
+
+           SCIM (Smart Common Input Method) has replaced IIIMF as the
+           input method system for Asian and other languages in this
+           release. The default GTK Input Method Module for SCIM is
+           `scim-bridge` by Ryo Dairiki.
+
+           Below are the default trigger hotkeys for different
+           languages:
+
+              o Japanese: Zenkaku-Hankaku or Alt-`
+
+              o Korean: Shift-Space
+
+              o Other: Ctrl-Space
+
+           If SCIM is installed, it runs by default for all users.
+
+   Language Installation
+
+           SCIM is installed by default for most Asian installations.
+           Otherwise, you can use the package manager (pirut) to install
+           additional language support using the "Languages" component,
+           or run this command:
+
+ su -c 'yum groupinstall language-support'
+
+           In the command above, language can be either Assamese,
+           Bengali, Chinese, Gujarati, Hindi, Japanese, Kannada, Korean,
+           Punjabi, Tamil, or Thai.
+
+   xinputrc
+
+           At X startup, xinput.sh now sources ~/.xinputrc or
+           /etc/X11/xinit/xinputrc instead of searching config files
+           under ~/.xinput.d/ or /etc/xinit/xinput.d/.
+
+           If you have SCIM installed but do not wish to run it on your
+           desktop, you can disable it by running im-chooser.
+
+   Pango Support in Firefox
+
+           Firefox in Red Hat Enterprise Linux 4.91 is built with Pango,
+           which provides better support for certain scripts, such as
+           Indic and some CJK scripts.
+
+           To disable the use of Pango, set MOZ_DISABLE_PANGO=1 in your
+           environment before launching Firefox.
+
+   Fonts
+
+           Support is now available for synthetic emboldening of fonts
+           that do not have a bold face.
+
+           New fonts for Chinese have been added: AR PL ShanHeiSun Uni
+           (uming.ttf) and AR PL ZenKai Uni (ukai.ttf). The default font
+           is AR PL ShanHeiSun Uni, which contains embedded bitmaps. If
+           you prefer outline glyphs, you can add the following section
+           in your ~/.font.conf file:
+
+ <fontconfig>
+   <match target="font">
+     <test name="family" compare="eq">
+       <string>AR PL ShanHeiSun Uni</string>
+     </test>
+     <edit name="embeddedbitmap" mode="assign">
+       <bool>false</bool>
+     </edit>
+   </match>
+ </fontconfig>
+
+
+   23.3. gtk2 IM submenu
+
+           The Gtk2 context menu IM submenu no longer appears by
+           default. You can enable it on the command line with the
+           following command:
+
+ gconftool-2 --type bool --set
+'/desktop/gnome/interface/show_input_method_menu' true
+
+Kernel Notes
+
+   This section notes the differences between 2.6.9 (on which Red Hat
+   Enterprise Linux 4 is based) and 2.6.18 (which Red Hat Enterprise
+   Linux 4.91 will inherit) as of July 12, 2006. Additional features
+   which we are currently working on upstream that will appear late in
+   2.6.18 or 2.6.19 are not highlighted here. In other words, this list
+   only shows what is already included in the upstream Linus tree; not
+   what is work-in-progress. Consequently, this list is not a final, or
+   complete list of the new Red Hat Enterprise Linux 4.91 features,
+   although it does give a good overview of what can be expected from
+   Red Hat Enterprise Linux 4.91. Also note that this section only picks
+   out highlights of upstream changes, and as such it is not fully
+   comprehensive. It does not include mention of several low-level
+   hardware support enhancements and device driver info.
+
+   The following is a good source for a next level-of-detail view:
+
+   [6]http://kernelnewbies.org/LinuxChanges
+
+   Performance / Scalability
+
+              o Big Kernel Lock preemption (2.6.10)
+
+              o Voluntary preemption patches (2.6.13) (subset in Red Hat
+                Enterprise Linux 4)
+
+              o Lightweight userspace priority inheritance (PI) support
+                for futexes, useful for real-time applications (2.6.18)
+
+                   o ref: [7]http://lwn.net/Articles/178253/
+
+              o New 'mutex' locking primitive. (2.6.16)
+
+              o High resolution timers. (2.6.16)
+
+                   o In contrast to the low-resolution timeout API
+                     implemented in kernel/timer.c, hrtimers provide
+                     finer resolution and accuracy depending on system
+                     configuration and capabilities. These timers are
+                     currently used for itimers, POSIX timers, nanosleep
+                     and precise in-kernel timing.
+
+              o Modular, on-the-fly switchable I/O schedulers (2.6.10)
+
+                   o This was on-the-fly only by boot option in Red Hat
+                     Enterprise Linux 4 (Also system-wide instead of
+                     per-queue)
+
+              o Conversion to 4-level page tables (2.6.11)
+
+                   o allows x86-64 to increase from 512G to 128TB of
+                     memory
+
+              o New Pipe implementation (2.6.11)
+
+                   o 30-90% performance improvement in pipe bandwidth
+
+                   o circular buffer allows more buffering rather than
+                     blocking writers
+
+              o "Big Kernel Semaphore": Turns the Big Kernel Lock into a
+                semaphore
+
+                   o reduces latency by breaking up long lock hold times
+                     and adding voluntary preemption
+
+              o X86 "SMP alternatives" (optimizes a single kernel image
+                at runtime according with the available platform)
+
+                   o ref: [8]http://lwn.net/Articles/164121/
+
+   Generic Feature Additions
+
+              o inotify (2.6.13)
+
+                   o works through a new character pseudo-device. Any
+                     application which wants to monitor filesystem
+                     activity need only open /dev/inotify and issue one
+                     of two syscalls to it.
+
+              o kexec and kdump (2.6.13)
+
+              o Process Events Connector (2.6.15)
+
+                   o reports fork, exec, id change, and exit events for
+                     all processes to userspace. Applications that may
+                     find these events useful include
+                     accounting/auditing (for example, ELSA), system
+                     activity monitoring (for example, top), security,
+                     and resource management (for example, CKRM).
+                     Semantics provide the building blocks for features
+                     like per-user-namespace, "files as directories" and
+                     versioned filesystems.
+
+              o Generic RTC (RealTime Clock) subsystem (2.6.17)
+
+              o splice - a new IO mechanism which avoids data copies
+                when transferring data between applications. (2.6.17)
+
+                   o ref:[9]http://lwn.net/Articles/178199/
+
+              o Block queue IO tracing support (blktrace). This allows
+                users to see any traffic happening on a block device
+                queue. In other words, you can get very detailed
+                statistics of what your disks are doing. (2.6.17)
+
+              o lockdep, a kernel lock validator (2.6.18)
+
+                   o ref:[10]http://lwn.net/Articles/185666/
+
+   Filesystem / LVM
+
+              o EXT3
+
+                   o Ext3 block reservation (2.6.10) (in Red Hat
+                     Enterprise Linux 4)
+
+                   o Ext3 online resizing patches (2.6.10) (in Red Hat
+                     Enterprise Linux 4)
+
+                   o Support for Extended Attributes in the body of
+                     large inode in ext3: saves space and improves
+                     performance in some cases (2.6.11)
+
+                   o Increases max. ext3 filesystem size from 8TB to
+                     16TB (2.6.18)
+
+              o Device mapper multipath support (Red Hat Enterprise
+                Linux 4)
+
+              o ACL support for NFSv3 and NFSv4 (2.6.13)
+
+              o NFS: support large reads and writes on the wire (2.6.16)
+
+                   o The Linux NFS client now supports transfer sizes up
+                     to 1MB.
+
+              o FUSE (2.6.14)
+
+                   o Allows to implement a fully functional filesystem
+                     in a userspace program
+
+              o VFS changes
+
+                   o The "shared subtree" patches have been merged.
+                     (2.6.15); ref: [11]http://lwn.net/Articles/159077/
+
+              o autofs4 - updated to provide direct mount support for
+                userspace autofs (2.6.18)
+
+              o cachefs core enablers (2.6.18)
+
+   Security
+
+              o Address space randomization:
+
+                   o With these patches applied, the stack of each
+                     process will begin at a random location, and the
+                     beginning of the memory area used for mmap() (which
+                     is where shared libraries go, among other things)
+                     will be randomized as well (2.6.12) (in Red Hat
+                     Enterprise Linux 4).
+
+              o Multilevel security implementation for SELinux (2.6.12)
+
+              o Audit subsystem
+
+                   o Support for process-context based filtering
+                     (2.6.17)
+
+                   o More filter rule comparators (2.6.17)
+
+              o TCP/UDP getpeersec: Enabled a security-aware application
+                to retrieve the security context of an IPSec security
+                association that a particular TCP or UDP socket is using
+                (2.6.17)
+
+   Networking
+
+              o Added several TCP congestion modules (2.6.13)
+
+              o IPV6 - Support several new sockopt / ancillary data in
+                Advanced API (2.6.14)
+
+              o IPv4/IPv6: UFO (UDP Fragmentation Offload)
+                Scatter-gather approach: (2.6.15)
+
+                   o UFO is a feature wherein the Linux kernel network
+                     stack will offload the IP fragmentation
+                     functionality of large UDP datagram to hardware.
+                     This will reduce the overhead of stack in
+                     fragmenting the large UDP datagram to MTU sized
+                     packets.
+
+              o Added nf_conntrack subsystem: (2.6.15)
+
+                   o The existing connection tracking subsystem in
+                     netfilter can only handle ipv4. There were two
+                     choices present to add connection tracking support
+                     for ipv6; either duplicate all of the ipv4
+                     connection tracking code into an ipv6 counterpart,
+                     or (the choice taken by these patches) design a
+                     generic layer that could handle both ipv4 and ipv6
+                     and thus requiring only one sub-protocol (TCP, UDP,
+                     etc.) connection tracking helper module to be
+                     written. In fact, nf_conntrack is capable of
+                     working with any layer 3 protocol.
+
+              o IPV6
+
+                   o RFC 3484 compliant source address selection
+                     (2.6.15)
+
+                   o Added support for Router Preference (RFC4191)
+                     (2.6.17)
+
+                   o Added Router Reachability Probing (RFC4191)
+                     (2.6.17)
+
+              o Wireless updates:
+
+                   o Hardware crypto and fragmentation offload support
+
+                   o QoS (WME) support, "wireless spy support"
+
+                   o mixed PTK/GTK
+
+                   o CCMP/TKIP support and WE-19 HostAP support
+
+                   o BCM43xx wireless driver
+
+                   o ZD1211 wireless driver
+
+                   o WE-20, version 20 of the Wireless Extensions
+                     (2.6.17)
+
+                   o Added the hardware-independent software MAC layer,
+                     "Soft MAC" (2.6.17)
+
+                   o Added LEAP authentication type
+
+              o Added generic segmentation offload (GSO) (2.6.18)
+
+              o Added new per-packet access controls to SELinux,
+                replacing the old packet controls. Added secmark support
+                to core networking, to allow security subsystems to
+                place security markings on network packets (2.6.18).
+
+              o DCCPv6 (2.6.16)
+
+   Hardware Enablement
+
+  Note
+
+           This section only enumerates the most generic features among
+           many.
+
+              o x86-64 clustered APIC support (2.6.10)
+
+              o Infiniband support (2.6.11) (mostly in Red Hat
+                Enterprise Linux 4)
+
+              o Hot plug
+
+                   o Added generic memory add/remove and supporting
+                     functions for memory hotplug (2.6.15)
+
+                   o (i386) hot plug CPU support of physical add of new
+                     processors (hotplug disable/enable of already
+                     existing CPUs was already supported)
+
+              o SATA/libata enhancements, additional hardware support
+                (in Red Hat Enterprise Linux 4)
+
+                   o A completely reworked libata error handler. The
+                     result of all this work should be a more robust
+                     SATA subsystem which can recover from a wider range
+                     of errors.
+
+                   o Native Command Queuing (NCQ). NCQ is the SATA
+                     version of tagged command queuing - the ability to
+                     have several I/O requests to the same drive
+                     outstanding at the same time. (2.6.18)
+
+                   o Hotplug support (2.6.18)
+
+              o EDAC support (2.6.16) (in Red Hat Enterprise Linux 4)
+
+                   o The EDAC goal is to detect and report errors that
+                     occur within the computer system.
+
+              o Added a new ioatdma driver for the Intel(R) I/OAT DMA
+                engine (2.6.18)
+
+   NUMA / Multi-core
+
+              o Cpusets (2.6.12)
+
+                   o Cpusets now provide a mechanism for assigning a set
+                     of CPUs and Memory Nodes to a set of tasks. Cpusets
+                     constrain the CPU and Memory placement of tasks
+                     only to the resources within a task's current
+                     cpuset. These are essential in managing dynamic job
+                     placement on large systems.
+
+              o Numa-aware slab allocator (2.6.14)
+
+                   o This creates slabs on multiple nodes and manages
+                     slabs in such a way that locality of allocations is
+                     optimized. Each node has its own list of partial,
+                     free and full slabs. All object allocations for a
+                     node occur from node-specific slab lists.
+
+              o Swap migration. (2.6.16)
+
+                   o Swap migration allows the moving of physical
+                     location of pages between nodes in a NUMA system
+                     while the process is running.
+
+              o Huge pages (2.6.16)
+
+                   o Added NUMA policy support for huge pages: The
+                     huge_zonelist() function in the memory policy layer
+                     provides a list of zones ordered by NUMA distance.
+                     The hugetlb layer will walk that list looking for a
+                     zone that has available huge pages but is also in
+                     the nodeset of the current cpuset.
+
+                   o hugepages now obey cpusets
+
+              o Netfilter ip_tables: NUMA-aware allocation. (2.6.16)
+
+              o Multi-core
+
+                   o Added a new scheduler domain for representing
+                     multi-core with shared caches between cores. This
+                     makes it possible to make smarter cpu scheduling
+                     decisions on such systems, improving performance
+                     greatly for some cases (2.6.17).
+
+                   o Power saving policy for the CPU scheduler - With
+                     multicore/smt cpus, the power consumption can be
+                     improved by letting some packages idle while others
+                     do all the work, instead of spreading the tasks
+                     over all CPUs.
+
+References
+
+   Visible links
+   1. https://www.redhat.com/apps/support/knowledgebase/
+<https://www.redhat.com/apps/support/knowledgebase/>
+   2. http://httpd.apache.org/docs/2.2/upgrading.html
+<http://httpd.apache.org/docs/2.2/upgrading.html>
+   3. http://www.php.net/manual/en/migration5.php
+<http://www.php.net/manual/en/migration5.php>
+   4. http://fedoraproject.org/wiki/StatelessLinuxHOWTO
+<http://fedoraproject.org/wiki/StatelessLinuxHOWTO>
+   5. mailto:stateless-list@redhat.com <mailto:stateless-list@redhat.com>
+   6. http://kernelnewbies.org/LinuxChanges
+<http://kernelnewbies.org/LinuxChanges>
+   7. http://lwn.net/Articles/178253/ <http://lwn.net/Articles/178253/>
+   8. http://lwn.net/Articles/164121/ <http://lwn.net/Articles/164121/>
+   9. http://lwn.net/Articles/178199/ <http://lwn.net/Articles/178199/>
+  10. http://lwn.net/Articles/185666/ <http://lwn.net/Articles/185666/>
+  11. http://lwn.net/Articles/159077/ <http://lwn.net/Articles/159077/>
+
+_______________________________________________
+rhelv5-beta-list mailing list
+rhelv5-beta-list@redhat.com <mailto:rhelv5-beta-list@redhat.com>
+https://www.redhat.com/mailman/listinfo/rhelv5-beta-list
+<https://www.redhat.com/mailman/listinfo/rhelv5-beta-list>
+
+------------------------------------------------------------------------
+
+
