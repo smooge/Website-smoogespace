@@ -1,0 +1,69 @@
+==================================================================
+https://keybase.io/smooge
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.smoogespace.com
+  * I am smooge (https://keybase.io/smooge) on keybase.
+  * I have a public key with fingerprint 0F38 AE0F 6A34 F782 130A  4824 5AE0 386B D027 E793
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "0f38ae0f6a34f782130a48245ae0386bd027e793",
+            "host": "keybase.io",
+            "key_id": "5ae0386bd027e793",
+            "uid": "f8e65dbe8fdd97b5cbe461f07e0d2800",
+            "username": "smooge"
+        },
+        "service": {
+            "hostname": "www.smoogespace.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1413933885,
+    "expire_in": 157680000,
+    "prev": "43850c129f4b945d3ff1a28ad371af51951b2c54b29ec449da124e962fcd9962",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v2.0.22 (GNU/Linux)
+
+owJ4nJvAy8zAxXhyxsKLFid0mBlPH/iRxBDi9jqwWikpP6VSyapaKTsVTKVl5qWn
+FhUUZeaVKFkpGaQZWySmGqSZJRqbpJlbGBkaGySaWBiZmAIFjS3MklIMjMxTzS2N
+lXSUMvKLQTqAxiQlFqfqZeYDxYCc+MwUoCgW9aVgiTSLVDPTlKRUi7SUFEvzJNPk
+pFQTM8M0A/NUgxQjCwMDkMLi1KK8xNxUoOri3Pz89FSlWh0loFhZZnIqyMUgi6Hy
+5eXlehA1xQWJyal6yfm5QAMKivJL8pPzc4AKMkpKCoqtQAaUVBaAdaQmxUPNik/K
+zEsB+h6ooyy1qDgzP0/JyhCoMrkkE2S4oYmhsaWxsYWFqY5SakVBZlFqfCZIham5
+GdCdBgYge1LLgEaaGFuYGiQbGlmmmSRZmpimGKelGSYaWSSmGJsbJqaZGlqaGiYZ
+JZuaJBlZpiabmFimJBoamaRamhmlJadYAiklkO8K8/KVrIyBzkxMB/k7Mz0vsaS0
+COh1rk4mGRYGRi4GNlYmUAQycHEKwKI1i0WAYfLCzz8Fnghfin8X8vh4xJfu59Vn
+jASt1jyTyb97Ud0zRmhCyq8tS/Ne+ntxtS+/d5bjtNeda/MVv8XW93w29bjP8ptx
+2vtknvwdq1Pe8CR+58j9vu/Elg0W8/cv+jjtc7sus8X+2DmNM7K+a215khXDrGX9
+/8bXJ21vdrldmnT3d37OvNfMLbpThOdrh8letd7h9Wmyx5x3kle2tJie75DjN3q/
+piww+XzMlIzH9+ce2rU83b1bRiFS5Mear0wqhi+e38/44nSC0faq+dzGZOfAEr2f
+1RMZJsWIuzBnXll+adOLi4dCg0r3nHF1eXzk6yxlp6LzTQtal1xZ8CPoOYuMXqT1
++2tdd2cd0nq7fInBNbWgy2envPB7zSWSJX5MW+lU5cf6Gl5TLtuKndbM6x5+CNbb
+/HGnM4dX2d4Xe5zc84/neipv2rJ7b6hBwu5plbcL0irfbJBdWV51KWbOXTGnf6wL
+dt1smHnL56jxk/nKJV5/582ufrJdM+fMjcO/9C7+D6ufviLvR3a1U2BMf5CzZ9C8
+5CmV+Qe3Xn5g2eYYJ+nn/5bxXcU6h3sXN6lMLa8+XLNu/67fagfTp97zU8hoXyp0
+mtFww5f9dZteZT1s79mn1JJn171Km0nPfnfe4lxGnu9aq8WrOuelhjtuLlJ6PPN4
+l2rphucFl3dq813VPpPJ1+iaqH4g/wRfs8ef6LXrlFeeKGKLqrGU79gDAIrbnqo=
+=jyN3
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/smooge
+
+==================================================================
