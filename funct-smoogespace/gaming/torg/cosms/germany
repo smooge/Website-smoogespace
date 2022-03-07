@@ -1,0 +1,391 @@
+Germany
+
+Date: Wed, 18 Jan 1995 17:44:21 +0100
+From: ua7o@rz.uni-karlsruhe.de
+To: Masterbook Mailing List <masterbook@gojira.monsta.com>
+Subject: Germany: A New Cosm
+
+I have two much free time.  Well, here goes . . .
+
+GERMANY --- a pocket cosm of Core Earth
+=======================================
+
+I know  what you are all saying  right about  now---``Germany, a cosm?
+He  must  be  crazy!''  Well,  the latter  may   be  right, but that's
+irrelevant.   After living  here for  five months,  and studying  at a
+German  univerity for three of  those months, I have identified enough
+things   which lead  me to conclude   that Germany  is  a reality unto
+itself.  The easiest was to prove this is to  present the stats, which
+I shall now do.
+
+
+AXIOMS
+======
+
+	TECH : 22
+
+	This may be a surprise to many of you who are used to thinking
+	that  Germany is  a   somewhat advanced  place, with  numerous
+	technical related  firms  and   all that.  However,    it  was
+	actually  this Tech axiom that first  clued me in.  Here is my
+	major proof---the computer system   here is a pretty  standard
+	HP-UX machine, similar to  any number of systems carrying user
+	accounts    at similarly sized     universities in the States.
+	However, the crash rate, the  frequency of disk problems,  the
+	screw-ups  coming down  from the  supposed sysadmins/operators
+	are inconsistent with a properly connected (all puns intended)
+	Tech 23 computer system.  I give  one specific example which I
+	think cements  that the Tech axiom here  is lower  than in the
+	US.
+
+	I had two  terminal windows opened on a  Mac  (that's a pretty
+	low Tech axiom  to start with :),  one local (machine rzstud1)
+	and one with an rlogin to my American account (machine unity).
+	I  must have  disconnected  while trying  to think about World
+	Peace or something, because I did:
+
+	rzstud1% ftp unity.math.wlu.edu
+	ftp: host not found
+	ftp>
+
+	This took me  by surprise, and I stared  blankly at the screen
+	for a few moments (apparently I used  this time to reconnect).
+	I thereupon switched to the other window, did
+
+	unity% ftp rzstud1.rz.uni-karlsruhe.de
+
+	and got a normal connection.  I think that says it all.
+
+
+	SOCIAL : 21
+
+	This is the same as CE, only to cover the fact that Germany is
+	a functioning member (or, at least, no more dysfunctional than
+	other  members) of the UN,  the EU, NATO,  and a  more or less
+	global   society.    However,   at  the  level    of  personal
+	interactions, Social  21  is rarely realised.   See  the World
+	Law of Exclusion for additional information.
+
+
+	MAGIC : 8
+
+	Note that actual  ``magic'' in the  sense of spells is no more
+	prevalent in Germany than it is elsewhere in CE.  However, the
+	occurence of ``coincidences''   and other halmarks of a  non-0
+	magic  reality   are more frequent.   I attribute   this  to a
+	self-correcting  feature of the  reality trying to make up for
+	the deficiency (with respect to  the rest of  CE) in the  Tech
+	axiom.
+
+	For example,  while doing  something stupid like   turning the
+	computer   off, whapping the  side  of  it, and then  actually
+	getting the  beast   to boot *correctly*   is not  a   regular
+	occurence, such  methods do work more  frequently than they do
+	in, for example, the U.S.  Such effects, I believe, fall under
+	the magic  axiom.  (``Juerg,  how  the hell   did you  get the
+	computer to work again?''  ``I don't know.  I just whapped the
+	thing.  F*cking magic . . .'')
+
+	Game mechanics  do not seem to  lend themselves easily.  I can
+	suggest the following---the Stupid Action.  A Stupid Action is
+	a game  term referring to  any action which can essentially be
+	described as, ``Of course it's  stupid; I know it won't  work.
+	But I'm gonna  do it  anyway.''   Like fixing  the computer by
+	kicking it.  I also refer the  reader to the historical record
+	which demonstrates a fair amount of success  had by Germany in
+	the past by following a stupid, stubborn or bone-headed course
+	of action.
+
+	Stupid Actions have a *minimum* difficulty of 25 (``Never Tell
+	Me the Odds'')   because they are,  well, Stupid.   This  will
+	cover most   Household Stupid Actions.   Truly, *truly* stupid
+	things,  like  disarming  the atomic   bomb   by throwing more
+	uranium into it,  should use  25  as a base,  and  then the DN
+	Modifiers on the DN chart.    For example, Never Tell Me   the
+	Odds is  listed as either DN  25, or DN+20 (I  think---I don't
+	have the book).  Therefore, a  really bone-headed action would
+	have a difficulty   of 25+20=45.  Nigh  on   impossible, as it
+	should be.  The player generates a reality total (Ords can use
+	base Spirit) against the DN.  
+
+	As an alternative, instead of basing the Stupid Actions off of
+	Spirit/Reality, they could  be considered a form of alteration
+	magic, in which  case the  Mind  based (Alt. is Mind,  right?)
+	Stupidity skill would be   used for the rolls.  The  advantage
+	here is that out-of-cosm SKs  could learn to do Stupid Actions
+	in other cosms.  The  skill seems particularly appropriate for
+	the Nile.
+
+
+	SPIRIT : 9
+
+	Same   as Core Earth.   No real  differences  here, although I
+	suppose one might argue that the Stupid Actions mechanic could
+	be assigned to Divine influence instead of a rudimentary magic
+	ability.  One could  still use Spirit/Reality, or simply  make
+	Stupidity a Spirit based skill.
+
+
+WORLD LAWS
+==========
+
+	LAW OF INCONVENIENCE
+
+	This  is probably the  most  powerful World Law affecting  the
+	cosm of Germany.  It affects  all aspects of life.   Generally
+	put,  no product or service will   be available in a maximally
+	efficient or convenient manner.   For the individual SK,  this
+	means  copious amounts of   paperwork to get anything remotely
+	official done.  It means that when you  find out that you need
+	something, the stores will already be closed.  When you decide
+	you absolutely need to  get something down *tomorrow*, someone
+	will inform  you that tomorrow is a  state holiday that you've
+	never heard of, and that everything  will be closed.  When you
+	need   to call your AT&T  access   number, you will get static
+	(maybe loud and obnoxious enough to  do a couple result points
+	of damage,  too) for three  or four  attempts before getting a
+	connection.  After the AT&T  operator  puts you through,   you
+	will likely  get arbitrarily disconnected.  (The astute reader
+	will  notice that these last  examples are also by-products of
+	the Tech axiom.)
+
+	The government passes  laws to encourage Inconvenience.  There
+	is  the  infamous ``Ladenschlussgesetz'' or  Store-Closing Law
+	which  strictly limits the  opening hours of  just about every
+	business.  There is the mandatory  garbage separation.   There
+	is the fact  that you can't get a  damned glass of water in  a
+	restaurant without being charged  3 Marks and getting  bubbles
+	in it.  And so on.
+
+	One   particular   game-mechanics  effect   of  the     Law of
+	Inconvenience  concerns crowds.   Germans  in  a  crowd (i.e.,
+	pedestrians, other customers in  a store, and so forth) follow
+	some  sort  of  macroscopic Brownian  motion   which makes  it
+	impossible to move  efficiently  through the  group.   Walking
+	down a street   is not a  trivial   task in Germany.  If   you
+	actually do see an opening and go for it, you are either about
+	to trip  over  somebody's dog  or   get hit by   a street-car.
+	Germans  themselves  seem    largely immune  to   this effect,
+	however.   I postulate  the  existence  of a  DEX  based Crowd
+	Navigation  Skill  (useable  unskilled).  In fact,  a starting
+	three adds  in this skill is probably   a  0-pt Adventure cost
+	for native Germans.  I say  0-pt since obviously Ords have it,
+	too.  The DN of moving though a crowd  should be a base of 12,
+	with modifiers for number of people  with respect to the space
+	involved (i.e., forty people standing for no reason outside of
+	the one door by which  you may exit  your lecture is a  bigger
+	penalty than only forty people on the whole street).  Negative
+	success levels should  determine  consequences.   For example,
+	riding  a  bike  along  a  street  near   a  crowd of   people
+	disembarking from a   busy street-car: the   gm assigns  a  +5
+	penalty  to the Crowd   Nav. DN, due to  the  number of people
+	going  in completely  separate   directions  plus the  vehicle
+	traffic on the street.   On a  minimal  failure, the rider  is
+	forced to  stop and lose one  round of action.   On an average
+	failure,  the   rider bumps  into   a streetsign,  doing minor
+	damage.  On a good failure, the  rider misjudges the curb, the
+	front of the bicycle goes out from  under him, and he skids on
+	the sidewalk.    For   superior,  he collides   with   another
+	bicyclist,  both falling   down  and  taking  damage.   On   a
+	spectacular failure, he didn't  see the other streetcar coming
+	from the opposite  direction, and the  last thing he remembers
+	is  the annoying warning bell  before  he gets creamed.  It is
+	important to note that the presence of other people is *not* a
+	prerequisite for  a  Crowd Nav.  check (one  reason why  Crowd
+	Nav. is DEX, and not PER, based).  See examples (2) and (4).
+
+	EXAMPLES of the Law of  Inc.: 1) This  morning I needed to use
+	Maple on  one of  the  computer-centre's machines.  The  Maple
+	directory  had  mysteriously disappeared  off  of  the network
+	disk.  2) I  just left to   get a cup of  coffee.   On the way
+	there, I rode  my bike through a  perfectly empty part of  the
+	campus.  Somebody stepped out  of nowhere and I almost  plowed
+	into him---DN 12 Crowd Nav. Check.  3)  The coffee automat was
+	out of order.  4)  Walking out of the  building onto  an empty
+	sidewalk,  a bike  appeared out  of nowhere  and almost plowed
+	into  me---DN 12 Crowd   Nav. Check.  5)   I  got back to  the
+	computer centre and all of the terminals  were occupied.  Now,
+	at this point, I succeeded  with a Stupid Action---``Of course
+	walking  back and forth between  the  two terminal rooms isn't
+	going to free up a  computer any faster, but  I'm gonna do  it
+	anyway!''  Two minutes later,  there was a  machine available.
+	6) Unfortunately,  the free machine was in  the PC room, where
+	the machines inexplicably refuse to remap the backspace key to
+	delete, and  where  the machines at  random  choose  to ignore
+	certain typed capital letters . . .
+
+
+	LAW OF EXCLUSION
+
+	This is kind of a hard one to describe.  To simplify, ``If you
+	aren't  already in a group,   you can't get  in.''   By way of
+	example---as a  normal, starting first year university student
+	in Germany, you are part of a ``group''  as it forms.  Come in
+	later  (with, say, a bachelors  under your belt and a one-year
+	scholarship) and you can't make those connections.
+
+	There are  cases where  you cannot  avoid  becoming part  of a
+	group, for example, moving onto a hall of a dormitory.  You're
+	there and  the locals can't  do much to change  the fact.  The
+	LoExclusion still   functions, though.  While in  an  American
+	Dorm you would be slamming beer cans over your neighbor's head
+	after  a 3am  session of  Hall Ball   the first  weekend after
+	moving in, in Germany it'll be three weeks before conversation
+	more detailed than ``Guten  Tag'' and ``Auf Wiedersehen'' take
+	place in the common kitchen for the floor.
+
+	One  of the     public signs of   the  Law   of  Exclusion  is
+	Hoeflichkeit  (the German  word  for politeness).   You see, I
+	have a  personal theory that  there are  two types of societal
+	politeness.  The first you will find in Akasha, which think is
+	good enough explanation.  The second  is a survival mechanism,
+	a  trained response that takes the  place  of hitting somebody
+	over the head  with an antelope femur.  You  see, in a country
+	with  too many people  in  too little space (Germany's average
+	population density  is ten times that of  America, but I think
+	there are even more elbows per sidewalk  in German cities than
+	that number alone would  suggest),   politeness is a  way   of
+	paying attention to the proper  forms for interaction, and not
+	to  the actual person.   Thus, the exclusion  ``group'' is the
+	individual person for most public transactions, like shopping.
+	Of  course, the larger groups are  the employee groups, and so
+	forth.
+
+	The Law of Exclusion also seems to  make it easier for Germans
+	to identify foreigners and act in an appropriately patronising
+	manner.  Of course, they  aren't being patronising on purpose;
+	it just seems that way.   The most usual form  of this is that
+	the  Germans will start  speaking to you   in English, even if
+	they know less English than you know German.
+
+	Language is affected   by the Law  of  Exclusion.  Non-Germans
+	must  make  language checks  at  +2 to  the DN   to understand
+	Germans (note the  many dialects also,  a shared function with
+	the  Law of Inconvenience),  no  matter what language is being
+	used for interaction (their accented  English can sometimes be
+	more  confusing than   the  rapid-fire Bavarian they  normally
+	use).  This  penalty does  *not*  apply to  exchanges  between
+	non-Germans  in the German   cosm.  This  is  because the  two
+	foreigners, though they  may be from different countries,  are
+	still part of a non-German group.
+
+	In fact, any interaction with a group  imposes a +2 penalty on
+	a  non-member.  A  side effect  of  this  Law  is a  bonus for
+	hierarchical  groups.     If  a  group    is  organised  in  a
+	hierarchical, bureaucratic manner  around a specific goal (for
+	example,     the    Deutsche Bundespost   is   a  bureaucratic
+	organisation  organised around the   goal  of losing  people's
+	mail),  members receive  a   +2 bonus for  actions which   are
+	directly related  to that goal.  Not that,  as per the  Law of
+	Inconvenience,  since most  managers  and supervisors are only
+	*indirectly* related  to  the overall  goal,  they  don't  get
+	bonuses.   Therefore,  usually the  person with  whom you must
+	talk to straighten out a problem won't really be able to help.
+
+	There are two  exceptions to the  Law of Exclusion.  The first
+	is Sports.  It is easy to become part  of a Sport club (if the
+	Law of  Inconvenience  doesn't prevent you  from registering).
+	Such an  organisation   is, typically,  non-hierarchical,  and
+	actually  encourages interaction   with new people.   The  Law
+	still  poses  limitations, though.    There are only  specific
+	times when one may join (start of  a semester for student type
+	groups), and  it is almost impossible to  be in more  than one
+	such group.  Reportedly some people  participate in two; there
+	are myths about  people in three  such groups.  More than that
+	is pure fairy tale . . .
+
+	The second exception  is drinking.  First,  depending upon the
+	situation, you  may become  part  of a  new group  of ``people
+	drinking'' in a given  bar or pub.  More  importantly, though,
+	drinking  negates  language  penalties  and can, indeed,  even
+	provide bonuses.  The  value of the  number of drinks (a drink
+	is alcohol  equal to one  beer, but in Germany  a  beer is 0.5
+	litre  and 7--12% alcohol)  is subtracted from language DN, no
+	matter who is talking  (German or non-German).  ote that  this
+	does *not* negate  any penalties associated with being  drunk,
+	which  may   *also* hinder  language  skills.   However,  as a
+	general rule,  the +2 can be  gotten rid of  with a few drinks
+	before  other ill effects  start setting in.  Someone with the
+	Drinkin' skill could, conceivably, go from tourist-book German
+	to Hegelian philosophy in a good night.
+
+
+
+	LAW OF PARADOX
+
+	This Law  applies mostly as  a limitation  to  the Tech axiom.
+	While individual devices may exist up to  the full Tech axiom,
+	no procedure may be, overall,   more efficent than it was   in
+	1940 (that   would be about  Tech   21, right?).   The Law  of
+	Inconvenience   is usually    very   good at   providing   the
+	mechanisms.
+
+	Some examples:
+
+	1) Health insurance.  Most folks these days have an insurance
+	card with a microchip containing their insurance information
+	thereon.  However, all insurance payments for a three-month
+	period must be made through the first doctor you visit in a
+	quarter.  Thus, if you visit the dentist for your checkup, and
+	then have to bring your kids to the doctor six times because
+	they get chicken pox, payments for the doctor get paid to the
+	dentist, and you the insured have to get it all straightened
+	out.
+
+	2)  Computers.    The  TU-Karlsruhe student  machine   has TeX
+	loaded.  It  has  no student-available method for  previewing.
+	Also, 3) while the machine is attached to a laser printer, the
+	printer is hidden and the printouts are *hand* collated by the
+	computer-centre staffers at   the  *most*  every   hour.  More
+	likely you should expect to send the print command one day and
+	pick up the output the following day.
+
+	4) Banking.   They have ATMs.   The ATMs don't print receipts.
+	You can  easily make direct  transfers to somebody else's bank
+	account.  However, if you *don't* have an ATM card and you try
+	to withdraw money from  a branch other than  the one where you
+	opened your account,  they have to  call the  issuing bank for
+	confirmation.  Don't ask  me what the  computers on the  desks
+	are for . . .
+
+	5) Bureaucracy.   The  residency  office  in Karlsruhe has   a
+	computer.  The residency office  in  Kiel has files that  make
+	the DMV  or  an Alexander's    department store look   modern.
+	Therefore in moving from Kiel to Karlsruhe, the computers here
+	weren't able to  access the old data.   Oh, and after I filled
+	out the computer form for residency in Karlsruhe, and *before*
+	the civil servant  typed anything into  the computer, he wrote
+	all the necessary information out on a  sheet of paper.  While
+	I  waited.  Then I looked over  the counter and saw that *all*
+	of the workers had scads of little bittie notes covering their
+	desks.  They also had computers.  Go figure.
+
+
+NOTES
+=====
+
+That about  covers the  important  parts of the Germany  cosm.
+One  thing does need  to be mentioned, though.  Doener Kebabs.
+What the   hell, you  may ask,  is  a Doener?    Well, roughly
+described it  is the Turkish equivalent of   a Gyro.  There is
+much variation from place to place.  The one constant, though,
+is existence.  There are   Doener  shops *everywhere*.   In  a
+small city   like Karlsruhe, they   are  spaced roughly  every
+400--500ft. along the  main pedestrian  zone.  What does  this
+have  to do  with the reality?    I think the  Turkey cosm  is
+planning on invading, and  that the deployed stelae are hidden
+in Doener shops.  Just speculation, though . . .
+
+CJW
+
+**********************************************************************
+    /\       Colin J. Wynne             Washington and Lee University
+   (())                                      Lexington, Virginia
+  /____\   ``Lunatic-at-Large''         E-Mail:   cwynne@sage.wlu.edu
+ /______\   
+/________\ ``I like persons better than principles, and I like
+             persons with no principles better than anything
+             else in the world.''
+                             ---Lord Henry Wotton, from Oscar Wilde's
+                                _The Picture of Dorian Gray_.
+**********************************************************************

@@ -1,0 +1,2303 @@
+  This is version 2.1 text for the Torg Discworld adaptation, slightly 
+revised from its 4 part posting on 12 May 1996.
+
+DISCWORLD
+
+Date: Sun, 12 May 1996 21:15:54 -0500
+From: Saxon.Brenton@uts.edu.au (Saxon Brenton)
+To: Multiple recipients of list <torg@buddha.intecom.com>
+Subject: [TORG:1519] Discworld 1 of 4
+X-Listprocessor-Version: 6.0c -- ListProcessor by Anastasios Kotsikonas
+X-Comment: The Torg Mailing List
+
+On Fri, 3 May 1996 Jim Ogle (Ks. Jim) <jogle@aoc.nrao.edu> wrote in 
+'[TORG:1093] Our recent flurry of activity' on the Torg mailing list:
+[...]
+> So for those who have been swamped by the messages, the trend indicates
+> that things should slow down for the next couple of days, time for you
+> to get caught up (or just purge your mailboxes. 8-)
+
+  Infected by Dr Mobius's pulp villain virus, Saxon sits planning Evil deeds:
+  "The last time I posted an attempt at a comprehensive adaptation was 
+Xanth. The initial post was a approached 40 kb, but the commentaries it 
+spawned ran for many times that. If I post the long-promised Discworld 
+article now, then a similar reaction will cause the population of the 
+mailing list - burdened by the Recent Flurry Of Activity - to flee 
+screaming. And then Pinky, I will be able to Take Over The World! 
+BWAHAHAHAHAHAHA!"
+  <cue peals of thunder and organ music>
+  :-)
+
+  Hmm, looks like it may be time for another one of my multipost reality 
+writeups that approach 20,000 words :-)
+  Okay, okay. Here is the second draft of the Discworld write-up that's 
+been sitting on my discs, twiddling its thumbs for the past 2-1/2 years. 
+The first one back in 1994 was a brief description, and - for those who 
+were on a.g.t and remember it - had Too Many World Laws (ie, it violated 
+the dave oaks Four Law Limit :-).
+  When I started writing this, the excellent and mind-bogglingly useful 
+_Discworld Companion_ had not yet been released in Australia, and this 
+tends to show in the writing style, I think. I now have over 280 pages of 
+A4 notes, and have sprinkled in page numbers for more obscure references 
+to support my rulings on how the game mechanics should work. Most of the 
+page numbers refer to my Corgi affordableback editions (the exceptions 
+are _Eric_ and the _Discworld Companion_, both Gollancz).
+  Note that the Pratchett's worldview is not necessarily conductive to 
+the Torg structure of reality, specifically with regard to the axiom 
+level divisions. In an interview he responded to the observation that the 
+city of Ankh-Morpork primarily resembles a Renaissance Italian city state 
+thusly, "There's no reason why worlds should all develop in the same way. 
+The Greeks had all the necessary theoretical knowledge and technical 
+ability to invent the wind-up gramophone. The steam-powered gramophone, 
+come to that. They just never did" (DC, p. 283).
+  For roughly similar reasons, the cosmology of the Discworld has had 
+to be altered to fit into a Torg adaptation. In Pratchett's view "The DW 
+'universe' -- turtle, world, sun, moon -- moves slowly through our own 
+universe." While this may be fine for the 'real' Discworld, it is 
+slightly problematic shoehorning it into the Torg arrangement of the 
+cosmverse. Of course, it is technically possible for the Discworld to 
+exist as a realm within the Core Earth universe, but it is ultimately 
+easier to simply rule that the Torg adaptation exists within its own 
+dimension, a cosm in its own right with its own pocket dimensional fringe 
+realities.
+  Commentaries welcomed. This is, after all, only the second draft, and 
+just think how much fun we all had with the dissection of the Torg Xanth 
+write-up :-)
+
+Index
+Post 1   PROLOGUE
+Post 2   THE COSM
+         - THE CREATOR'S USE OF MAGIC
+         - AXIOMS AND WORLD LAWS
+Post 3   MORE ON THE COSM
+         - MAGIC
+         - FOLK RACES
+         - GODS
+         - SKILLS
+Post 4   FRINGE REALITIES
+         - BIBLIOGRAPHY
+
+-----
+Saxon Brenton     City library of the Uni of Technology, Sydney, Australia
+saxon.brenton@uts.edu.au          |          saxonb@mpx.com.au
+The Librarian "liked people who loved and respected books, and the best 
+way to do that, in the Librarian's opinion, was to leave them on the 
+shelves where Nature intended them to be." - Terry Pratchett, _Men At Arms_
+
+
+
+Date: Sun, 12 May 1996 21:28:55 -0500
+From: Saxon.Brenton@uts.edu.au (Saxon Brenton)
+To: Multiple recipients of list <torg@buddha.intecom.com>
+Subject: [TORG:1521] Discworld 2 of 4
+X-Listprocessor-Version: 6.0c -- ListProcessor by Anastasios Kotsikonas
+X-Comment: The Torg Mailing List
+
+Post 2
+TORG DISCWORLD ADAPTATION
+
+THE COSM
+  This cosm is adapted from the 'Discworld' series of humorous fantasy 
+novels by Terry Pratchett. The Discworld is a flat world that rests atop 
+four elephants (Berila, Tubul, Great T'Phon, and Jerakeen), who in turn 
+stand on the shell of the ten thousand mile long world turtle, the Great 
+A'Tuin. Said Terry at various times on alt.fan.pratchett, "The elephants 
+face outwards. The spinning of the Disc does not harm the elephants 
+because that's how the universe is arranged."; "The *shell* of the turtle 
+is slightly smaller than the world, but the flippers and head and tail 
+are all visible from the Rim, looking down -- as Rincewind does in 
+_The Colour of Magic_."
+  The Discworld is a platter roughly 30,000 miles in circumferences, and 
+some 30 miles thick. At the edge of the world the seas falling off into 
+space create the Rimfall (although it is unclear where all this water 
+comes from), and at the Hub there is a ten mile high spire of green ice 
+and grey rock called Cori Celesti, at the summit of which is Dunmanifestin, 
+the abode of the gods. The Hub regions have a cold polar climate, while 
+the rim regions tend to be warm and tropical. The world as a whole gives 
+the impression that it was designed to be looked at from above.
+  "There are, of course, two major directions on the Disc: Hubwise and 
+Rimwards. But since the Disc itself revolves at a rate of once every 
+eight hundred days (in order to distribute the weight fairly upon its 
+supportive pachyderms, according to Reforgule of Krull) there are also 
+two lesser directions, which are Turnwise and Widdershins.
+  "Since the Disc's tiny orbiting sunlet maintains a fixed orbit while 
+the majestic Disc turns slowly beneath it, it will be rapidly deduced 
+that a Disc year consists not of four but eight seasons. The summers are 
+those times when the sun rises or sets at the nearest point on the Rim, 
+the winters those occasions when it rises or sets at a point ninety 
+degrees along the circumference.
+  "Thus, in the lands around the Circle Sea, the year begins on Hogs' 
+Watch Night, progressing through a Spring Prime to its first midsummer 
+(Small Gods' Eve) which is followed by Autumn Prime and, straddling the 
+half-year point of Crueltide, Winter Secondus (also known as Spindlewinter, 
+since at this time the sun rises in the direction of spin). Then comes 
+Secondus Spring with Summer Two on its heels, the three-quarter mark of 
+the year being the night of Alls Fallow - the one night of the year, 
+according to legend, when witches and warlocks stay in bed. Then drifting 
+leaves and frosty nights drag on towards Backspindlewinter and a new Hog's 
+Watch Night nestling like a frozen jewel at it's heart.
+  "Since the Hub is never closely warmed by the weak sun the lands there 
+are locked in permafrost. The Rim, on the other hand, is a region of sunny 
+islands and balmy days." (TCoM, p. 11-12)
+  Although the above is true, the _Companion_ (p. 48-9) points out the 
+difference between the full _astronomical_ year (called the spin year, or, 
+in the days of the Ankh-Morpork Empire, the Great Year) of 800 days, and 
+the _agricultural_ year (technically a half year). Whatever the wizards and 
+astronomers say, most folk, and certainly rural folk, measure their year 
+by the plough-plant-grow-reap cycle. There are thirteen months in the year 
+- Offle, February, March, April, May, June, Grune, August, Spune, 
+Sektober, Ember, December and Ick.
+  The sun is a ball of fire about a mile across. Because of its fixed 
+orbit, the elephants are occasionally obliged to cock up a leg to let it 
+pass. The moon has to shine by its own light (TLF, p. 115).
+  As Great A'Tuin swims though space, the stars are seen to move relative 
+to the world turtle's direction. As a result, although here are always 64 
+(8 x 8) signs to the Disc zodiac, new ones are constantly being 
+discovered and named, and then left behind never to be seen again 
+(necessitating that the tile mosaic floor of the Unseen University 
+Observatory be relaid every decade or so).
+  Geographically, the Disc is a vast and varied place, with a variety of 
+countries and cultures in which to explore. This is because Pratchett's 
+style of writing is a type of comic fantasy that includes lots of in-
+jokes, references and homages to Real Life situations that he calls 
+'resonances'. This is effect is covered under the Law of Resonances, below. 
+In practice, the Disc includes societies that strongly resemble settings 
+of other literature (eg, Wyrumberg = Pern), and of Real Life. Looking at 
+the _Discworld Map_, it can be seen that there are four continents. By far 
+the biggest is the unnamed one where most of the stories have been set. 
+It contains the cities of Ankh-Morpork, Lancre (generic European kingdom 
+combined with rural United States), Llamedos (Wales), Uberwald 
+(Transylvania), Genua (New Orleans), and the Nordic-like areas around 
+No Thingfjord.
+  Rimwards and turnwise of this huge continental mass is a smaller 
+section, Klatch, which is also called a continent in much the same way 
+that Europe is given a continent status separate from Asia. Klatch 
+contains vaguely Mediterranean countries towards the Hub, such as Tsort 
+(Rome), Ephebe (Greece). Djelibeybi (Egypt) and Om (church dominated 
+Mediaeval Europe) around the Circle Sea, and then shades down into more 
+African locales like Howondaland. It also contains the Tezumen Empire 
+(Aztecs).
+  Connecting with the main landmass by a peninsula the near-permanent (?) 
+ice cap at the Hub) is the Counterweight Continent dominated by the 
+Agatean Empire. The Counterweight Continent balances the weight of the 
+other lands because, despite it smaller size, it contains rich deposits 
+of the heavy metal octiron, and to a less important extent, gold. The 
+Agatean Empire is often called the Aurient ("Where the gold comes from") 
+and resembles China/Asia. Running off turnwise from the Agatean Empire 
+area number of islands drawn with volcanoes; I don't remember reading 
+anything about them, but I guess they represent Japan analogues. The 
+fourth and smallest continent is the Lost Continent of XXXX (Australia). 
+There are two islands (Land of Fog) widdershins off XXXX which from a 
+comment in the _Map_ probably represent New Zealand.
+  There are various other islands, such as Ku, which because it has sunk 
+is probably meant to be Mu/Atlantis, and the Brown Islands, which because 
+they have surfing are probably meant to be at least partly Hawaii.
+  There are also reported to be a large number of brigadoons (places that 
+are present in one place only at certain times, and which will eventually 
+vanish until their next appearance) on the Discworld (DC, p. 53).
+
+A ROUGH HISTORY OF THE DISCWORLD WITH REGARDS TO THE DISPOSITION OF THE 
+CREATOR AND THE FALL OF MAGIC
+  The Creator of the Discworld is actually A Creator; one of apparently 
+many who contract out to create universes. The Discworld's Creator has 
+more imagination than mechanical aptitude (TCoM, p. 75), and this is borne 
+out by disparaging comments he made about putting your trust in physical 
+laws alone to keep a universe running:
+  "Some people... think its enough to install a few basic physical formulas 
+and then take the money and run. A billion years later you got leaks all 
+over the sky, black holes the size of your head... I think people appreciate 
+the _personal_ touch, don't you?" (E, p. 93). 
+  As a result the Discworld was created with a VERY high Magic axiom, to 
+hold the world together more or less as cosmic glue (WS, p. 6). It was 
+also lacking in solid physical laws that would have made it 
+comprehensible: "The Creator had a lot of remarkably good ideas when he 
+put the world together, but making it understandable hadn't been one of 
+them" (M, p. 12). (This rather slapdash approach to world creation means 
+that the Discworld has a rather unique problem in terms of the stability 
+of its reality; see Magical (In)Stability, under 'More On Magic', below.)
+  Exactly how high the Magic axiom was in those days probably can't be 
+accurately quantified, but the fact that mortals soon began using it to 
+war against the gods implies that it was somewhere around or above Magic 
+30: "In those days magic in its raw state had been widely available, and 
+had been eager utilised by the First Men in their war against the Gods." 
+(TCoM, p. 119).
+  Thus, the Mage Wars raged until the beings known as the Old High Ones 
+stepped in: "And great and pyrotechnic were the battles that followed - 
+the sun wheeled across the sky, the seas boiled, weird storms ravaged the 
+land, small white pigeons appeared mysteriously in people's clothing, and 
+the very stability of the Disc (carried as it was through space on the 
+backs of four giant turtle-riding elephants) was threatened. This 
+resulted in stern action by the Old High Ones, to whom even the Gods are 
+answerable. The Gods were banished to the high places [Dunmanifestin], 
+men were re-created a good deal smaller, and much of the old wild magic 
+was sucked out of the earth" (TCoM, pp. 119-120), the latter having the 
+effect of lowering the Magic axiom. For the purposes of this work I am 
+assuming that the Olden Ones are the same as the Old High Ones, and thus 
+can attribute to them the imposition of the Law of Conservation of 
+Reality as well: "magic had indeed once been wild and lawless, but had 
+been tamed back in the mists of time by the Olden Ones, who had bound it 
+to obey among other things the Law of Conservation of Reality; this 
+demanded that the effort needed to achieve a goal should be the same 
+regardless of the means used." (TCoM, p. 79).
+  Internal evidence also suggests that the Old High Ones may have also at 
+this time imposed on the Discworld various physical laws that were in 
+evidence at later times throughout the novels of the series. Things like 
+the laws of conservation of energy that limit wizard spells; or what the 
+noble Disc dragons consider "all boring physical laws" and which they 
+choose to defy in order to fly (GG, p. 170).
+  It can be presumed that although the Law of Conservation of Reality 
+came into immediate effect for spell casting, it took longer for its full 
+effects to begin to restrict magical creatures. This would explain why 
+the noble Disc dragons didn't vanish into the dimension(s) of imagination 
+all at once; but instead went away for longer and longer stretches of 
+time until one day they didn't come back at all, and today must be 
+summoned back by a willing imagination harnessing a powerful magical 
+field (TCoM, p. 151). It would also explain why the nasty wild elves were 
+able to stay until they were driven away to the dimension called 
+Fairyland, taking with them many of the remaining magical creatures, such 
+as unicorns.
+  Or to put it another way, the Disc's Magic axiom was lowered by the 
+Old High Ones because of the Mage Wars. Men and gods were the first to be 
+affected, but there was also an eventual knock-on effect that led to 
+other magical creatures suffering as well. Typical, really.
+  Today, the remaining creatures that were once magical are no longer so, 
+and live dirty, rather squalid lives (Squires the gnome in TLF) because 
+of the Law of Conservation of reality's ban on the use of magical 
+enhancement packages. Those creatures that do have potent magics tend to 
+have an at least partly extradimensional existence (The Dryads in TCoM).
+
+AXIOMS AND WORLD LAWS
+Magic 19     Social 20     Spirit 22     Tech 17
+
+Magic 19
+  The Discworld has a very high Magic axiom due to the immense 
+magical field generated to hold the place together, although it was much 
+higher up until the end of the Mage Wars and the imposition of the Law 
+of Conservation of Reality.
+  The Law of Conservation of Reality complicates the Magic axiom of the 
+Discworld, so that although this cosm has lots of magical power, it is 
+not as easily used as this axiom level would normally indicate (i.e., 
+unlike in most realities, there is not always a direct correlation 
+between the level of magical power in the cosm, and the sophistication 
+that the power can be put to by the living as a tool).
+  The actual amount of magical energy on the Disc is consistent with a 
+Magical axiom of 19, which is an enforced drop from 30ish.
+  The axiom of 19 is indicative of the _types_ of effects available to 
+magic-users. Wizards have used extradimensional spells for summoning up 
+demons (Mag 15) and there is a predisposition for wizards to use 
+Impressed spells (Mag 17) because such spells are easier to cast. The 
+LoConsOfR caps the Magic axiom at this level in order to forbid the types 
+of effects that an axiom above 19 would bring. This includes Wish spells 
+(Mag 20) and most especially the 'easy magic' that begins to occur from 
+axiom 22 onwards, where magical processes begin to become easier and 
+magic-users actually get _bonuses_ to their castings. The latter runs 
+against the very purpose of the LoConsOfR, and so is strictly verboten by 
+that world law.
+  However, the presence of the LoConsOfReality means that in many ways 
+the practical Magical axiom is 9. Various creatures that need small 
+amounts of magic can survive at this level. It was for this reason that 
+the noble dragons departed this world for one of the dimensions of 
+imagination; they could exist (barely) at an effective Mag axiom of 9, 
+but not as well as they were accustomed to, and so threw a collective 
+wobbly and left. The presence of a non-corporeal entity like Mr Ixolite 
+the banshee (needing Mag 10) thwarts my attempts to explain, other than 
+the fact that he is described several times as the last of the banshees, 
+and thus may be either a holdover from time of higher Magic levels, or a 
+fluke (probably supported by the Law of Chaotic Whimsy (aren't fudge 
+factors wunnerful? :-)).
+  Note that because of the Law of Belief, anthropomorphic 
+personifications of the Disc (Death, the Sandman, the Hogfather, Old Man 
+Trouble, Soul Cake Thursday Duck, et al) operate under the Spirit axiom 
+rather than the Magic axiom and so do not require Mag 10.
+  More importantly, Magic 9 is the level at which _difficulty level_ of 
+spells is determined. The LoConsOfR dictates that the effort needed for 
+any activity must be the same regardless of whether magical or non-magical 
+means are used. Thus, while all four magical skills operate efficiently, 
+and spell types of up to axiom level 19 can be used without contradiction, 
+the difficulty of using magic is as if at an axiom level of Magic 9 and 
+thus has a +3 modifier to both the Difficulty and Backlash. Additionally, 
+further increases in the Difficulty and Backlash of a spell are possible 
+depending on whether a spell is Impressed into memory for later use or 
+not. Impressed spells add a +0 modifier to spell Difficulty and Backlash, 
+while those that are not impressed add a further +3 to Difficulty and 
+Backlash.
+  The increased difficulty of magic reflects onto the number of 
+practitioners of magic as well. While it is true that the societies of 
+wizards and witches generally have policies that keep the number of magic-
+users low (in order to avoid problems with the Things using a plethora of 
+undertrained and improperly supervised mages as catspaws), the number of 
+mages who turn up naturally is more in line with Magic 9 than Magic 19 
+(Mag 18 - "Most beings in the cosm use some magic to at least a limited 
+degree"). Magic on the Disc is usable only by a small proportion of the 
+population, who usually need years to learn how to use it properly.
+  APPORTATION effects are difficult because various principles of mass/
+energy conservation and leverage apply to them. For example, when using a 
+transmigration spell to move instantly from point A to point B, a 
+comparable mass must be shunted back from point B to point A to maintain 
+balance (LaL, p. 223). Similarly, when using telekinesis, the brain is 
+under a lot of strain which, if not properly braced against, can cause 
+great physical damage. Thus, when casting Apporatation spells, someone 
+who takes a fatal amount of backlash dies because their brains have been 
+catapulted out their ears (TLF, p. 188).
+  ALTERATON effects are difficult because the shape of everything is 
+dictated by its morphogenic field, which in turn is controlled by the 
+mind. Basically, the shape of the body is determined by deep-seated, 
+subconcious mental habits. To change someone's shape you have to change 
+how he thinks about himself at the most primal level. This is only 
+moderately difficult for creatures which actually have minds; but for 
+things that don't the magician has to go down to molecular level to 
+change the molecules' minds (WA, pp. 203, 208-9). This latter effect is 
+possible, it suffers an additional +2 to the Difficulty and Backlash.
+  CONJURATION effects are difficult because it takes a lot of magical 
+power to create the energy that makes up the item that is conjured (MP, 
+pp. 146, 293).
+  And DIVINATION? Nothing's actually been mentioned in the novels that 
+would specifically explain the greater difficulty for this skill. In 
+fact, the description of how wizards and witches sense their impending 
+deaths suggests that Divination effects are easier. The description of 
+the process in the Torg Rulebook and the Nippon Tech SB of the way 
+ambient magical power allows for intuitive flashes, deja vu, and 
+precognitive foresight meshes very well with the way the same process 
+works on the Discworld. On the Disc, memory stretches out both behind 
+and ahead of the individual, but most people on the Discworld ignore this; 
+wizards and witches, however, know enough about magical process not to 
+ignore these insights.
+  It has been suggested by Kansas Jim that perhaps Divination has been 
+exempted from the increased difficulty of magic generally under the Law 
+Of Conservation Of Reality, and that the ability of wizards and witches 
+to sense their impending deaths is a type of punitive tradeoff. When the 
+Old High Ones started to impose the LoConsOfReality some smart-ass 
+wizard tried to convince them that Divination magic wasn't dangerous 
+enough and shouldn't be shackled by the world law. The Old High Ones 
+decided to teach this guy a lesson, so they let him (and all other magic 
+users) keep his divinatory abilities, but with the price that he could 
+not avoid knowing the approach of his own demise while also being 
+acutely aware that there was nothing he could do about it. These days, 
+of course, some magic users have become more or less reconciled to their 
+impending death, and use the foreknowledge to put their affairs in order 
+and go out having a good time. Others, such as Greyhold Spold in TLF, 
+spare no effort to try to avoid Death, but always fail anyway.
+  This reasoning sounds good to me. In game terms Divination spells are 
+exempted from all of the above penalties.
+
+Social 20
+  The important thing to remember about the Discworld is that the people 
+who live on it do not act like typical fantasy genre inhabitants. When 
+interviewed Pratchett has commented that part of the humour of the series 
+comes from having an irrational fantasy setting, but populated by people 
+who try to act rationally; people do not go into bars and cry "Ho 
+inkeeper! A flagon of your best mead!" unless they are seriously ODing on 
+the Dried Frog Pills. Thus, the heroic and villainous causes that 
+motivate the populations of Aysle and Avalon seem very alien to most 
+Discworlders. As Granny Weatherwax has noted, you can't go about acting 
+as if stories and folk songs were real. Although there are some incurable 
+romantics who try.
+  Superficially, most Discworlders tend to act very much like Core 
+Earthers; mostly they go about their lives as best they can. People are 
+just people - even the undead ones (RM) and golemim (FoC). Discworlders 
+do, however, have a tendency to be dreadfully literal-minded: "If the 
+Creator said 'Let there be light'...  he'd have got no further because 
+of all the people saying 'What colour?'" (MaA, p. 52)
+  The biggest difference between the living and the undead is that dying 
+tends to strip one of all the foolish preconceptions that living in a 
+society foists upon one. Death has been described as being like waking 
+up. As a result, although undead people reside among the living pretty 
+much as they had before (albeit with some discrimination) their natural 
+tendency not to ignore the strange and unusual still makes them outsiders 
+somewhat.
+  Politically the most sophisticated place on the Discworld is probably 
+the city of Ankh-Morpork. In order to keep the city of one million people 
+from metaphorically flying apart the Patrician, Lord Vetinari, has 
+devised a subtle and extremely effective means of keeping the various 
+guilds and power groups in a state of disarray by playing them off 
+against each other (Social 20: "Pluralism, the balancing of many actions 
+within a government and society"). In this way none of them ever gain 
+enough power or influence to upset the mechanics of the cities' 
+functioning. His methods include a top rate spy service, and truly 
+organised crime (with the Thieves Guild having agreed to a set amount of 
+crime for a financial year, most citizens prefer to plan ahead, make a 
+payment, have an acceptable level of crime committed at their convenience 
+in the privacy of their own home, then keep the receipt), and finally a 
+Doug Piranha-like use of Sarcasm. The Patrician has also written a private 
+monograph, 'The Servant', on the effective weilding of political power.
+
+Spiritual 22
+  There are definite divine agencies on the Discworld, and they make sure 
+that people know it. The gods are a stroppy lot, and take a dim view of 
+atheists. Whenever the philosophers in Ephebe start pondering whether the 
+gods exist, the gods are usually only too happy to present 
+incontrovertible proof by smiting them with lightning.
+  It should be noted, however, that gods don't mind the fiery atheists, 
+who bitterly hate the idea of gods and put as much effort into not 
+believing in them as most worshippers do into their faith. That type of 
+hate is almost as good as worship (SG, p. 248).
+  But, while the gods are there, they don't pay much attention to their 
+worshippers when it comes to miracles. They tend to be rather self-
+absorbed, and usually play games with the fate of their worshippers 
+(especially their chosen heroes: "The soul of a true Hero always finds a 
+better rate of exchange, and is highly valued by the gods" - TCoM, p. 86) 
+more than they do tending their flocks. See the Law of Divine Self-
+Absorption for the fringe reality of Dunmanifestin. Miracles tend to be 
+less common than they would be in, say, Aysle, but when they do turn up 
+the types available are extremely varied and can be quite potent.
+  Since gods exist because their worshippers believe they exist, and new 
+ones are developing from small gods all the time, the Spirit axiom is 
+less than 23 (the point at which one mythos would become dominant, and 
+as a result lock things in place rather than allow the current 
+flexibility). At Spi 17 locations are capable of perpetual miracles even 
+without the presence of a community, but such things tend to get lost 
+among the various weirdnesses on the Disc, such as the rains of fish at 
+Pine Dressers which are so regular that this landlocked town has its 
+own canning industry. At Spi 21 the laity may create miracles without 
+need for the Focus skill, but again, the Disc gods are so stand-offish 
+that that is no guarantee that a call for a miracle will be responded to.
+
+Technological 17
+  In Torg terms the level of technology described in the novels varies 
+between 15 and 16, with a few instances indicating that an axiom shift 
+of Tech 17 has spread outward from Anhk-Morpork since the early books 
+in the series. The Discworld has had fireworks for some time, and the 
+Agatean Empire makes use of cannons. Meanwhile, in _Men at Arms_ the 
+invention of the gun (or gonne, as it was called) by the eccentric Ankh-
+Morpork genius Leonard of Quirm was briefly rediscovered. The gonne, 
+however, was suppressed on agreement by the Patrician, the Assassins 
+Guild, and the Ankh-Morpork City Guard. The Patrician didn't want 
+something powerful enough to upset the social stability of the city; the 
+Assassins prefer to "inhume" people up close and personal as a matter of 
+professional pride, and so are prejudiced against all long-distance 
+weapons; and the Guards just didn't want any more people getting killed. 
+Consequently, non-Discworld characters who attract too much attention with 
+their firearms around Ankh-Morpork are likely to be quietly and 
+efficiently removed.
+  The Ephebians worked out ages ago the existence of atoms and that the 
+speed of light is finite (subsonic, actually); and the usefulness of 
+nitrogen-fixing plants for agriculture is understood (LaL, p. 24).
+  Printing is possible, but around the Circle Sea a ban imposed by Unseen 
+University means that printing is restricted to having the block of the 
+page carved as a whole rather than being composed of many individual, 
+reusable pieces. This is because the wizards fear that if type blocks 
+were used to print up a book of magic, then strange things might happen 
+if they were reused for mundane volumes: the metal might _remember_. This 
+prevents the founding of any daily broadsheet newspapers, but magazines 
+do exist. Moveable type is used on the Counterweight Continent.
+  Clockwork exists to power watches and clocks, but in practice it is not 
+always of good quality. Frequently, watches instead function because of 
+small conjured imps who power them by pedalling. Unfortunately, these 
+watches stop when the imps disappear after a few months. Iconographs 
+(cameras) also use conjured imps to paint instant pictures; and before 
+movies were banned as being too dangerous to the fabric of reality, movie 
+cameras also used imps. However, powerful and efficient clockworks are 
+possible. Witness the Barbarian Invaders machine invented by Leonard of 
+Quirm (SM). Similarly, the computer called Hex in the High Energy Magic 
+Building at Unseen University runs primarily by clockwork (probably being 
+somewhat analogous to Babbage's Analytical Engine and Differential 
+Engines), although Hex also has a magical factor which supports its AI 
+functions.
+  Indications that the Disc has pushed into early Tech 17 is that the 
+alchemists have recently started producing and selling matches (which 
+had made it as far as Lancre by ER), and that physicians have recently 
+gotten ahold of the newfangled idea of diseases being caused by bacteria 
+and viruses ("He's caught a walrus, there's a lot of it going around!" - 
+P, p. 62) On the other hand, the general consensus is still that thought 
+originate in the heart, and that the brain is just an organ for keeping 
+the blood cool.
+  Note that depending on how events turn out, the Disc could also well be 
+on the verge of both an agricultural and industrial revolution. In 
+_Reaper Man_ the blacksmith Ned Simmel created a functional horse-drawn 
+and powered combine harvester, and in _Small Gods_ the Ephebian 
+apprentice philosopher Gurn used a primitive steam engine to power both a 
+boat and a tank. Future developments could cause a sharp rise in the Tech 
+axiom.
+  One special note should made about the presence of octocelulose film 
+in _Moving Pictures_. The axiom tables list Tech 20 as needed for movies, 
+including 'talkies', but this is the level needed to produce and develop 
+photosensitive films. By comparison the film industry created by the 
+alchemists at Holy Wood actually operated at a Tech level of only 16 
+("plant extracts and essences possible"), because the octocelulose film 
+used was simply transparent rather than photosensitive. The transfixing 
+of the images onto the film was carried out by conjured imps (two imps 
+painting _really fast_ as the cameraman wound the film past the lens, 
+with another four imps blowing the paint dry). Then, for projecting the 
+images onto the movie screen, the projectionist would wind the film in 
+front of a light source.
+
+Law of Chaotic Whimsy
+  This world law stipulates that rules can be broken by the GM if it 
+makes for a good joke. The Law of Chaotic Whimsy may seem superficially 
+to be like the Law of Humour in the Cartoon Cosm, but the Law of Chaotic 
+Whimsy is a world law that cannot be used as a tool by players. On the 
+Discworld, some of the effects created by this law include: 
+  - The fact that no matter how powerful an explosion that kills somebody, 
+the shoes will always remain, with the classic wisp of smoke curling out 
+of them.
+  - The way that an explosion or collision are always followed, a few 
+seconds later, by one last tinkle of falling metal or glass.
+  - The fact that any pantry raided at night will always contain 
+leftovers, no matter what's in there by day.
+  - Exactly 1 in a million chances automatically succeed, although not 
+other improbable odds, such as 1 in 999,999.
+  The LoChaotic Whimsy also supports other weirdnesses, such a Opposites. 
+For example, darkness is not the opposite of light, it is merely light's 
+absence; the opposite of light is the light fantastic. A practical example 
+of a magical opposite can be heard every day in Ankh-Morpork in the form 
+of anti-noise, which is the opposite of sound while silence is merely 
+sounds absence. Anti-noise actively soaks up and cancels out sound. As 
+the various clocks and bell towers sound the hour, for a few minutes it's 
+almost impossible to tell one from another amongst the din until Old Tom 
+in the Unseen University bell tower begins to toll. Although tongueless, 
+Old Tom is made of the magic metal octiron, and rings out peals anti-
+noise that leaves brief bursts of silence. If you want you can also 
+experience an Opposite by getting knurd. This is the opposite of getting 
+drunk, and although not a particularly pleasant experience, can be done 
+simply by drinking Klatchian coffee. [In the books the existence of 
+Opposites is attributed to a high magic axiom, but is here delegated to a 
+world law because we haven't seen its like in other high magic realities 
+like Aysle.]
+  The Law of Chaotic Whimsy is an active law, and can pester Discworld 
+characters no matter where they hide. Just because the characters can't 
+use it as a tool doesn't mean it cant get them.
+
+Law of Resonances
+  The Discworld is a "world and mirror of worlds". Large parts of the 
+humour of the series derive from the references to non-Discworld events 
+and literature, in the various forms of allusions, references, tributes, 
+parodies, satires, puns, quotations and deliberate misquotations.
+  The first effect of this has no specific game mechanic: when the GM is 
+designing and running a Discworld adventure, it is to be expected that 
+lots of little in-jokes should be included as plot elements, background, 
+scenery, and dangerous distractions for players <evil grin>. (Although 
+GMs often do this in normal gameplay anyway; if so, ignore this bit.)
+  The second effect is that a lot of the Discworld reality set is made up 
+of bits and pieces and ideas from other realities. As a result, the 
+Discworld (like Core Earth) tends to be a natural zone of dominant reality 
+rather than the more usual pure zones. This explains why it was so 
+comparatively easy for the cinematic reality of Holy Wood to try to merge 
+with the Discworld in _Moving Pictures_, and why the invading wild elves 
+from Fairyland weren't hampered more by disconnection in _Lords and 
+Ladies_. But, whereas Core Earth's reality is dominant because it has an 
+unprecedented amount of Possibility energy, which allows its inhabitants 
+to conceive of multiple alien realities as entertainment, the Discworld's 
+reality is dominant because it tends to let in alien ideas, absorb them 
+into itself, and then transforms them to make them its own. It's 
+flexibility is thus world law derived rather than P-energy level derived, 
+and is imposed from without rather than an option of developing from 
+within.
+  Although Discworlders can relatively easily adopt to new cultural 
+patterns, they nevertheless still tend to retain their extreme literal-
+mindedness.
+  The Law of Resonances is a passive law.
+
+Law of Conservation of Reality
+  At the dawn of the world there was much magic loose on the Disc, which 
+was easily used by almost any sapient being. As a result the Mage Wars 
+flared between the humans and gods until the beings known variously as the 
+Olden Ones and the Old High Ones stepped in to put a stop to it. Among 
+other things, most of the original wild magic was sucked out of the Disc 
+(lowering the Magic axiom as a result), and the Law of Conservation of 
+Reality was imposed (CoM, pp. 79, 119-20).
+  In order to explain the way magic works in the novels in terms of the 
+Torg system this necessarily complicated world law is used. Most of it is 
+already explained under the Magic axiom. To summarise, this world law 
+stipulates that the effort needed to do something will be the same whether 
+magical or non-magical means are used. As a result, while the full benefit 
+of the Magic axiom (19) is available only for the _types_ of effects at 
+that level, the WL makes the actual _use_ more difficult, both for 
+individual mages and society as a whole, as if at Magic 9. This means a 
++3 modifier is applied to the Difficulty and Backlash of spells. There is 
+a further bias towards the use of Impressed spells, which have a +0 
+modifier, over non-Impressed spells, which have a +3 modifier.
+  The LoConsOfR bans the use of enhancement packages (cf the elves and 
+giants of Aysle, or the tharkoldu) under the otherwise powerful 
+Magic axiom. Wee folk like pixies, brownies, etc, tend to lead grubby 
+lives as a result (TCoM), but do not have to worry about the Silent Death.
+  One important factor in the Law of Conservation of Reality is that it 
+becomes inoperative at Magic axioms of 25 or greater. Why else would the 
+Olden Ones have siphoned off the excess magic if simply implementing this 
+world law would have been enough? This is why magic became so easy to use 
+when the sourcerer Coin was around; a sourcerer is a source through which 
+new magical power can enter the world. Coin's presence blasted the local 
+Magic axiom up past the level that the Law of Conservation of Reality 
+could cope with, so that instead of suffering penalties to their spell 
+casting, the wizards gained the bonuses that flow naturally from such a 
+high axiom level. This situation lapsed when Coin departed into a pocket 
+dimensional fringe reality of his own creation (see Maligree's Wonderful 
+Gardens, below). However, it may be possible that those magically 
+irradiated areas left over from the Mage Wars might still contain 
+similarly high Magic axioms. By this time most (some 95%) would have 
+decayed to less than 24, but if a magician could find some rare area of 
+axiom 25 or greater (usually no more than 100 meters across) then he 
+could be _very_ powerful within his little demse. (Providing he or she 
+was prepared to put up with the inherent risks of Magical(In)Stability 
+that such an area would possess.)
+  The Law of Conservation of Reality is an active law, and can pester 
+Discworld characters no matter where they hide.
+
+Law of Belief
+  The Law of Belief primarily acts as an adjunct to the Spirit axiom, and 
+essentially acts like an accelerated version of the normal Torg processes 
+of reality being defined and changed over time by the aggregate belief of 
+the population. It functions most effectively for belief affecting gods 
+and anthropomorphic personifications (like Death). (Note that under this 
+world law anthropomorphic personifications operate under the Spirit 
+axiom rather than the more usual Magic axiom 10 for "embodiments of 
+moral virtues" It has even been demonstrated that old gods can slip into 
+the job of anthropomorphic personifications, as the Hog Father has done, 
+so presumably there wasn't that much difference between them anyway.) 
+These beings are given power, form and personality by the belief of 
+mortals.
+  It is also possible for the Law of Belief to be used to effect changes 
+to the material world, although the evidence on this is complicated and 
+often contradictory. For instance, in _Moving Pictures_ the Things from 
+the Dungeon Dimensions used the Cthinema of Holy Wood to gain access to 
+the world; while people were watching and believing what they saw on the 
+silver screen so much that it weakened the already thin walls of reality, 
+the Things clothed themselves in the images of the actors which had taken 
+on form and substance because of the effects of this world law. There was 
+also the failed attempt by the wizard Cutwell to maintain in existence a 
+version of history where Princess Keli of Sto Lat remained alive by 
+convincing the population of Sto Lat that this was so.
+  It is also strongly tempting to attribute at least part of the temporary 
+success of the invasion of Lancre by the elves to this effect of the 
+Law of Belief, since that would explain how the elves were able to 
+superimpose some of their world onto part of Lancre. If so, it would 
+be consistent with the elves' modus operandi, since the wall between 
+worlds at the stone circle known as the Dancers was sundered by the 
+Queen of the Elves by manipulating people's belief and desire to call 
+herself and her minions to the Discworld. The alternative is that the 
+elves possessed some particularly potent reality manipulating magics, 
+which in the Torg sense there was no evidence of.
+  On the other hand, the novels have informed us on occasion that people 
+generally don't acknowledge what is really there because their personal 
+beliefs, common sense, and social upbringing get in the way. Witches and 
+wizards are trained to see things as they really are rather than what they 
+are thought to be. People ignore the presence of Death up until the time 
+of their actual demise, because their minds shy away from him. Most 
+people don't consciously hear Gaspode the Wonder Dog when he talks to 
+them, because people know that dogs don't talk (although they do hear him 
+on a subconscious level, and so he can beg food from them by use of 
+subliminal requests).
+  Rather than risk recreating Avalon's Law of Legends and letting PC 
+Storm Knights manipulate reality on anything other than a personal level, 
+I will just throw in the supposition that the above attempts by Cutwell, 
+the Things, and the elves were attempts to use the Law of Belief when 
+combined with the Law of Chaotic Whimsy and possibly even the Law of 
+Resonances. Thus, they were exceptions rather than the rule and not 
+necessarily earmarked for success.
+  So. For the most part attempts to change the world with this world law 
+are erratic and unsuccessful as Belief is better at shaping gods than 
+shaping the world: belief "may not be able to move mountains, exactly. 
+But it can create someone who can." (RM, p. 103). Thus, the LoBelief is 
+essentially super fast fertiliser for growing gods.
+  The effects of the Law of Belief are 'temporary'. Effects created by it 
+evolve rapidly, but can vanish just as quickly. If people stop believing, 
+the effect created by their belief ceases to exist. This is quite 
+different to the more normal Torg process of the way a cosm's reality 
+develops: it may take ages for a change to propagate, but once it's 
+entrenched it usually requires a further, active change in beliefs to 
+alter it.
+  Thus, gods on the Disc require that their faithful continually and 
+actively worship them. A god that no longer gains power from the belief 
+of worshippers dwindles back into a small god (essentially, a barely 
+sentient mote of energy that hungers for worship) (SG; M, p. 151; WA, p. 
+237). This is also the case with many of the anthropomorphic 
+personifications who derive from social customs (eg, the Hog Father, the 
+Sandman, Old Man Trouble). An entity personifying a more profound and 
+universal concept, like Death, will always be believed in, even if 
+subconsciously, and is less likely to discorporate through lack of belief 
+as long as any form of life exists.
+  This world law also affects the nature of the afterlife a person gets. 
+The gods rarely bother to judge the dead, so instead you get what you 
+believe in. The afterlife is a very subjective, and often unfair, 
+phenomenon.
+  The Law of Belief is a passive law, except for determining afterlives.
+
+Reconnection Numbers
+Character from the Discworld  	Character in the Discworld
+is in reality of:      		is from reality of:
+Atlantis   	 5		Atlantis   	13
+Avalon   	 3		Avalon   	12
+Aysle   		 3		Aysle       	11
+Aztec Empire 	 3		Aztec Empire 	 9
+Core Earth   	 9		Core Earth   	15
+Cyberpapacy 	11		Cyberpapacy  	12
+Kantovia   	 3		Kantovia   	17
+Land Below * 	 3		Land Below * 	16
+Lereholm   	 3		Lereholm   	17
+Living Land   	 5		Living Land   	21
+Magna Verita 	 3		Magna Verita  	13
+Nile Empire   	 7		Nile Empire   	10
+Nippon Tech 	10		Nippon Tech 	18
+Olympus   	 3		Olympus   	14
+Orrorsh   	 5		Orrorsh   	 8
+Pulse's cosm   	16		Pulse's cosm 	23
+Star Sphere   	15		Star Sphere   	14
+Terra       	 8		Terra       	15
+Tharkold   	11		Tharkold   	10
+Tz'Ravok   	 3		Tz'Ravok   	16
+* also Arachnidia and Gehenna
+
+-----
+Saxon Brenton     City library of the Uni of Technology, Sydney, Australia
+saxon.brenton@uts.edu.au          |          saxonb@mpx.com.au
+The Librarian "liked people who loved and respected books, and the best 
+way to do that, in the Librarian's opinion, was to leave them on the 
+shelves where Nature intended them to be." - Terry Pratchett, _Men At Arms_
+
+
+
+Date: Sun, 12 May 1996 21:42:06 -0500
+From: Saxon.Brenton@uts.edu.au (Saxon Brenton)
+To: Multiple recipients of list <torg@buddha.intecom.com>
+Subject: [TORG:1523] Discworld 3 of 4
+X-Listprocessor-Version: 6.0c -- ListProcessor by Anastasios Kotsikonas
+X-Comment: The Torg Mailing List
+
+Post 3
+MORE ON THE COSM
+
+MORE ON MAGIC
+The Number Between 7 And 9
+  On the Discworld eight is the number of the most potent magical 
+significance, and is even important in non-magical concerns: there are 
+eight days in the week, eight hundred days in the year, eight seasons, 
+and eight colours in the spectrum (though the eighth, octarine, is a 
+magical pigment usually not seen by most people).
+  There are eight great spells within the Octavo, the Creator's grimoire, 
+which were used to create the world; and 64 (8 x 8) signs of the zodiac. 
+Wizards usually work with octograms when casting spells that need shapes 
+of occult significance, although there have been mentioned instances 
+where other shapes have been used - magic circles for summoning demons 
+(E, pp. 16-17) and protective lead pentagrams in the room used for housing 
+the Octavo at Unseen University (TCoM, p. 88). There are therefore 
+presumably other numbers and shapes of mystic significance (such as 
+pentagrams and thaumatic triangles), but they are of secondary importance 
+behind octograms.
+  In game terms this effect can be applied when constructing spells or 
+rituals that need a specific number or shape. When constructing such 
+magics, as part of the spell creation process, the use of eight and 
+octograms should be encouraged by adding a bonus of +1 to the final total 
+of a roll. The use of other numbers and shapes is penalised by applying a 
+-1 modifier to the final total of the roll. Naturally, such modifications 
+to spell processes cause the spells in question to be contradictions 
+when cast in any reality other than that of the Discworld or its fringe 
+realities.
+  However, although eight is the most potent magical number, wizards (and 
+presumably witches) will not risk saying it aloud in an unprotected area - 
+since it is also the number of Bel-Shamharoth the Soul Render. 
+Bel-Shamharoth is one of the Things from the Dungeon Dimensions, and 
+seems to have gained some purchase on the Discworld by being worshipped 
+as an ichor god (TCoM, p. 89; P, p. 14). Magic-users who say "eight" risk 
+attracting Its attention, and being dragged off to a place that is both 
+underground and Somewhere Else, and then having their soul eaten to the 
+accompaniment of loud slurpy noises and satisfied sucker-smacking sounds. 
+It is usually safe for wizards to say "eight" in the magically protected 
+environs of Unseen University (DC, p. 89), but they habitually refer to 
+this forbidden number as 7a anyway.
+
+Magical (In)Stability
+  A direct result of the Creator's lack of mechanical aptitude but 
+abundance of imagination is that the Discworld doesn't work particularly 
+well, and is in fact held together by magic as a sort of cosmic glue 
+(WS, p. 6). It does this by having reality distorted by the presence of 
+so much magical power that otherwise impossible effects (such as the 
+floating the mountain of Wyrmberg) are possible. Note, however, that 
+while this large amount of magical power, if properly applied, can hold 
+the world together, if improperly applied it can easily tear the world 
+apart, which is why it is so dangerous to run the risk of creating an 
+intense but uncontrolled field of magic by casting too many spells at one 
+area or item (TCoM, c pp. 228-9). Think also of the mention of the 
+dangers of a critical Black Mass being formed from all the books at 
+Unseen University Library.
+  In game terms, areas with intense but _uncontrolled_ magical fields 
+cause disruptions in reality, distorting local causality and causing 
+strange and unpredictable things to occur. Areas that took a direct hit 
+from a spell during the Mage Wars are examples. This type of effect can 
+also be created if a powerful spell (axiom 13 or greater) is miscast, 
+using a variant of the rules for Erratic Failure (The Delphi Council 
+Worldbook Volume I, pp. 118-20). Such a miscast occurs if any caster 
+fails to beat the Difficulty Number of the spell, and the result points 
+of the failure get a Superior (7 points) or greater result on the Power 
+Push table. Such an eventuality creates an area of the above mentioned 
+intense but uncontrolled magical field, equal in size and duration to the 
+value of the result points. After that results that are dangerous and/or 
+messy and/or weird are left to the GM's imagination.
+  The same type of effect may result if two or more spells are cast onto 
+the same item or into the same area at the same time. Spells that meet at 
+the same time, especially those cast simultaneously in magical combat, 
+tend to cancel out with unexpected side effects, for example the duel 
+between Carding and Spelter (S, p. 40). Normally this type of timing 
+isn't possible under the Torg combat rules; only spells being used in 
+combat with cast times greater than 10 (i.e., activating at the end of 
+the combat round) could possibly go off simultaneously.
+  However, simultaneous spell activation can be simulated by use of the 
+Drama Deck. In a combat round where two (or more) spell casters on one 
+side (Hero or Villain) get a Setback result, their spells collide. In 
+a combat round with multiple spells being cast from _both_ sides, then a 
+Setback result for _either_ will cause a collision. (For GMs who want to 
+keep an element of surprise for this, a second draw of the Drama Deck for 
+the purposes of determining any Setback results for spell casting may be 
+necessary.) And of course, a GM may also want to flip cards from the 
+Drama Deck to see if spells collide, even when combat is not taking place.
+  If two or more spells meet like this, compare the result points. The 
+result points will cancel each other out on a one-to-one basis, even for 
+odd numbers of spells. (For example, if three spells meet at once, with 
+result points of 4, 5, and 8, then the number of result points common to 
+all (4) will cancel out, leaving results of 0, 1, and 4.) If one or more 
+of the spells still has 7 or more result points, then an area of intense 
+but uncontrolled magic results. Once again, the size and duration of the 
+area depends on the value of the results; each set of results that is 
+still of 7 or more points after cancelling out is added for a total 
+'magical fallout' value.
+
+Magic-Users
+  There are two main way to get to use magic. One may be born into it, or 
+one may learn it like any other skill.
+  Magic skills are usually hereditary. The son of a wizard will usually 
+be a wizard himself, although it probably should not be put past the 
+Discworld to let it skip generation or drop out all together. Similarly, 
+the eighth son of an eighth son will also traditionally be a wizard. (The 
+eighth son of a eighth son of an eighth son will be a wizard squared - a 
+sourcerer. But their sheer level of power is dangerous to the fabric of 
+reality because of Magical (In)Stability, and so their are prohibitions 
+on wizards marrying or fornicating.)
+  Whether these hereditary factors also apply to witches has never been 
+spelt out. It's possible that they do, but OTOH, considering that much of 
+the Disc is made up of cliches, possibly not. It is unusual, but not 
+actually forbidden, for witches to marry (WS, p. 25).
+  People may also learn to use magic. Use the standard Torg rules for 
+learning new skills (Torg RB, p. 20; Aysle SB, p. 24). As a permutation 
+on this, it is also possible for a dying wizard (and possibly witch) to 
+invest his or her power in another - such as the case where Drum Billet 
+gave his power to Eskarina Smith (ER, p. 10).
+  However, magical societies try to discourage too many people from 
+learning magic. It's dangerous stuff, both on a personal and social 
+level. The problem is that the Things from the Dungeon Dimensions are 
+always trying to break into the world, and minds that use magic shine 
+brightly against the dull background of the non-magic-using masses. The 
+Things try to use magic to both break through into the Discworld, then - 
+because they have no morphogenetic field of their own - stabilise 
+themselves so that they can last in what for them is the ultimate alien 
+reality: reality itself.
+  The two best known types of magic-users from the Discworld are the 
+wizards and witches. The difference between their magic is partly one of 
+differences between how the sexes think: "How the mind works. Men's minds 
+work different to ours, see. Their magic's all numbers and angles and 
+edges and what the stars are doing, as if that really mattered. It's all 
+power. It's all [geometry]" (Granny Weatherwax, ER, p. 60). Wizards lust 
+after power (E, p. 21) and tend to use lots of magic to attain it despite the 
+limitations on it (TCoM, pp. 52-3). This means they will use any 
+advantage available, including a preference for Impressed spells. 
+Witches, on the other hand, recognise those limitations; they are 
+essentially minimalists when it comes to using magic, and prefer to use 
+psychology ("headology") to get what they want by getting other people to 
+do it for them. Witches usually find that too much magic just gets in the 
+way, and find they don't have to cast spells to do things when they can 
+get other people to do it for them. Wizards try to master the world, 
+impose their will upon it, and generally try to create things from 
+scratch. Witches usually try to influence the world, and work with what 
+already exists. Wizards try to change the world, while witches try to 
+change the people.
+  Other types of magic users have been mentioned, but not greatly detailed:
+  Alchemists. Have had quite a bit written about them, but strictly 
+speaking they aren't magic-users. There's a demarcation over who can use 
+magic that the wizards enforce, and so the Alchemists stick to mixing 
+their chemicals. The most noteworthy fact about the alchemists is that 
+the blow up their guildhall in Ankh-Morpork every three months or so.
+  Demonologists "tended to be surreptitious, pale men who got up to do 
+complicated things in darkened rooms and had damp, weak handshakes. It 
+wasn't good clean magic. No self-respecting wizard would have any truck 
+with the demonic regions, whose inhabitants were as big a collection of 
+ding-dongs as you'd find outside a large belfry." "This might seem odd, 
+because if there is one thing a wizard would trade his grandmother for, 
+it is power. But it wasn't all _that_ strange, because any wizard bright 
+enough to survive for five minutes was also bright enough to realise that 
+if there was any power in demonology, then it lay with the demons. Using 
+it for your own purposes would be like trying to beat mice to death with 
+a rattlesnake." (E, p. 21)
+  Warlocks have only been mentioned in that, like witches, they are 
+traditionally supposed to spend Alls Fallow eve in bed. No practicing one 
+has been identified so far, and as the _Companion_ points out, "no one 
+even knows how many legs one should have".
+  From the wizards point of view other magic-users are bellow them. 
+Magicians are usually those who failed to gain entrance to Unseen 
+University, and are dismissed as "mere magical technologists". Magicians, 
+in turn, look down on conjurers (although the conjurers tend not to 
+notice "and really infuriate magicians by not realising how lowly they 
+were and kept telling them jokes"). At the bottom, with no training at 
+all, are the thaumaturgists, who collect the magical ingredients needed 
+for spells. (ER, p. 125)
+
+High Magic, Manipulation, and Conclavity
+  In this context High Magic simply means the extremely occult looking 
+and magicky casting of spells favoured by the more traditional minded 
+wizards. Lots of rare and esoteric materials (octopus toenails, dew 
+collected off deadly nightshade, human blood, moonbeams, etc), 
+paraphernalia (dribbly candles, rams skulls, ravens trained to say 
+'Nevermore', the mandatory pointy hat and wizard's robe inscribed with 
+occult sigils), plus maybe helpers to hold the thuribles and wave the 
+wands. This stuff is vitally important to maintain the _mystique_ of 
+magic. Casting can often be performed without all this, but the result is 
+not as spectacular and paying customers feel shortchanged.
+  Quite often wizard spells designed on the principles of High Magic will 
+have options for manipulation built into that go beyond those that would 
+be considered normal, even for Aysle. Thus, they have the option of quick 
+and simple castings in private if they need, or factoring in all sorts of 
+estoterica for public displays (the Rite of AshKente is the best 
+documented example). Witches, who rarely cast magic and primarily use 
+only their pointy hats to impress their customers, do not configure their 
+spells this way.
+  Spells created for High Magic will almost always have included 
+manipulation of Cast Time, plus other process theorems depending on the 
+purpose of the spell. High Magic has also developed a new process 
+theorem, called Conclavity. Conclavity allows a spell to be cast with as 
+little as one mage, but with the option adding in many more. If multiple 
+casters are factored in, then one wizard will have to be designated the 
+leader of the spell's casting, and he or she must roll her total as 
+normal. However, if the other casters participating in the spell 
+succeed in beating the spell's DN as well, then the value of the number 
+of additional casters who succeed is added as a bonus number to the 
+total of the leading caster.
+
+Spells
+  The spells of the Discworld are sapient and lead private lives of 
+their own in the pages of grimoires. Moreover, grimoires have their own 
+collective intelligence composed of the sum of the spells they contain. 
+Some spells resent being memorised and crammed into someone's head, and 
+may vindictively try to return the experience. A person reading a 
+grimoire (whether learning the spell, Impressing it into memory, or just 
+scanning its contents) runs the risk of being attacked and 'eaten' by the 
+contents if the book or scroll is feeling belligerent. If anybody 
+investigates the screams, they'll find the victim's shoes with the 
+lassic wisp of smoke coming out of them, and the grimoir looking smug 
+and noticeably fatter. Then a mage will have to be called in to cast a 
+spell that will allow the person Impressed into the grimoir to be 
+released and reconstituted.
+  Both individual spells and grimoires are capable of doing this. The 
+spell or grimoire uses its 'Mind' value against the reader. The value of 
+a spell's MIN is the average of its Backlash, Difficulty, and Effect 
+values. The MIN value of grimoires is the average of the MIN values of 
+the spells it contains, plus the bonus number from the Many-On-One table 
+for the appropriate number of spells. For this reason it is tactically 
+sound for wizards to include at least one low powered spell in a 
+grimoire, especially if the other spells include the likes of Sunder 
+Spirit. The reader defends with his or her Mind (or Willpower). If the 
+attacking spell or grimoir gets a Minimal to Good success, than the 
+target escapes physically unharmed but suffers as per the Interaction 
+Results Table. If a Superior or better success results, then the target 
+is 'eaten' by being Impressed into the book.
+  Grimoires may also use the same method to 'consume' other magical books 
+(MP, pp. 168-9).
+  The sapience of spells is an effect supported by the LoChaoticWhimsy, 
+and can affect spells from other realities as a one case contraction. 
+Particular care should obviously be taken to avoid being attacked by 
+spells from Tharkold and Orrorsh.
+
+Some spells:
+Chant of the Trodden Spiral (TLF) (Druidic, so may be a miracle)
+Englebert's Enhancer (HF)
+Eringya's Surprising Bouquet (RM)
+Fresnel's Wonderful Concentrator (TCoM)
+Gindle's Effortless Elevator (MP)
+Herpetty's Seismic Reorganiser (RM)
+Infernal Combustion Enigma (CoM)
+Maligree's Wonderful Garden (S)
+Pelepel's Temporal Compressor (S)
+Raising of the Cone of Power (LaL)
+Spell of Binding (TLF)
+Spold's Unstirring Divisor (HF)
+Spolt's Forthright Respirator (HF)
+Stacklady's Morphic Resonator (LaL)
+Sumpjumper's Incendiary Surprise (RM)
+Turning To Animals (TCoM)
+Vestcake's Floating Curse (TCoM)
+
+Atavarr's Personal Gravitational Upset 
+(CoM, pp. 208-211)
+Axiom level: 9 (17)
+Skill: alteration/inanimate forces 22
+Backlash: 19
+Difficulty: 16
+Effect value: 12 (250 kg)
+Bonus number to: duration
+Range: 8 (40 meters)
+Duration: 20 (2.5 hours)
+Cast time: 16 (30 minutes)
+Manipulation: cast time, control, range
+
+  This Focused and Impressed spell will affect one folk person of up to 
+250 kg (taking into account the weight of some wizards). If a person is 
+affected the force of gravity will reorient exactly 90 degrees from its 
+standard direction, and allow him to walk on walls. As long as the new 
+"down" is exactly 90 degrees to the old one, the caster may determine 
+what way gravity will reorient, but once set it cannot be changed. The 
+spell may be ended by the caster at will.
+  Recipients of this spell who are prepared for its casting can walk from 
+the old "down" direction to the new one (i.e., walking, rather than 
+falling, onto a wall) by making a DEX total against a base Difficulty of 
+12. Recipients who aren't prepared for its casting will take falling 
+damage as normal.
+  The spell is Impressed into memory though concentration on a square 
+block, which is rotated in the caster's hands during memorisation.
+
+Brother Hushmaster's Potent Asp-Spray
+(S, p. 40)
+Axiom level: 12 (17)
+Skill: conjuration/earthly 22
+Backlash: 18
+Difficulty: 16
+Effect value: 12
+Bonus number to: effect
+Range: 2 (2.5 meters)
+Duration: 9 (1 minute)
+Cast time: 15 (15 minutes)
+Manipulation: cast time, range, speed
+
+  This Impressed spell creates a spay of silver-coloured asps that 
+materialise in mid flight towards the target. Naturally, the asps are 
+quite angry at such treatment, and will bite the target(s). Once their 
+venom has entered someone's bloodstream it causes damage each round 
+equal to the total Effect of the spell plus the Many-On-One value of the 
+number of asps that bit. At the end of the spell's duration both the 
+asps and the venom vanishes.
+  The number of asps conjured is equal to the value of the bonus number 
+generated, to a minimum of one.
+  The spell is Impressed into a small staff, carved into the shape of a 
+serpent.
+
+Eightfold Seal Of Stasis
+(TLF, pp. 7, 9)
+Axiom level: 12 (17)
+Skill: alteration/magic 23
+Backlash: 20
+Difficulty: 16
+Effect value: 35
+Bonus number to: effect
+Range: 4 (6 meters)
+Duration: 37 (10 months)
+Cast time: 24 (15 hours)
+Manipulation: cast time, control, duration, conclavity
+
+  When this ceremonial octogram of up to 6 meters across is drawn out on 
+the floor it creates an anti-magical field that is "generally agreed in 
+magical circles to have all the stopping power of a well-aimed 
+halfbrick". The casting requires a full 15 hours of ceremonies by the 
+participant(s), which do not necessarily need to be elaborate.
+  A spell being cast within the area of the Seal must make a total 
+greater than the Effect total of the Seal to work. If the spell fails it 
+is dispelled even as it forms, otherwise the Seal itself is destroyed.
+  The Eightfold Seal Of Stasis was inscribed upon the floor of the room 
+that the Octavo was originally kept n at Unseen University, hence the 
+high Effect, Duration and Cast Time values. Less potent versions are 
+available.
+
+Megrim's Accelerator
+(S, p. 40)
+Axiom level: 10 (17)
+Skill: alteration/inanimate forces 16
+Backlash: 18
+Difficulty: 11
+Effect value: 14
+Bonus number to: effect
+Range: 4 (6 meters)
+Duration: 5 (10 seconds)
+Cast time: 16 (30 minutes)
+Manipulation: cast time, range, speed
+
+  This Impresed spell creates a small area (1 cm diameter) with highly 
+accelerated molecular motion, which can be fired in a straight line at 
+an opponent. The zone of acceleration causes any matter it comes in 
+direct contact with to be shaken apart and disintegrated. It also causes 
+the air around itself out to a distance of 10 cm diameter to become 
+extremely hot.
+  The target of Accelerator may be able to dodge the disintegrating 
+effect, but not necessarily the heat effect. If the caster's attack roll 
+is equal to, or greater by 4, than the target's defense, then the 
+Accelerator has only grazed the victim with the heat effect. If, however, 
+the attack roll is greater by 5 or more, then the target has been hit 
+squarely by the disintegration effect, and had a nasty hole punched 
+through some part of his body and suffering an extra Wound.
+  The spell is Impressed into memory though visualisations of material 
+objects vibrating to pieces. The casting of this spell requires the 
+drawing of sigils in the air, and the uttering of a single syllable to 
+unleash it. 
+
+Quondum's Attractive Point
+(RM, pp. 243, 254-5)
+Axiom level: 9 (17)
+Skill: alteration/inanimate forces 21
+Backlash: 18
+Difficulty: 14
+Effect value: 15
+Bonus number to: effect
+Range: 8 (40 meters)
+Duration: 5 (10 seconds)
+Cast time: 18 (1 hour)
+Manipulation: cast time, control, range
+
+  This Impresed spell creates a point of artificial gravity that attracts 
+everything within the spell's area of effect, a sphere 10 meters in 
+radius. The Point attracts items to it with a force equal the Effect plus 
+their weight value (ignoring the limitation of 'terminal velocity' at an 
+aggregate value of 14 under normal falling rules ('climbing', TRB, p. 52)).
+  How many times a person or object takes damage depends on what and when 
+things collide. Hypothetically, if a person were the only thing being 
+attracted by the Point, he would not take damage at all. More likely, 
+however, he would collide with something head-on at the Point, taking 
+damage. And if there were something behind him, he would take damage 
+again as it ran into him. And then when the spell expired, the whole lot 
+would take normal falling damage if the effect of the spell has gouged 
+out a crater or destroyed the floor. (It's a _fun_ spell :-)
+  Taking into consideration that many structures are built to withstand 
+gravity from one direction only, use of this spell will have a good 
+chance of causing a building to collapse, no matter what its normal 
+structural strength.
+  The spell is Impressed into memory by a ritual process of wrapping 
+successive layers foils of heavy metal (lead, usually) around a ball.
+
+Rite of AshkEnte
+(various)
+Axiom level: 15 (17)
+Skill: conjuration/entity 25
+Backlash: 18
+Difficulty: 16
+Effect value: 25
+Bonus number to: effect
+Range: 0 (1 meter)
+Duration: 15 (15 minutes)
+Cast time: 16 (30 minutes)
+Manipulation: cast time, control, duration, conclavity
+
+  This ceremony summons Death, so that He may be interrogated for 
+information. Since Death knows almost everything (although does not 
+necessarily understand it) he is an excellent source of details, although 
+senior wizards are understandably reluctant about calling attention to 
+themselves in this way. Traditionally it has also been thought to bind 
+Death to within the ceremonial octogram that He appears within, but 
+experience has demonstrated that He only stays inside out of a sense of 
+politeness.
+  With the full paraphernalia that makes traditional members of the High 
+Magic school of wizardry comfortable, this spell takes hours of work for 
+eight wizards at each point of the octogram. However, at least two 
+simpler versions are known to exist; both involving a few people, one 
+involving three small bits of wood and 4cc of mouse blood, the other with 
+two bits of wood and a fresh egg. Once the casting is complete, the 
+Effect total is compared to a total based on Death's Spirit of 14. 
+Success means He appears in the octogram. While being summoned at 
+inconvenient times tends to tick Death off, what really annoys him is 
+being addressed as "foul fiend" and other archaic terms usually applied 
+to demons.
+
+
+FOLK RACES
+  The main Folk population of the Discworld includes humans, dwarves, and 
+trolls. Elves on the Discworld are typically the half human get of the 
+wild elves from Fairyland and are small in number. The first three are 
+common PC races, with the possibility of Disc eleves and gnomes/goblins 
+being usable with GM approval.
+
+Dwarfs
+  The dwarfs of the Discworld are essentially identical biologically to 
+the dwarves described in the Aysle sourcebook. The only significant 
+physical difference is that the former live only 300 years rather than 
+the latter's 500. There are also some variances in their cultures, but 
+this is due primarily to slightly different emphasis on different things.
+  Disc dwarves traditionally have been miners, and have a love of gold 
+which they can sing about for hours in songs with lyrics that go "gold, 
+gold, gold, gold". Although it is not commonly known, they also have an 
+even greater love for iron. They also make excellent engineers and 
+mechanics. A dwarf's tools are usually buried with him when he dies, 
+since using another dwarf's tools is considered almost an obscenity.
+  Dwarves are straightforward people who have no use for metaphor or 
+simile; "rock is hard and darkness is dark is their motto. Start mucking 
+around with definitions like that and you're in trouble".
+  All dwarves have beards and wear up to 12 layers of clothing, often 
+including the almost obligatory chain-mail underwear. This makes 
+courtship a delicate affair of trying to find out exactly what sex the 
+other dwarf is; and is compounded by the habit of more traditional 
+dwarfen communities of only using the male pronoun.
+  The phrase "B'zugda-Hiara", translating literally as "lawn ornament", 
+is a killing insult to a dwarf. They also take great exception to short 
+jokes.
+  Traditional dwarfish weapons are the double-headed throwing axe, 
+although they have also developed bakery to a fine and deadly art with 
+their recepies for Dwarf Bread. They find the sound of hammering 
+soothing, and dwarfs in clerical positions often employ goblins to strike 
+small ceremonial anvils to help them think.
+  Rat is considered a delicacy among dwarfs; they have a variety of ways 
+of serving them up, but most common with ketchup. Gimlet's Hole Food in 
+Ankh-Morpork claims to have the best fried rat in town.
+
+Typical dwarf:
+DEX 8,   STR 9,   TOU 9,   PER 8,   MIN 8,   CHA 7,   SPI 7
+
+Elves
+  If the dwarfs of the Discworld are near identical to their Ayslish 
+namesakes, the elves most certainly are not. Pratchett makes the 
+distinction of Tolkeinesque elves (including those of Aysle and most 
+other high fantasy settings) deriving from the Tuatha de Danaan, while 
+his are more like the Sidhe, "your basic faerie baby-snatchers". Let's be 
+blunt about this: the elves that once infested the Discworld (referred to 
+euphemistically as the Lords and Ladies, among other things, but perhaps 
+best described wild elves to distinguish them from their part-human get) 
+are charming and glamorous (in all senses of those words) and beautiful, 
+as well as being cruel, vicious, bloodthirsty, self-centred parasites. 
+Their part human descendants that still live on the Disc retain attitudes 
+that make them little better. Both will be covered here; but note that 
+while 'Disc elves' may be usable as SK PCs - providing the effort is made 
+to develop a suitable motivation for them to grace the rest of the world 
+with their presence - the wild elves are not.
+  Wild elves can breed with humans, although this is probably due to some 
+bizarre effect of the Discworld's reality rather than any biological 
+compatibility. The result is a race of foxy-looking, pointy-eared humans 
+who sunburn easily and tend to giggle a lot. They have none of their 
+elven ancestors benefits, but still keep themselves arrogantly aloof from 
+other races on the Discworld. Unlike wild elves, Disc elves can actually 
+have a real Charisma attribute higher than 7.
+  The race of wild elves may or may not have originated on the Discworld, 
+but was driven away to the fringe reality known as Fairyland centuries or 
+perhaps as much as a few millennia ago by the witches. They still turn up 
+from time to time to make merry, which usually means making everybody 
+else miserable. Elves are arrogant, callous, and bloodthirsty, but have 
+style, beauty, and glamour. The thing to remember about elves is that 
+they believe themselves to be the pinnacle of creation, and have no 
+empathy for any other creature; everyone and everything else is there to 
+be used and abused for their convenience and entertainment. They enjoy 
+tormenting and killing things slowly, because the fun lasts longer that 
+way. They are just as adept at running down solitary humans, dwarfs, and 
+trolls as they are at torturing baby rabbits to death over an ants nest. 
+They do not even care about one another, and the misfortune and death of 
+another elf of their group is simply more entertainment.
+  Wild elves are the same size and shape as Ayslish elves, but are fair-
+skinned rather than dark-skinned. They benefit from the same type of 
+enhancement packages when using the reality of Fairyland (keeping in 
+mind that magical enhancement packages are forbidden under Discworld 
+reality by the Law of Conservation of Reality). Wild elves are actually 
+quite plain to look at (maximum actual Charisma of 7), but they hide 
+this by the use of Fairyland's Law of Glamour, or with the glamour 
+spells they created when they still lived on the Discworld. As long as 
+they are conscious they appear to have the maximum possible Charisma 
+for the Fairyland reality: 14. They possess blue-green blood which is 
+copper rather than iron based, and are referred to with the pronoun 'it' 
+in LaL. The _Companion_ suggests that gender is more or less optional 
+for them, and that they feel little sexual attraction for one another 
+because they know what the other elves are really like.
+  The primary difference with wild elves is that they have a sense that 
+allows them to experience electro-magnetic fields, similar to pigeons 
+and bees. This sense gives them several advantages, and so must be paid 
+for with two attribute limits to 7 (although it is a biological 
+benefit rather than one deriving from a world law, and thus does not 
+cause a risk of disconnection; it's just that I realise that despite 
+all the prohibitions someone will want to play a wild elf - much like 
+there are always people who want to play evil characters - and so I 
+thought I'd get a few good restrictions in first). This 'elf sight' 
+enables an elf to know exactly where it is in relation to a known 
+landmark if it is within 5 km if it makes a successful Perception roll 
+against a base Difficulty of 8. (Naturally, when in the Living Land 
+this ability is rendered dysfunctional by Compass Curse). Elf sight also 
+allows an elf to sense the presence of living creatures within 100 
+meters by the electrical impulses of their nervous systems (for those 
+whose bodies use electrical impulses, of course). Finally, an elf can 
+also sense the surface thoughts of a living creature by examining those 
+same electrical impulses in the brain. The elf must be within 10 meters 
+of the target creature, and make a successful Perception roll against a 
+base Difficulty of 15. This will result in a general impression of the 
+other's mood and thought processes.
+  Because wild elves rely so heavily on their magnetic elf-sight, they 
+are especially vulnerable to the presence of iron and other substances 
+that deform magnetic fields. The presence of iron is an anathema to 
+elves, as it undermines their absolute sense of self placement. Iron 
+brought within half a meter of an elf will nullify its elf sight 
+completely, and iron weapons that hit an elf always inflict a minimum of 
+a "KO" condition (LaL, p. 337).
+
+Typical wild elf:
+DEX 10,   STR 7,   TOU 8,   PER 9,   MIN 8,   CHA 7 (14),   SPI 6
+Typical Disc elf:
+DEX 9,   STR 7,   TOU 7,   PER 9,   MIN 8,    CHA 8,   SPI 7
+
+Gnomes/Goblins
+  According to the _Companion_, the terms are interchangable. They are 
+the smallest of the Discworld's humanoid species. Use the base attributes 
+for the keefee in the _Land Below_ sourcebook (p. 48).
+
+Typical gnome:
+DEX 8,   STR 4,   TOU 5,   PER 8,   MIN 9,   CHA 9,   SPI 8
+
+Trolls
+  The trolls of the Discworld are different to the trolls elsewhere, and 
+are in fact an ancient species of humanoid, silicon-based life forms. 
+When encountered in climates that are hospitable to humans most trolls 
+are about seven feet high, very strong, and seemingly not particularly 
+intelligent. Trolls have brains made of impure silicon, and as a 
+result naturally nocturnal creatures because sunlight reduces the 
+superconductivity of their brains, putting them into a dormant state. 
+Trolls in Ankh-Morpork who need to be active by day are said to use 
+sunblock, although what they use to block out environmental heat rather 
+than direct sunlight is unclear.
+  Conversely, cold increases the superconductivity of their brains, 
+increasing their intelligence. The specific temperature for the most 
+efficient use of their brains varies between trolls, but it has been 
+demonstrated that Detritus has a maximum brain efficiency level lower 
+than most others, and is most intelligent when within a fraction of a 
+degree of freezing to death (MaA, p. 150). As a general rule, use the 
+following generalisations for determining trollish intelligence:
+      Average (actual) Intelligence (MIN and PER) at between -30 to 0 
+          degrees Centigrade.
+     +1 bonus to both MIN and PER for every 5 degree drop below -20 
+          degrees, with death occurring at around -60 degrees Centigrade.
+     -1 penalty to both MIN and PER for every 5 degree rise above 0 
+          degrees, with hibernation setting in at 25 degrees.
+  Thus, in their native climate (high, cold mountains), trolls as a race 
+possess average intelligence. It's just that those who descend to the 
+warmer climates around Ankh-Morpork loose it due to environmental effects.
+  Trolls tend to have amazingly long natural lifespans. They keep growing 
+in size, and as they get older they settle down to think about 
+philosophy. Slowly their bodies solidify up, leaving them in a near 
+hibernation state. Many of the Disc's mountain ranges are in fact 
+extremely old trolls who are having a quiet ponder.
+  However, trolls who will be encountered in human-like lifestyles are 
+relatively young, anything up to around 250-300 years old (in MP Ruby 
+notes that she's pushing 150, which is not a good age for a trollish 
+female to be out in the husband market).
+  When trolls are killed their sluggish nervous system usually takes a 
+while to register the fact, so that trolls always get one attack in the 
+round after they have suffered mortal wounds. Trolls turn instantly to 
+stone when they are finally dead (TCoM, p. 81).
+  Contrary to popular perception trolls don't really eat people. They 
+can't, because they can't digest protein. Trolls eat rock, and drink lava 
+(and find sulphuric drinks are intoxicating). Nevertheless, when it comes 
+to scaring the living daylights out of opponents, the threat of being 
+eaten is a good one. So they shovel others into their mouths and chew 
+them up. But they have to spit out the bits later, although it has been 
+speculated that if a troll swallowed he might be able to digest the 
+calcium and trace elements.
+  Female trolls don't have hair, but do make themselves beautiful by 
+cultivating lichen.
+  Gargoyles are a subspecies of troll that have adapted to living on 
+roofs. They feed on birds, as well as by straining gnats and other 
+insects out of the water they funnel out of their mouths and ears. They 
+tend to have speech impediments because of the fact that their mouths are 
+more or less permanently open, and their movements have been described as 
+being like bad stop motion animation. Because of the fact that gargoyles 
+are very sedentary, they are not recommended as Player Characters.
+  As an aside, races of trolls made from substances other than rock 
+exist. In their travels the wizard Rincewind and the tourist Twoflower 
+met the sea troll Tethis who fell off the edge of his homeworld of Bathys 
+and eventually landed on the Discworld (TCoM, pp. 187-194). Possibly 
+other worlds with trolls made from fire or air also exist.
+
+Typical troll:
+DEX 6,   STR 13,   TOU 12,   PER 8,   MIN 8,   CHA 6,   SPI 6
+
+Golems
+  Golemim are, effectively, the magical or miraculous equivalent of 
+robots. Made from clay, they are shaped and baked into humanoid form - 
+often they started with exactingly human (or even superhuman) physiques, 
+but over time they have had to make repairs to themselves and eventually 
+they loose any muscular detail. These pottery shapes are then animated by 
+a piece of paper called a 'chem', upon which is written a magical or a 
+holy word and then placed inside the golem's head to animate it.
+  Although these days the churches have forbidden their creation, it has 
+been guessed that there are perhaps as many as a few hundred still extant 
+in Ankh-Morpork from previous centuries. And of course, if the golemim 
+think they can get away with it they are not adverse to creating more 
+golemim themselves.
+  After the events of _Feet Of Clay_ it likely that the number of self-
+owned and free-willed golemim will be increasing rapidly, and presumably 
+these will also be given voices as well. This raises the possibility of 
+golem PCs. Should the GM allow such at all, keep in mind that golemim are 
+still very rare. Also, if the example of the golem Dorlf is any 
+indication, they will be highly principled individuals: I suggest playing 
+them as one would a Ayslish with at least 5 adds in Honour.
+
+Typical golem:
+DEX 8,   STR 11,   TOU 10,   PER 8,   MIN 8,   CHA 4,   SPI 8
+
+
+GODS
+  "There are three thousand known major gods on the Dsc, and research 
+theologians discover more every week" (WS, p. 145). They start out as 
+Small Gods, barely sapient motes of energy, but if infused with Belief, 
+they can grow to become Gods proper. There are two ways that a god can 
+handle the accumulation of belief: set oneself up a the major (or only) 
+divinity of a region or nation. The other is to take on a particular 
+portfolio of responsibility in an empty niche, which has been described 
+as low risk and guaranteed return (SG, p. 139).
+  A near comprehensive list of gods and 'god-like entities can by found 
+in the _Companion_ (p. 72-3). A smattering of the most interesting, 
+esoteric, or frequently appearing are:
+
+* Blind Io - Leader of the official (if rambling) pantheon of Discworld 
+gods by dint of his constant vigilance. Blind Io has many eyes, which 
+have semi-independent lives of their own; where his eye sockets are on 
+his face is blank flesh. He is a thunder god, and has hundreds of 
+different identities across the Discworld and 70 different hammers (RM, 
+p. 78; SG, p. 154).
+* Astoria - Astoria is the Goddess of Love, and a "complete bubblehead". 
+She has an elaborate hairdo (SG, p. 137).
+* Cubal - Epheban god of Fire.
+* Fate - This implacable entity is rumoured to be from another universe.
+* Fedecks - The Messenger of the Gods, who uses an arrow as his symbol.
+* Flatulus - Epheban god of Winds.
+* Foorgol - God of Avalanches.
+* Gigalith - Trollish god of wisdom.
+* Grune - God of Unseasonal Fruit.
+* Herne the Hunted - This timid and apprehensive deity from the Ramtops 
+is the god of all woodland creatures whose destiny it is to die in a 
+crunchy squeak. He is 3 feet high, has small horns, and long rabbit ears. 
+He is not physically powerful, but can run very fast (LaL, pp. 67-8).
+* Hoki - Hoki, known variously as the Trickster or the Jokester, is a 
+nature god native to the Ramtop Mountains. He can take several forms, 
+such as a manifestation as an oak tree; or the shape of half man, half 
+goat, and all bad practical joker; or his aspect as "a bloody nuisance". 
+He plays the flute, badly. (ER, p. 45).
+* Hyperopia - Goddess of Shoes.
+* Offler the Crocodile God - Originally from Klatch, Offler is very ugly 
+and has trouble speaking because of his tusks. He has precise, if 
+reptilian, grace and manners. Klatchians believe that demons are the 
+offspring of Offler, and that it is therefore good luck to have one enter 
+one's house.
+* Om - Great God of the desert nation of Omnia on the Circle Sea (SG).
+* Patina - Epheban Goddess of Wisdom, and due to a mistake made by the 
+original sculptor of her statue is lumbered with a penguin as her 
+symbolic animal. Its generally agreed that she should have had an owl, 
+but the artist couldn't sculpt an owl properly and ended up creating a 
+penguin shaped bird. Then the Law of belief stepped in and she was stuck 
+with it (SG, pp. 154, 158-9).
+* Petulia - Epheban Goddess of Negotiable Affection, worshipped by ladies 
+of the night. Her statues depict her as having great trouble keeping her 
+dress up (SG, p. 138-9).
+* P'Tang P'Tang - Newt god (SG).
+* Queen of the Sea - The Sea Queen is the goddess who gains power from 
+the worship given the sea. She is very powerful because lots of people 
+believe in the power of the sea, but she is not very intelligent, even by 
+godly standards. She has a short attention span, tends creates her own 
+sacrifices and when doing so goes for quantity (SG, pp. 120, 238).
+* Reg - God of Club Musicians.
+* Sandelfon - God of Corridors.
+* Seven-handed Sek.
+* Steikhegel - God of Isolated Cow Byrnes.
+* Topaxci - God of the Red Mushroom.
+* Tuvelpit - God of Wine. He is depicted as a tubby fellow in a toga, and 
+is called Smimto in Tsort (SG, p. 137).
+* Ur-Gilash - Formerly the chief god in the area that is now the nation 
+of Omnia, before the god Om displaced him. He has been gone for so many 
+millennia that it is not even certain now if he was a weather god, or a 
+giant spider god (SG, pp. 127-8).
+* Zephyrus - God of Light Breezes.
+
+
+DISCWORLD CHARACTERS
+  Discworld characters are made using the standard rules for character 
+creation. Magical enhancement packages are forbidden because of the Law 
+of Conservation of Reality. Cosm limits are 13 for all attributes, except 
+for Toughness and Strength which may both be as high as 15.
+
+
+WEAPONS - DWARF BREAD
+  The traveling properties of dwarf bread are legendary, as is its 
+ability to save the lives of starving travelers. People simply have to 
+look at it to have added incentive to find something other than dwarf 
+bread to eat (a +1 bonus to the relevant food gathering skills, such as 
+Survival).
+  "There are many recipes for the flat round loaves of Lancre dwarf 
+bread, but the common aim of all of them is to make a field ration that 
+is long-lasting, easily packed and can disembowel the enemy if skimmed 
+through the air hard enough. Edibility is a kind of optional extra. Most 
+recipes are a closely guarded secret, apart from the gravel." (L&L, 
+p.306) (although the witch Nanny Ogg has mentioned that she uses used 
+cat litter in hers).
+  _Feet Of Clay_ reveals quite a bit of incidental detail about dwarf 
+bread. This includes the presence of the Dwarf Bread Museum in Whirligig 
+Alley in Ankh-Morpork, with a fine collection of offensive bakery. Most 
+of the collection consists of bread in the classic cowpat shape, but also 
+has such weapons as buns, close-combat crumpets, deadly throwing toast, 
+drop scones (deadly at short range), and combat muffins.
+  GMs who want to arm PCs with dwarf bread (or other dwarf bread-
+products) should probably take the stats for the most similar melee or 
+missile weapons, modified slightly if necessary. The items that usually 
+come to mind as 'dwarf bread' are discus-like missile weapons with a +5 
+plus to their Damage value and a maximum Damage value of 19, with ranges 
+of 3-5/25/40. Other loaves might be used as cudgels and have values such 
+as +3/18.
+
+
+SKILLS
+Pulp Martial Arts (Dexterity based)
+  The Discworld reality set supports the B-Grade movie style martial arts 
+introduced in the _High Lords' Guide to the Possibility Wars_ (here 
+called Pulp Martial Arts rather than Nile Martial Arts). To use this 
+skill the Discworld requires the same flashy moves, strangled cries, and 
+mysterious names (such as the Path of the Happy Jade Lotus) as in the 
+Nile Empire and on Terra (LaL). The only difference between the two is 
+that since the Discworld does not have the Law of Morality, certain 
+specific martial arts moves cannot be assigned solely to people of 
+either Good or Evil Inclination - they are available to all.
+  Pulp Martial Arts may not be used unskilled.
+
+Recognise Reality (Perception based)
+  There are certain things in the Discworld that normal people cannot 
+see, simply because their existence violates peoples' cultural prejudices 
+and so causes their minds to not recognise them, in accordance with the 
+Power of Belief. The Night People (the Tooth Fairy girls, Death, et al) 
+are one example. The use of this skill indicates that the possessor has 
+the capacity to overcome this preconception, and recognise otherwise 
+unnoticeable supernatural phenomenon for what they are. This skill is 
+taught to all wizards and most (if not all) witches. Undead also gain it 
+automatically at one add, since their deceased state makes them something 
+of outsiders to normal society, as do the Night People.
+  This skill may be used passively or actively, and simply requires the 
+comparing of the person's skill value (for passive use) or effect value 
+(for active use) against the Difficulty of noticing something. This 
+Difficulty may be a base value, or the effect value of the Remain 
+Unnoticed ability if one of the Night People is actively trying to remain 
+unseen. (Remain Unnoticed is an inherent ability of the Night People, as 
+Death's granddaughter discovered. Normal people can't learn it as a skill.)
+  Recognise Reality may be used unskilled, but only in extreme cases 
+where people are in a heightened state of awareness, needing to roll a 
+total of 7 points or more (Superior success). Children, however, have 
+a tendency to use it naturally, but naturally no one ever listens to them.
+  Careful discussion on the mailing lit has led to the conclusion that 
+what constitutes 'so weird that people automatically ignore it' is 
+something best left in the control of the gamesmaster. The Discworld 
+is generally such as weird place that only the _really_ occult and 
+mysterious stuff would count. However, while this means that it is not 
+possible for an non-Discworld PC to Remain Unnoticed, it is unfortunately 
+an ability that any Horrors from Orrorsh can use.
+
+-----
+Saxon Brenton     City library of the Uni of Technology, Sydney, Australia
+saxon.brenton@uts.edu.au          |          saxonb@mpx.com.au
+The Librarian "liked people who loved and respected books, and the best 
+way to do that, in the Librarian's opinion, was to leave them on the 
+shelves where Nature intended them to be." - Terry Pratchett, _Men At Arms_
+
+
+
+Date: Sun, 12 May 1996 21:57:45 -0500
+From: Saxon.Brenton@uts.edu.au (Saxon Brenton)
+To: Multiple recipients of list <torg@buddha.intecom.com>
+Subject: [TORG:1524] Discworld 4 of 4
+X-Listprocessor-Version: 6.0c -- ListProcessor by Anastasios Kotsikonas
+X-Comment: The Torg Mailing List
+
+Post 4
+FRINGE REALITIES
+  In the course of the Discworld series a number of other dimensions have 
+been revealed. Some of these are actually other cosms (or non-cosm in the 
+case of the Dungeon Dimensions). Most can be considered fringe realities 
+adjacent to the Discworld's cosm, and the latter tend to share some of 
+the Discworld's world laws, particularly the Law of Chaotic Whimsy. 
+Unless otherwise noted, the axiom levels and cosm attribute limits for 
+Discworld's fringe realities are the same as for their parent cosm.
+
+DEATH'S DOMAIN
+  This pocket dimensional fringe reality was created by Death, and for 
+the most part its reality is identical to that of the Discworld's. This 
+is because Death doesn't have much imagination, and can only copy what 
+He has seen (M, p. 122). The Domain was formerly entirely in black and 
+white, but after the events of _Reaper Man_ Death has turned the lands 
+surrounding His house into golden fields of wheat - even so this is 
+merely a duplication of the landscape he came to know while working for 
+Miss Flintworth.
+  From the outside this dimension has the flat appearance of a soap 
+bubble. From within it looks more solid, but although the mountains in 
+the distance will bear weight when stood on, they are fuzzy when seen up 
+close. The landscape is illuminated as if at day, but the sky is black 
+and strewn with stars. Death keeps a small house (well, it's small on the 
+outside, and to most people it seems small on the inside as well, 
+although really it isn't) and a garden. There is a bottomless pit within 
+the garden, through which the souls of the deceased travel towards their 
+next destination.
+  Normal time doesn't pass in Death's Domain, only an ersatz time that 
+consists of an ever-present now; there is no past, just an older present; 
+and no future, just a present that hasn't occurred yet. For this reason 
+no one ages in this fringe reality (M, p. 126; RM, pp. 7-8). This effect 
+is a function of the area a person is in rather than the person herself. 
+Compare this with the Law of Timelessness in Fairyland, which applies 
+directly to both the area and the people.
+  The differences in reality between the Discworld and this pocket 
+dimension are so slight as to make no practical difference. Ords don't 
+transform between the two, and the Everlaw of One can't be invoked to 
+create a reality storm between Storm Knights possessing these realities.
+  Death's Domain can be accessed by magic and astral travel. The mortal 
+world can be reached by simply walking, but its almost impossible to 
+walk back to this dimension unless one is familiar with the way.
+  While we're here we'd also better talk about Death, the character. 
+Originally I though I wouldn't have time, but Peter insisted. (Peter is 
+one of my fellow staff members at UTS city library, and although he 
+isn't subscribed to the mailing list, he reads all my email because he 
+finds our antics amusing and bemusing. Everybody wave 'Hi' to Peter.)
+  Death is an anthropomorphic personification; one of the oldest about. 
+He answers to his master Azrael, the Death of Universes, whom the 
+_Companion_ claims to be one of the Old High Ones (DC, p. 173-4). He 
+appears as a 7 foot tall skeleton clothed in a robed of darkness. Within 
+his eyes are pinpoints of light, usually blue. His voice is felt rather 
+than heard, and is sensed in DEEP LEADEN TONES. It is generally agreed 
+on alt.fan.pratchett that James Earl Jones should be the voice of Death 
+in any hypothetical Discworld movie.
+  Death is not, in and of himself, a particularly terrible entity, 
+although he is terribly efficient at his job. Any real fear of him 
+derives primarily from the fears and preconceptions of those who have or 
+are going to meet him.
+  In fact, Death is intrigued by humanity, has explored a number of 
+aspects of mortal existence, and has developed preferences for things 
+like cats and curry. However, his ability to understand almost all raw 
+data does not necessarily extend to understanding the nuances of what 
+that data means. He is bemused by the efforts of mortals to complicate 
+their lives which are, to him, fleeting. He has an empathy with the 
+living that results from thousands of years of close contact, and as a 
+result he tends to be easily influenced by ideas originating from them, 
+like the time he saw a woodcut of himself astride a skeletal steed, 
+promptly got himself one, then spent far too much time wiring the bits 
+back on.
+  He does not get angry, because that requires glands, but he is capable 
+of a form of intellectual disapproval that serves the same function; he 
+has, for instance, no time for cat haters, and gets irritated when Fate 
+and Destiny et al don't bother to tell him when someone is going to 
+become a ghost. He also tends to get depressed when he feels 
+unappreciated for his efforts.
+  Death can be seen by cats, practitioners of magic, and those who are 
+in or approaching the state of death. Sometimes others in a heightened 
+state of awareness can see him, supporting the notion that the Recognise 
+Reality skill can be used unskilled in extreme cases.
+  While it is true that Death _can_ be there to handle the demise of 
+everyone, he does not always do so. Practitioners of magic can expect to 
+be dealt with personally by him, but apart from that only certain people 
+important to the overall metaphysical tapestry of death have to be 
+collected. As long as these important people are dealt with and die, the 
+rest of the dying by everyone and everything else more or less continues 
+automatically.
+
+DEX 14
+  Beast riding 20; Dodge 19; Manoeuver 20; Melee weapons 26
+STR 12
+  Lifting 13
+TOU 12
+PER 10
+  Find 15, Tracking 11, Scholar (Disc realm lore) 20; Trick 16
+MIN 14
+  Test of Will 20; Willpower 20
+CHA 9
+  Charm 10; Persuasion 14; Taunt 14
+SPI 14
+  Intimidation 20; Reality 18
+Possibilities: As many as he needs.
+Equipment: When carrying of his Duty Death always carries his fold up 
+scythe, a blade so thin and sharp that it is transparent and blue, and 
+capable of slicing apart air molecules, or sound. Its sharpness is 
+required to separate the soul from the body. He also possesses a sword 
+with the same type of blade, which is used for royalty. He will also be 
+carrying the Lifetimers of those mortals whose demises he is present to 
+supervise.
+  Death's highly intelligent steed Binky is a white, flesh-and-blood 
+horse, but who nevertheless has absorbed some of the Ultimate Reality of 
+his master. For this reason he can fly, pass through a type of 
+hyperspace, and pass through walls, and Remain Unnoticed. Binky wears a 
+silver and black harness, with an ornate silver saddle.
+Abilities: Death, as the embodiment of a universal concept, is more real 
+than most things in the material world. After all, death (and Death) have 
+been around pretty much from the Beginning whereas plain old objects like 
+doors or walls just don't last for anything like the same length of time. 
+Consequently, when comparing time scales most things have an only tenuous 
+existence, and so Death (and anyone else holding the office of Death) can 
+pass through them. The fact that they may be quite solid in the immediate 
+term is irrelevant. This ability means that any material attacks on Death 
+(providing that people can actually manage to see him in the first place) 
+will simply be ignored.
+  Death has the ability to accomplish almost any physical task he sets 
+his mind to, due to the power derived from the LoBelief. On occasions 
+when he has retired or been removed from his office he has sometimes 
+found it embarrassing to be deprived of this.
+
+
+DUNGEON DIMENSIONS
+  Strictly speaking the Dungeon Dimensions aren't realities or cosms at 
+all. They are vast, unformed extra-dimensional spaces that cosms exist 
+within. They are the home to the Things - malign, envious, but ultimately 
+stupid entities that want to gain access to the world. This is because 
+life, in one form or another, is capable of evolving anywhere, even in 
+places that don't really exist. This is probably possible because 
+occasionally small holes are created in a dimension and reality leaks out 
+(some wizards have calculated that perhaps as much as nine tenths of all 
+the original reality in the multiverse has been lost in this manner - a 
+very disturbing idea in the context of Torg).
+  Hence, the Dungeon Dimension, which should be a absolutely empty 
+wasteland, has some few possibilities, and is just barely capable of 
+supporting existence. [Actually, I suspect that the Dungeon Dimensions 
+cannot exist around other cosms, such as Core Earth, since even leakages 
+of reality alone could not support the existence of tenuous pseudo-
+realities in this way. Rather, it must be leakages of reality that 
+contain the Law of Chaotic Whimsy that make it possible at all.]
+  The desire of the Things to enter reality to take on shape and form has 
+been compared to the sea trying to warm itself on a candle, with much 
+the same result if they ever actually come in contact.
+
+Axioms and World Laws
+N/A
+  As a non-cosm the Dungeon Dimensions do not really have a reality at 
+all. It's for this reason that when the Things break through into this 
+world that they are so desperate to gain a powerful source of magic - 
+they have neither a morphogenic field nor natural reality to protect them 
+from the effects of the reality they are in, and need the magic to hold 
+them together under the principles of Magical (In)Stability (MP, p. 298). 
+In this sense even ords are better off than the Things when in an alien 
+reality, since ords can transform at least once when in an alien reality; 
+Things are simply torn apart by the Everlaw of One. Of course, if lots of 
+Things came through all at once, then their cumulative lack of reality 
+would tear the world apart. 
+  By the same token, ords who have the misfortune to end up in the Dungeon 
+Dimensions are destroyed as the Everlaw of One tries to transform them to 
+a non-existent reality. Storm Knights can't possess this absence of 
+reality; they would be destroyed in the process of converting to it just 
+as ords are, but then the Things don't have enough possibilities to 
+become possibility-rated to storm them, so the point is moot.
+  [Aside: This, if nothing else, should be taken as solid, if not 
+incontrovertible, evidence that Rincewind is P-Rated. An ord trapped in 
+the Dungeon Dimensions for the length of time he was there between the 
+end of _Sourcery_ and the start of _Eric_ would probably have been 
+destroyed by transformation. Clearly he would have a tag skill of 
+Running, and has been spending possibilities to increase his totals that 
+have kept him miraculously alive over the years. Also, the Lady holds 
+him as one of her most valuable heroes. Now who, in the Torg game, are 
+the heroes? Hmmm? :-) ]
+  The way for the Things to invade the word is usually through a lot of 
+magic wearing a hole in reality. The Things therefore pay close attention 
+to practitioners of magic, invade their dreams to turn them to 
+nightmares, and generally try to trick them into using lots of magic (ER, 
+p. 111). There is at least one other way for them to get in, which is 
+through the Law of Belief; large numbers of people watching movies in the 
+Cthinema of Holy Wood and believing what they see on the screen has 
+allowed the Things to gain entrance to the world on at least two occasions 
+(MP). Apparently Bel-Shamharoth has also been able to gain at least some 
+purchase of the Discworld by being worshipped as the Ichor God (CoM, pp. 
+88-9; P, p. 14), something that the Insider alsoseems to have been able 
+to pull off (DC, p. 126).
+  The Dungeon Dimensions can be reached by so weakening reality that a 
+hole is created. Apparently the more powerful demons can arrange access 
+to and from the Dungeon Dimensions (E, pp. 15, 118), so presumably 
+greater gods could too. It is extremely difficult to get from the Dungeon 
+Dimensions into any reality because of the energy differentials involved 
+(S, p. 251), another indication that the Dungeon Dimensions have little 
+or no possibility energy.
+
+
+DUNMANIFESTIN
+  This fringe reality is the home of the official pantheon of gods of the 
+Discworld; those who have managed to claw their way up the ladder of cult 
+size from being small gods, to large gods worshipped by millions or more 
+(Om, with 2 million, didn't make the grade - SG, p. 254). Its entrance to 
+the Discworld proper is at the summit of Cori Celesti, the ten mile high 
+spire of rock and green ice that stands at the Hub of the Discworld, the 
+top of which is also called Dunmanifestin.
+  It is important to note that, because of the way that gods develop from 
+small gods, Dunmanifestin is not the Spirit 33 Source Cosm of the 
+Discworld's faiths. In fact, because of the Law of Resonaces, this cosm 
+isn't connected to one single Source Cosm.
+
+Axioms and World Laws
+Magic 4     Social 7     Spiritual 22     Technological 11 [?]
+
+Magic 4
+  Gods don't need magic since they have their own divine power to do what 
+they want. At this level even the normal levels of Divination magic 
+become haphazard, and as a result gods cannot always foresee future 
+disasters (most importantly a loss of believers that could lead to the 
+gods demotion).
+
+Social 7
+  Social development and conventions aren't particularly important to 
+gods. After all, they exist because their believer imagine them to be 
+manifestations of powerful natural forces, and as a result their first 
+reaction in any situation is "smite it" (SG, pp. 237-8). The god are part 
+of a pantheon led by the most powerful (in this case Blind Io by dint of 
+his constant vigilance and his powers as a thunder god) and organised on 
+primitive feudal lines. Only those gods with many worshippers can take up 
+residence at Dumanifestin; the rest are acknowledged to exist by the 
+official pantheon, but generally ignored.
+  One of the few rules of Dumanifestin that fighting between gods takes 
+place indirectly, though their worshippers, presumably to avoid displays 
+of power that would wreak their collective home. Since Om was able to 
+relatively easily provoke a fight, this can be surmised to be a rule of 
+protocol rather than an enforced world law.
+
+Spirit 22
+  Gods are powerful, but not so powerful that their mythos are irrevocably 
+set in stone, nor so powerful that new gods cannot arise to either squeeze 
+into new niches or take over old ones.
+
+Tech 11 [?]
+  Moreso than any other of Dunmanifestin's axioms, this one is a rough 
+guess. Of the top of my head I can't think of any evidence to tie down 
+this axiom one way or another. Any ideas?
+
+Law of Divine Self-Absorption
+  In addition to a few of the 'natural' world laws of the Discworld 
+(LoChaotic Whimsy, LoResonaces, LoBelief, but definitely not the 
+LoConservation of Reality, Dunmanifestin has this unique world law.
+  This world law prevents sapients from paying that much attention to the 
+outside world(s) (including the mortal one, which is pretty silly 
+considering where the gods' power comes from). No matter what crisis is 
+occurring, or how serious the matter affecting the mortals is, it will 
+always seem unimportant compared to events (trivial or no) occurring in 
+the realm of the gods:
+  "although it takes years of effort and work and scheming for a god to 
+get there [Dunmanifestin], once there they never seem to do a lot apart 
+from drink too much and indulge in a little mild corruption...
+  "They play games. They tend to be very simple games, because gods are 
+easily bored by complicated things. It is strange that, while small gods 
+can have one aim in mind for millions of years, _are_ one aim in fact, 
+large gods seem to have the attention span of the common mosquito." (SG, 
+pp. 368-9.)
+  "Om rubbed his head. This wasn't god-like thinking. It seemed simpler 
+when you were up here. It was all a game. You forgot that it wasn't a 
+game down there. People died. Bits got chopped off." (SG, p. 368.)
+  The Law of Divine Self-Absorption is a passive world law.
+
+  Dunmanifestin is accessible through the entrance at the summit of Cori 
+Celesti, and probably also by magic.
+
+
+FAIRYLAND
+  [Details found in _Lords and Ladies_] Also known as Elfland, but more 
+often by the prudent euphemism "over there". Again, strictly speaking 
+this is not a fringe reality of the Discworld's, but rather an independent 
+cosm that occasionally attaches itself to the Discworld (and possibly 
+other cosms as well). It is a parasite cosm. It is also the home to the 
+race of wild elves who were driven off the Discworld by the witches some 
+time ago, and who are the progenitors of the 'elves' (actually, half-
+elves) who still inhabit the Disc.
+  These elves are known euphemistically as the Lords and Ladies, the 
+Shining Ones, the Star People, the Fair Folk, and the Gentry (LaL, p 51). 
+They elves apparently periodically try to reinvade the Discworld, but to 
+date have been driven back. Some few of them may have taken up residence 
+on the Discworld for one reason or another (possibly having been left 
+behind from an invasion), but those that transform to or are born on the 
+Disc may not use magical enhancement packages. Elves with Discworld 
+reality are still reclusive and arrogant, but without the effects of the 
+Fairyland's world law, and without the benefits of that world law and the 
+use of enhancement packages, they are not so bend on conquest.
+  Fairyland is perpetually bound in ice, with no hope of ever seeing 
+Spring (LaL, p. 11). Its sky is filled with a rainbow-coloured aurora of 
+sparkling lights. Time does not proceed here as it does on other worlds, 
+so that while time passes, nobody really ages. This difference makes 
+judging the passage of time difficult, and years may seem like only hours. 
+The cosm attribute limits are 13, save for DEX, STR and CHA which are 14.
+  Although the Fairyland has invaded the Discworld at least once, the 
+method used does not seem to be the of the Torg type with Darkness Device. 
+The overlay of the Fairyland onto Lancre was strongly reminiscent of a 
+mixed zone (the description of how Magrat saw Fairyland merging with 
+Lance in LaL p. 331 highlights this), but the means the Queen used seemed 
+to be primarily magical/symbolic: having tricked the people of Lancre 
+into believing they wanted the elves to return to the Discworld (an 
+effect of the Law of Belief) she then intended to marry Verence, the King 
+of Lancre. And since the King and the Land are One, then she would have 
+absolute control over the mortal world as well.
+  If, OTOH, a GM wanted to take the option of using the Wild Elves as 
+Possibility Raiders, it can be hypothesised that they'd be quite good at 
+it. While the elves themselves have a severe weakness to iron, their 
+reality is very seductive. The Law of Glamour projects an aura of power 
+and invincibility, while making their opponent feel helpless and unworthy. 
+Even if the wild elves initially only created mixed zones, the Law of 
+Glamour would make people feel that they should submit themselves to 
+Elven rule, thus causing people to transform and eventually turning the 
+mixed zones into dominant and eventually pure zones. This is an advantage 
+on they way mixed zones normally work that would make most High Lords 
+green with envy.
+
+Axioms and World Laws
+Magic 13     Social 7     Spirit 3     Tech 7
+
+Magic 13
+  Quite potent, but not so potent that the elves can cross between 
+dimensions of their own violation. The Queen of the Elves was, however, 
+able to end her mind across to scout so as to determine if Lancre was a 
+suitable invasion target. The axiom is high enough to support the magical 
+enhancement packages of the wild elves. It is high enough to support the 
+alteration of living beings into something else (say, the head of an ass) 
+(Mag 12), as well as to make it permanent if desired, but reversing the 
+process is dangerous. Elves can fly by levitating yarrow stalks.
+  Elves have a preference for using Illusion spells, in both the Torgian 
+and non-Torgian sense. Torgian illusion spells create physical effects, 
+but are short cuts that are easier to cast, and this fits with elven 
+attitudes to having to do work. The non-Torg definition covers purely 
+mind-affecting or hallucinatory effects, and elves like these as well. 
+Given the option, they will use hallucinatory effects first, then short 
+cut physical effects, and only rarely 'real' effects.
+
+Social 7
+  Elves have only the most basic of feudal politics; they have a king and 
+a queen but beyond that and a few retainers few of them seem to be 
+capable of individual identity (DC, p. 90). This may help to explain why 
+they lack empathy both for other intelligent beings and even to 
+misfortunes that befall other elves. They are capable of grasping the 
+idea of the ownership of land and of other intelligent beings.
+
+Spirit 3
+  Spiritually retarded, the Elves are emotionally ill-disposed to the 
+idea that there could be anything, anywhere, that could be more beautiful 
+or perfect than they. They are almost incapable of grasping the idea of 
+higher powers.
+
+Tech 7
+  Bronze is the preferred metal of elves because of their antipathy for 
+iron. The elves rode horses and the Queen was said to live in a castle; 
+but although the axiom level would support these, I have a mental image 
+(but no solid proof) that the elves would not be using the axiom to its 
+full advantage.
+
+Law of Glamour
+  This law enhances the natural abilities of the wild elves to Charm 
+people.
+  All elves subject to this world law (not just wild elves, but Disc and 
+Ayslish as well - albeit as a contradiction) may use this law to 
+consciously project "glamour". This gives them a beautiful appearance, 
+with an apparent Charisma attribute equal to their cosm's limit maximum 
+for the Charisma attribute of 14. It also gives an apparent attribute 
+level of 13 for the use of Interacton skills (ie, 13 for MIN, PER, and 
+SPI for the purposes of Test of Will, Willpower, Trick, Taunt, and 
+Intimidation). Projecting glamour, which is a conscious activity, does 
+not take up much concentration, and so counts as a passive activity.
+  Note that this world law functions to enhance _elven_ beauty, style, 
+and power - so that any other race that transforms to, or is in an area 
+of, this reality does not benefit from these bonuses. Just the opposite 
+in fact; non-elves directly subject to this world law feel unworthy in 
+comparison to the beauty of the elves, and have a -1 penalty to all 
+totals rolled to resist elven glamour (i.e., those rolls that elves use 
+when enhanced by this world law).
+  The Law of Glamour also supports magical enhancement packages. Elves 
+(of whatever type) that are born in or physically transform to this 
+reality may purchase 1 or 2 enhancement packages of 3 points each to be 
+applied whole to any attribute. These function the same as enhancement 
+packages in Aysle, including for payment (either a permanent limit of 7 
+on another attribute or an ongoing adventure cost of 1 Possibility per 
+package per adventure), and the risk of the Silent Death from magic 
+deprivation. (_Aysle_ sourcebook, pp. 133-134)
+  The Law of Glamour is an active world law.
+
+Law of Timelessness
+  This world law creates the effect that although time passes in 
+Fairyland, no one is affected by time. People do not grow old. This has a 
+terrible flip side, however. People who do not grow old do not grow up. 
+Elves may grow in power and beauty, but never in experience or wisdom. 
+Gaining or upgrading all skills is an effort, costing five times as much, 
+in either time or Possibilities, as normal.
+  The Law of Timelessness is an active world law.
+
+  Fairyland is apparently only accessible through certain stone circles 
+or underground mounds, and then only at certain times (Midsummer - crop 
+circle season). It is possible that at those times of year Fairyland is 
+close enough that they would count as being a fringe reality of the 
+Discworld's cosm, and could be accessed by spells like Extradimensional 
+Gate at spots other than marked gates. It may be possible that Fairyland 
+has similar access to other cosms.
+
+
+HELL
+  [Most details found in _Eric_] Hell, also known as Hades, is the fringe 
+reality that is a home to demons. At the center of the Eight Circles is 
+the infernal city of Pandemonium. It is important to remember that under 
+the Law of Belief people go to the afterlife they are expecting. This is 
+why it is important to kill any missionaries who come around preaching of 
+eternal torment.
+
+Axioms and World Laws
+Magic 16     Social 11     Spirit 9     Tech 14 [?]
+
+Magic 16
+  Since Hell is part of the Discworld cosm, and shares the Law of 
+Resonaces, it follows that it is subject to the cliche that although 
+demons are Fallen angels, they use infernal magics rather than divine 
+miracles. Think of the angel Azaphrael's protest to the demon Crowley in 
+_Good Omens_: "Angels aren't occult, we're ephereal!"
+  So, the demons of Hell use magic. The more senior demons are the most 
+powerful, and use the most magic.
+
+Social 11
+  Essentially feudal.
+
+Spirit 9
+  Well, I'd like to put it at Spirit 17, because this axiom upsets people, 
+which is what Hell is supposed to do :-) But if the demons primarily use 
+infernal magicks, and the Discworld itself has not stable central mythos 
+for them to be renegades from, then it's level of spiritual power is a 
+bit limited.
+
+Tech 14 [?]
+  Another guess. In _Eric_ Astfgl has introduced a mind-numbingly tedious 
+bureaucracy to Hell, but since it was likely that a lot of the more 
+advanced items, like the intercoms, were actually magically powered 
+copies of things he's seen elsewhere, the exact level remains unclear.
+
+Law of Tradition
+  In addition to a few of the 'natural' world laws of the Discworld 
+(LoChaotic Whimsy, LoResonaces, LoBelief, but definitely not the 
+LoConservation of Reality, Hell has this unique world law.
+  Demons are traditionalists, and like to do things in the traditional 
+manner. They are by tradition evil, so these demons will never repent. 
+The dimension is decorated in traditional red flames, and kept at boiling 
+point. They like to put people through the traditional punishments for 
+their alleged sins in all sorts of nasty ways, like with boiling oil, red 
+hot pokers, dismemberment, having their livers daily pecked out by 
+eagles, etc. However, these punishments do not inflict pain, since those 
+mortals in Hell are all dead and so do not have physical bodies to feel 
+the pain. The demons don't realise this "because numb and mindless 
+stupidity is part of what being a demon is all about." (E, pp. 105-6). 
+After all, it's traditional.
+  Because of this world law demons aren't innovative thinkers and 
+usually need to copy humans when it comes to really blood curdlingly 
+nasty ways to make people suffer. These methods can't be too creative, 
+however, otherwise the demons won't be able to use them; for instance, 
+during the reign of King Astfgl they were bewildered by his lordship's 
+attempts to set up a filing system, and kept filing everything under "p" 
+for people. 
+  For that matter, the damned aren't particularly innovative either, 
+which is partly why they don't try to escape (the other part being that 
+under the Law of Belief people get the afterlife they think they deserve, 
+so that those who are in Hell subconsciously don't think they should 
+leave).
+  The Law of Tradition is an active world law.
+
+  Hell is accessed by dying, magic, or certain caves that lead to and 
+from there.
+
+
+HOLY WOOD
+  [Detailed in _Moving Pictures_] Holy Wood is another parasitic reality 
+that has periodically invaded Discworld and other cosms as well. However, 
+Holy Wood has no Darkness Device or High Lord to direct such an invasion; 
+indeed, it doesn't even have a population that it can use to invade with. 
+Holy Wood has a different method of taking over other realities. If the 
+High Lords can be compared to predators that attack and devour a cosm 
+with sheer weight of numbers and then move on, then Holy Wood is best 
+described as a virus which only has to infect another reality with one 
+tiny piece of itself. Holy Wood's invasion force consists of a "wild idea" 
+that insinuates itself into the minds of people so that they change the 
+nature of their reality with their own belief. Thus, Holy Wood causes the 
+invaded reality to remake itself from within, rather than have change 
+forced on it from without.
+  The wild idea starts by sneaking into a cosm and inspiring certain 
+individuals to set up an entertainment industry based on movies. As people 
+watch this entertainment they are infected by the spirit of Holy Wood and 
+then contribute, in some way, to the film industry. It may be by working 
+for it, or just by supporting it by going to see the movies it puts on. 
+Whatever the case, slowly more and more of the society becomes obsessed 
+with the Holy Wood phenomenon, and as they focus increasingly on it, the 
+Holy Wood reality becomes dominant over the original, and eventually 
+supplants it.
+  The wild idea that is the core of Holy Wood is reputed to have 
+originated from the wastelands outside the universes. It may therefore be 
+possible that it was originally one of the Things (from the Dungeon 
+Dimensions) that managed to build itself a form that would survive inside 
+a real world.
+
+Axioms and World Laws
+  Holy Wood has no specific axioms of its own, as it uses whatever the 
+local axioms are. It does, however, usually require minimum axioms levels 
+of Social 12 (societies trade cultural ideas) and Technological 20 
+(movies), in order to organise the entertainment industry, and if 
+necessary it is capable of bumping these two axioms up one or two points. 
+(In the Discworld was able to use the lower Tech axiom because movies 
+weren't dependent on photosensitive film stock.) Other than that Holy 
+Wood doesn't change the axiom levels - it just changes how existing 
+axioms are applied.
+
+Law of Mass Appeal
+  This world law causes people to become infatuated with the ideas and 
+mores associated with the Holy Wood reality. A person who encounters Holy 
+Wood in this way must roll using their Willpower (or Mind) value against 
+a base Difficulty number of 13 or become interested in Holy Wood and 
+concentrate on it. The severity of this infatuation will depend on the 
+result. If a person fails the roll, then read the result points on the 
+Power Push table:
+MINIMAL: The person is mildly interested in the entertainment of Holy 
+Wood, and will occasionally indulge in it, but at other times will not 
+think about it.
+GOOD to SUPERIOR: The person enjoys Holy Wood entertainment, will use it 
+regularly, and thinks about it in free time when away from it.
+SPECTACULAR: The person is obsessed with Holy Wood, watches it almost 
+constantly, and thinks about it almost constantly at any other time.
+  If left unchecked, this process will eventually spread through the 
+population and alter the reality in an astonishing period of time. The 
+effect will start with people just concentrate on Holy Wood so that local 
+reality becomes dominant over a suppressed Holy Wood Reality. Eventually 
+it will create a mixed zone, and the Holy Wood world laws will become 
+active. From then the process will snowball into creating a Holy Wood 
+dominant zone, at which point the population will begin transforming to 
+Holy Wood reality. After that a complete transformation to a Holy Wood 
+pure zone is only a matter of time.
+  This world law also speeds up the rate at which people transform to 
+Holy Wood reality when in an area of the same. Speed up the rate used on 
+the Transformation table (Torg Rulebook, p. 86) by one step. This is 
+cumulative with the effects of Core Earth's Law of Hope.
+  The Law of Mass Appeal is an active world law.
+
+Law of Action
+  This world law operates as per the Nile Empire, Terra and the Land 
+Below. Two Possibilities may be spent for two roll agains, and one of 
+the results chosen.
+  The Law of Action is an active world law.
+
+
+L-SPACE
+  (GG, pp. 166-7, 170-1, 201-2) L-Space is short for "Library Space", and 
+is created by any large collection of books (not just magical books) 
+distorting the fabric of space/time to create a polyfractal extra-
+dimensional space to which all other such libraries (both in space and 
+time) are connected. The relevant equation for this effect is Knowledge = 
+Power = Energy = Mass = Matter; extensive libraries are genteel black 
+holes that know how to read (GG, p. 8).
+  Traveling through L-Space is dangerous, and moreover the careless use 
+of L-Space to affect changes in history can wreck great damage to space/
+time, so the secret of this dimension is held inviolate by the Librarians 
+of Space and Time. Their three rules are: 1) Quiet, 2) All books are to 
+be returned by the last shown date, and 3) Do not interfere with the 
+nature of casualty.
+  In the novels L-Space is described as connecting not just to libraries 
+on the Discworld, but in other universes as well. In Torg terms, the 
+process that created L-Space results from the Law of Chaotic Whimsy, and 
+thus only connects to those realities that possess this world law: the 
+Discworld, the appropriate fringe realities of the Discworld, and other 
+cosms with the Law of Chaotic Whimsy. (And not just the fantasy chaotic 
+whimsy cosms either. For example, a science fiction chaotic whimsy cosm 
+based on Douglas Adam's _Hitchhikers Guide to the Galaxy_ could count as 
+well.)
+  The cosm attribute limits are 13.
+
+Axioms and World Laws
+  The nature of L-Space is shaped by the fact that it is shared by many 
+different cosms, and this means that its reality is very different to 
+the Discworld's. In addition to the Law of Chaotic Whimsy, there is one 
+other world law for this place, which also defines the axioms:
+
+Law of Consensus Reality
+  Similar to the Akashan Law of Acceptance (Space Gods, pp. 50-51), this 
+world law decrees that all world laws function in L-Space without 
+contradiction as long as they do not oppose the existing world laws of 
+L-Space.
+  The Law of Consensus Reality also decrees that the axiom levels of 
+this reality are equivalent to the highest axioms available from those 
+cosms that L-Space connects to. It is therefore unlikely that an ord from 
+the Discworld would ever disconnect as anything more than a 1 case 
+contradiction when in L-Space, even if exceeding her own axioms, because 
+it is more than likely that somewhere in the Cosmverse there is another 
+chaotic whimsy reality contributing a higher axiom level.
+  Finally, the Law of Consensus reality allows librarians from many 
+different cosms to use this place without fear of transformation by 
+making the entire reality a mixed zone.
+  The Law of Consensus Reality is a passive world law.
+
+  L-Space is accessed through any large book collection, but the method 
+of doing so is complicated and kept secret by the Lirarians of Space and 
+Time. You have been warned. Ook.
+
+
+MALIGREE'S WONDERFUL GARDENS
+  Maligree's Wonderful Garden is the name of a spell developed by 
+Maligree, who was the last of the true sourcerers before the arrival of 
+the boy Coin in recent years. True sourcerers are immensely powerful 
+magicians capable of taking on the gods, whose very presence causes new 
+magical power to enter the world, boosting the local Magic axiom above 
+the that the Law of Conservation of Reality can cope with, and freeing 
+all other magicians in the area of that world law's constraints.
+  Unfortunately, Discworld's magicians cannot be trusted to use this sort 
+of power responsibly. Under normal circumstances magic is so limited that 
+wizards and witches grudgingly tolerate each other to present a united 
+front. But given the opportunity to use magic to gain real power, all-out 
+thaumaturgic war results (S, pp. 168-9). Then the fallout from the magic 
+involved creates those areas of intense magical instability under Magical 
+(In)Stability principles, and the world is slowly torn apart as a result.
+  Fortunately sourcerers are very rare. Also fortunately, whenever a 
+sourcerer does appear they usually figure out what their presence is 
+doing to the world and elect to go into exile rather than destroy the 
+place. Maligree originally crafted this spell to create a place where he 
+could have a quiet smoke, get away from the pressures of the world and 
+the burdens of his power, something his fellow wizards couldn't 
+understand. Then one day Maligree locked the garden from the inside and 
+stayed there (S, p. 34).
+  There have been two castings of this spell, the first by Maligree, the 
+other by Coin, but it is possible that earlier sourcerers may have used 
+similar spells to create similar pocket dimensions. It seems likely that 
+each sourcerer created his own Garden, rather than using the spell to 
+create a gate to a single world.
+
+Axioms and World Laws
+  The fact that these fringe realities are inhabited by magicians powerful 
+enough to create them at a whim makes their natures hard to guess at. All 
+that is known is that each such cosm is initially in the form of a 
+verdant garden with forests, mountains, lakes, and wildlife, and that 
+whatever else is done with them each will probably retain a extremely 
+high Magic axiom.
+
+  These realities are accessed by magic, but are likely locked from 
+within to prevent intrusion.
+
+
+WHERE THE DRAGONS WENT
+  [GG] This fringe reality is one of the dimensions of imagination. This 
+is the place (or possibly one of the places) where Draco Noblis, the noble 
+Disc dragon (as opposed to Draco Vulgaris, the common swamp dragon) 
+departed to after the wild magic left the Disc. This was because the 
+noble dragons where thaumivores (i.e., they fed on magic - lots of magic) 
+and after the Law of Conservation of Reality limited the working Magic 
+axiom to 9 they felt themselves to be too limited to stay.
+  In general terms, the dimensions of imagination are reputed to be more 
+complex than those of mere space and time (CoM, p166). The physical 
+nature of this particular reality is that it is packed solid, like an 
+Escher picture where the shape between each dragon is another dragon (GG, 
+p. 7) The dragons are dormant in this dimension, but can occasionally be 
+summoned back to the Discworld by a skilled imagination who is either in 
+an intense magical field, or who has a lot of magical items to "burn" as 
+power.
+  Since the dragons now possess non-Disc reality which does not contain 
+the Law of Conservation of Reality, if summoned back to the Disc they 
+can do whatever they want with the Magic axiom as long as they don't 
+disconnect.
+
+Axioms and World Laws
+[I was working on these, but ultimately it got beyond me in the time I 
+allocated to get the second draft done. High Magic, low everything else, 
+Law of Fantasy to let the dragons do anything they sodding well want]
+
+
+DISCWORLD BIBLIOGRAPHY
+Code     Book                       	Copyright date
+
+Fiction:
+  Novels:
+TCoM     The Colour of Magic    	c 1983
+TLF      The Light Fantastic    	c 1986
+ER       Equal Rites            	c 1987
+Mort     Mort                       	c 1987
+S        Sourcery                    	c 1988
+WS       Wyrd Sisters           	c 1988
+P        Pyramids                   	c 1989
+GG       Guards! Guards!        	c 1989
+E        Eric. London               	c 1990
+MP       Moving Pictures        	c 1990
+RM       Reaper Man             	c 1991
+WA       Witches Abroad         	c 1991
+SG       Small Gods             	c 1992
+LaL      Lords and Ladies       	c 1992
+MaA      Men at Arms            	c 1993
+SM       Soul Music             	c 1994
+IT       Interesting Times      	c 1994
+Mask     Maskerade              	c 1995
+FoC      Feet of Clay           	c 1996
+HF       Hogfather                	c 1996
+
+  Short Stories:
+ToC      Theatre of Cruelty  
+TB       Troll Bridge  
+
+Non-Fiction:
+SoAM     Streets of Ankh-Morpork 	c 1993
+DC       Discworld Companion    	c 1994
+DM       Discworld Map          	c 1995
+
+-----
+Saxon Brenton     City library of the Uni of Technology, Sydney, Australia
+saxon.brenton@uts.edu.au          |          saxonb@mpx.com.au
+The Librarian "liked people who loved and respected books, and the best 
+way to do that, in the Librarian's opinion, was to leave them on the 
+shelves where Nature intended them to be." - Terry Pratchett, _Men At Arms_
